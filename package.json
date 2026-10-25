@@ -1,0 +1,1 @@
+{"name":"roadlens-india","private":true,"type":"module","scripts":{"start":"python server.py","test":"node --test tests/analytics.test.js"}}

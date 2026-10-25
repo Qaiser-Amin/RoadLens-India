@@ -1,0 +1,2200 @@
+{
+  "report_checksums_verified": true,
+  "checks": [
+    {
+      "report": 2023,
+      "pdf_page": 141,
+      "column": 3,
+      "state_sum": 372181,
+      "printed_total": 372181,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 141,
+      "column": 4,
+      "state_sum": 412432,
+      "printed_total": 412432,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 141,
+      "column": 5,
+      "state_sum": 461312,
+      "printed_total": 461312,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 141,
+      "column": 6,
+      "state_sum": 480583,
+      "printed_total": 480583,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 143,
+      "column": 3,
+      "state_sum": 138383,
+      "printed_total": 138383,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 143,
+      "column": 4,
+      "state_sum": 153972,
+      "printed_total": 153972,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 143,
+      "column": 5,
+      "state_sum": 168491,
+      "printed_total": 168491,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 143,
+      "column": 6,
+      "state_sum": 172890,
+      "printed_total": 172890,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 151,
+      "column": 3,
+      "state_sum": 119615,
+      "printed_total": 119615,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 151,
+      "column": 4,
+      "state_sum": 128825,
+      "printed_total": 128825,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 151,
+      "column": 5,
+      "state_sum": 151997,
+      "printed_total": 151997,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 151,
+      "column": 6,
+      "state_sum": 150177,
+      "printed_total": 150177,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 152,
+      "column": 3,
+      "state_sum": 50251,
+      "printed_total": 50251,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 152,
+      "column": 4,
+      "state_sum": 56007,
+      "printed_total": 56007,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 152,
+      "column": 5,
+      "state_sum": 61038,
+      "printed_total": 61038,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 152,
+      "column": 6,
+      "state_sum": 63112,
+      "printed_total": 63112,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 166,
+      "column": 3,
+      "state_sum": 92251,
+      "printed_total": 92251,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 166,
+      "column": 4,
+      "state_sum": 96382,
+      "printed_total": 96382,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 166,
+      "column": 5,
+      "state_sum": 106682,
+      "printed_total": 106682,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 166,
+      "column": 6,
+      "state_sum": 105662,
+      "printed_total": 105662,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 167,
+      "column": 3,
+      "state_sum": 35754,
+      "printed_total": 35754,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 167,
+      "column": 4,
+      "state_sum": 37963,
+      "printed_total": 37963,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 167,
+      "column": 5,
+      "state_sum": 41012,
+      "printed_total": 41012,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 167,
+      "column": 6,
+      "state_sum": 39439,
+      "printed_total": 39439,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 171,
+      "column": 7,
+      "state_sum": 160315,
+      "printed_total": 160315,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 171,
+      "column": 8,
+      "state_sum": 187225,
+      "printed_total": 187225,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 171,
+      "column": 9,
+      "state_sum": 202633,
+      "printed_total": 202633,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 171,
+      "column": 10,
+      "state_sum": 224744,
+      "printed_total": 224744,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 172,
+      "column": 12,
+      "state_sum": 52378,
+      "printed_total": 52378,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 172,
+      "column": 13,
+      "state_sum": 60002,
+      "printed_total": 60002,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 172,
+      "column": 14,
+      "state_sum": 66441,
+      "printed_total": 66441,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 172,
+      "column": 15,
+      "state_sum": 70339,
+      "printed_total": 70339,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 204,
+      "column": 5,
+      "state_sum": 35221,
+      "printed_total": 35221,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 204,
+      "column": 8,
+      "state_sum": 4560,
+      "printed_total": 4560,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 204,
+      "column": 11,
+      "state_sum": 77539,
+      "printed_total": 77539,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 204,
+      "column": 15,
+      "state_sum": 6308,
+      "printed_total": 6308,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 204,
+      "column": 18,
+      "state_sum": 21496,
+      "printed_total": 21496,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 205,
+      "column": 21,
+      "state_sum": 10066,
+      "printed_total": 10066,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 205,
+      "column": 24,
+      "state_sum": 3956,
+      "printed_total": 3956,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 205,
+      "column": 27,
+      "state_sum": 2006,
+      "printed_total": 2006,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 205,
+      "column": 30,
+      "state_sum": 11738,
+      "printed_total": 11738,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 220,
+      "column": 3,
+      "state_sum": 328727,
+      "printed_total": 328727,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 220,
+      "column": 5,
+      "state_sum": 117682,
+      "printed_total": 117682,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 220,
+      "column": 10,
+      "state_sum": 9143,
+      "printed_total": 9143,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 220,
+      "column": 11,
+      "state_sum": 3674,
+      "printed_total": 3674,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 221,
+      "column": 15,
+      "state_sum": 25242,
+      "printed_total": 25242,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 221,
+      "column": 16,
+      "state_sum": 9432,
+      "printed_total": 9432,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 221,
+      "column": 20,
+      "state_sum": 2440,
+      "printed_total": 2440,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 221,
+      "column": 21,
+      "state_sum": 818,
+      "printed_total": 818,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 222,
+      "column": 25,
+      "state_sum": 7122,
+      "printed_total": 7122,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 222,
+      "column": 26,
+      "state_sum": 2884,
+      "printed_total": 2884,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 222,
+      "column": 30,
+      "state_sum": 107909,
+      "printed_total": 107909,
+      "passed": true
+    },
+    {
+      "report": 2023,
+      "pdf_page": 222,
+      "column": 31,
+      "state_sum": 38400,
+      "printed_total": 38400,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 181,
+      "column": 5,
+      "state_sum": 32825,
+      "printed_total": 32825,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 181,
+      "column": 8,
+      "state_sum": 4836,
+      "printed_total": 4836,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 181,
+      "column": 11,
+      "state_sum": 74897,
+      "printed_total": 74897,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 181,
+      "column": 15,
+      "state_sum": 6596,
+      "printed_total": 6596,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 181,
+      "column": 18,
+      "state_sum": 21040,
+      "printed_total": 21040,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 182,
+      "column": 21,
+      "state_sum": 10584,
+      "printed_total": 10584,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 182,
+      "column": 24,
+      "state_sum": 4004,
+      "printed_total": 4004,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 182,
+      "column": 27,
+      "state_sum": 2372,
+      "printed_total": 2372,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 182,
+      "column": 30,
+      "state_sum": 11337,
+      "printed_total": 11337,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 193,
+      "column": 3,
+      "state_sum": 333323,
+      "printed_total": 333323,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 193,
+      "column": 5,
+      "state_sum": 119904,
+      "printed_total": 119904,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 193,
+      "column": 10,
+      "state_sum": 10080,
+      "printed_total": 10080,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 193,
+      "column": 11,
+      "state_sum": 4201,
+      "printed_total": 4201,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 193,
+      "column": 15,
+      "state_sum": 22586,
+      "printed_total": 22586,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 193,
+      "column": 16,
+      "state_sum": 9094,
+      "printed_total": 9094,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 194,
+      "column": 20,
+      "state_sum": 4021,
+      "printed_total": 4021,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 194,
+      "column": 21,
+      "state_sum": 1462,
+      "printed_total": 1462,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 194,
+      "column": 25,
+      "state_sum": 7558,
+      "printed_total": 7558,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 194,
+      "column": 26,
+      "state_sum": 3395,
+      "printed_total": 3395,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 194,
+      "column": 30,
+      "state_sum": 83744,
+      "printed_total": 83744,
+      "passed": true
+    },
+    {
+      "report": 2022,
+      "pdf_page": 194,
+      "column": 31,
+      "state_sum": 30435,
+      "printed_total": 30435,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Andhra Pradesh",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 8137,
+      "state_total": 8137,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Andhra Pradesh",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 19949,
+      "state_total": 19949,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Andhra Pradesh",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 8137,
+      "state_total": 8137,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Andhra Pradesh",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 19949,
+      "state_total": 19949,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Andhra Pradesh",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 8137,
+      "state_total": 8137,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Arunachal Pradesh",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 145,
+      "state_total": 145,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Arunachal Pradesh",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 287,
+      "state_total": 287,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Arunachal Pradesh",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 145,
+      "state_total": 145,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Arunachal Pradesh",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 287,
+      "state_total": 287,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Arunachal Pradesh",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 145,
+      "state_total": 145,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Assam",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 3296,
+      "state_total": 3296,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Assam",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 7421,
+      "state_total": 7421,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Assam",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 3296,
+      "state_total": 3296,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Assam",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 7421,
+      "state_total": 7421,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Assam",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 3296,
+      "state_total": 3296,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Bihar",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 8873,
+      "state_total": 8873,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Bihar",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 11014,
+      "state_total": 11014,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Bihar",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 8873,
+      "state_total": 8873,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Bihar",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 11014,
+      "state_total": 11014,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Bihar",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 8873,
+      "state_total": 8873,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Chhattisgarh",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 6166,
+      "state_total": 6166,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Chhattisgarh",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 13468,
+      "state_total": 13468,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Chhattisgarh",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 6166,
+      "state_total": 6166,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Chhattisgarh",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 13468,
+      "state_total": 13468,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Chhattisgarh",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 6166,
+      "state_total": 6166,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Goa",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 290,
+      "state_total": 290,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Goa",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 2846,
+      "state_total": 2846,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Goa",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 290,
+      "state_total": 290,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Goa",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 2846,
+      "state_total": 2846,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Goa",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 290,
+      "state_total": 290,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Gujarat",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 7854,
+      "state_total": 7854,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Gujarat",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 16349,
+      "state_total": 16349,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Gujarat",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 7854,
+      "state_total": 7854,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Gujarat",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 16349,
+      "state_total": 16349,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Gujarat",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 7854,
+      "state_total": 7854,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Haryana",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 4968,
+      "state_total": 4968,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Haryana",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 10463,
+      "state_total": 10463,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Haryana",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 4968,
+      "state_total": 4968,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Haryana",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 10463,
+      "state_total": 10463,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Haryana",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 4968,
+      "state_total": 4968,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Himachal Pradesh",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 889,
+      "state_total": 889,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Himachal Pradesh",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 2253,
+      "state_total": 2253,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Himachal Pradesh",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 889,
+      "state_total": 889,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Himachal Pradesh",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 2253,
+      "state_total": 2253,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Himachal Pradesh",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 889,
+      "state_total": 889,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Jharkhand",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 4173,
+      "state_total": 4173,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Jharkhand",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 5315,
+      "state_total": 5315,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Jharkhand",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 4173,
+      "state_total": 4173,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Jharkhand",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 5315,
+      "state_total": 5315,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Jharkhand",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 4173,
+      "state_total": 4173,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Karnataka",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 12321,
+      "state_total": 12321,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Karnataka",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 43440,
+      "state_total": 43440,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Karnataka",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 12321,
+      "state_total": 12321,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Karnataka",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 43440,
+      "state_total": 43440,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Karnataka",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 12321,
+      "state_total": 12321,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Kerala",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 4080,
+      "state_total": 4080,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Kerala",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 48091,
+      "state_total": 48091,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Kerala",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 4080,
+      "state_total": 4080,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Kerala",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 48091,
+      "state_total": 48091,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Kerala",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 4080,
+      "state_total": 4080,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Madhya Pradesh",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 13798,
+      "state_total": 13798,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Madhya Pradesh",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 55327,
+      "state_total": 55327,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Madhya Pradesh",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 13798,
+      "state_total": 13798,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Madhya Pradesh",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 55327,
+      "state_total": 55327,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Madhya Pradesh",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 13798,
+      "state_total": 13798,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Maharashtra",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 15366,
+      "state_total": 15366,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Maharashtra",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 35243,
+      "state_total": 35243,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Maharashtra",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 15366,
+      "state_total": 15366,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Maharashtra",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 35243,
+      "state_total": 35243,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Maharashtra",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 15366,
+      "state_total": 15366,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Manipur",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 73,
+      "state_total": 73,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Manipur",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 398,
+      "state_total": 398,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Manipur",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 73,
+      "state_total": 73,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Manipur",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 398,
+      "state_total": 398,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Manipur",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 73,
+      "state_total": 73,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Meghalaya",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 168,
+      "state_total": 168,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Meghalaya",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 223,
+      "state_total": 223,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Meghalaya",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 168,
+      "state_total": 168,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Meghalaya",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 223,
+      "state_total": 223,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Meghalaya",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 168,
+      "state_total": 168,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Mizoram",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 96,
+      "state_total": 96,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Mizoram",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 106,
+      "state_total": 106,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Mizoram",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 96,
+      "state_total": 96,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Mizoram",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 106,
+      "state_total": 106,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Mizoram",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 96,
+      "state_total": 96,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Nagaland",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 86,
+      "state_total": 86,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Nagaland",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 303,
+      "state_total": 303,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Nagaland",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 86,
+      "state_total": 86,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Nagaland",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 303,
+      "state_total": 303,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Nagaland",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 86,
+      "state_total": 86,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Odisha",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 5739,
+      "state_total": 5739,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Odisha",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 11992,
+      "state_total": 11992,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Odisha",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 5739,
+      "state_total": 5739,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Odisha",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 11992,
+      "state_total": 11992,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Odisha",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 5739,
+      "state_total": 5739,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Punjab",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 4829,
+      "state_total": 4829,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Punjab",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 6269,
+      "state_total": 6269,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Punjab",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 4829,
+      "state_total": 4829,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Punjab",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 6269,
+      "state_total": 6269,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Punjab",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 4829,
+      "state_total": 4829,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Rajasthan",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 11762,
+      "state_total": 11762,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Rajasthan",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 24694,
+      "state_total": 24694,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Rajasthan",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 11762,
+      "state_total": 11762,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Rajasthan",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 24694,
+      "state_total": 24694,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Rajasthan",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 11762,
+      "state_total": 11762,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Sikkim",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 57,
+      "state_total": 57,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Sikkim",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 182,
+      "state_total": 182,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Sikkim",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 57,
+      "state_total": 57,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Sikkim",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 182,
+      "state_total": 182,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Sikkim",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 57,
+      "state_total": 57,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Tamil Nadu",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 18347,
+      "state_total": 18347,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Tamil Nadu",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 67213,
+      "state_total": 67213,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Tamil Nadu",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 18347,
+      "state_total": 18347,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Tamil Nadu",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 67213,
+      "state_total": 67213,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Tamil Nadu",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 18347,
+      "state_total": 18347,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Telangana",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 7660,
+      "state_total": 7660,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Telangana",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 22903,
+      "state_total": 22903,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Telangana",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 7660,
+      "state_total": 7660,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Telangana",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 22903,
+      "state_total": 22903,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Telangana",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 7660,
+      "state_total": 7660,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Tripura",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 261,
+      "state_total": 261,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Tripura",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 577,
+      "state_total": 577,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Tripura",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 261,
+      "state_total": 261,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Tripura",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 577,
+      "state_total": 577,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Tripura",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 261,
+      "state_total": 261,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Uttarakhand",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 1054,
+      "state_total": 1054,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Uttarakhand",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 1691,
+      "state_total": 1691,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Uttarakhand",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 1054,
+      "state_total": 1054,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Uttarakhand",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 1691,
+      "state_total": 1691,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Uttarakhand",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 1054,
+      "state_total": 1054,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Uttar Pradesh",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 23652,
+      "state_total": 23652,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Uttar Pradesh",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 44534,
+      "state_total": 44534,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Uttar Pradesh",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 23652,
+      "state_total": 23652,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Uttar Pradesh",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 44534,
+      "state_total": 44534,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Uttar Pradesh",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 23652,
+      "state_total": 23652,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "West Bengal",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 6027,
+      "state_total": 6027,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "West Bengal",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 13795,
+      "state_total": 13795,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "West Bengal",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 6027,
+      "state_total": 6027,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "West Bengal",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 13795,
+      "state_total": 13795,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "West Bengal",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 6027,
+      "state_total": 6027,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Andaman and Nicobar Islands",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 24,
+      "state_total": 24,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Andaman and Nicobar Islands",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 143,
+      "state_total": 143,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Andaman and Nicobar Islands",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 24,
+      "state_total": 24,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Andaman and Nicobar Islands",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 143,
+      "state_total": 143,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Andaman and Nicobar Islands",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 24,
+      "state_total": 24,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Chandigarh",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 67,
+      "state_total": 67,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Chandigarh",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 182,
+      "state_total": 182,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Chandigarh",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 67,
+      "state_total": 67,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Chandigarh",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 182,
+      "state_total": 182,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Chandigarh",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 67,
+      "state_total": 67,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 74,
+      "state_total": 74,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 182,
+      "state_total": 182,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 74,
+      "state_total": 74,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 182,
+      "state_total": 182,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 74,
+      "state_total": 74,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Delhi",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 1457,
+      "state_total": 1457,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Delhi",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 5834,
+      "state_total": 5834,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Delhi",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 1457,
+      "state_total": 1457,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Delhi",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 5834,
+      "state_total": 5834,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Delhi",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 1457,
+      "state_total": 1457,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Jammu and Kashmir",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 893,
+      "state_total": 893,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Jammu and Kashmir",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 6298,
+      "state_total": 6298,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Jammu and Kashmir",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 893,
+      "state_total": 893,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Jammu and Kashmir",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 6298,
+      "state_total": 6298,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Jammu and Kashmir",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 893,
+      "state_total": 893,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Ladakh",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 59,
+      "state_total": 59,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Ladakh",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 289,
+      "state_total": 289,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Ladakh",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 59,
+      "state_total": 59,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Ladakh",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 289,
+      "state_total": 289,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Ladakh",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 59,
+      "state_total": 59,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Lakshadweep",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 1,
+      "state_total": 1,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Lakshadweep",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 1,
+      "state_total": 1,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Puducherry",
+      "table": "vehicle_categories",
+      "metric": "fatalities",
+      "category_sum": 149,
+      "state_total": 149,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Puducherry",
+      "table": "causes",
+      "metric": "accidents",
+      "category_sum": 1308,
+      "state_total": 1308,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Puducherry",
+      "table": "causes",
+      "metric": "fatalities",
+      "category_sum": 149,
+      "state_total": 149,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Puducherry",
+      "table": "road_types",
+      "metric": "accidents",
+      "category_sum": 1308,
+      "state_total": 1308,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "state": "Puducherry",
+      "table": "road_types",
+      "metric": "fatalities",
+      "category_sum": 149,
+      "state_total": 149,
+      "passed": true
+    }
+  ],
+  "rows": {
+    "state_totals": 144,
+    "vehicle_categories": 648,
+    "causes": 432,
+    "road_types": 432
+  },
+  "footnote_overrides": [
+    "2022 J&K jumping-red-light accidents: printed 0 -> blank (explicit not-reported footnote)"
+  ],
+  "tableau_interactions_tested": false
+}

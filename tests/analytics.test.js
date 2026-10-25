@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+import {aggregate,filterRows,group,riskStates,DEFAULTS} from '../web/analytics.js';
+const rows=[{year:2023,state:'A',accidents:100,fatalities:60},{year:2023,state:'B',accidents:200,fatalities:20},{year:2022,state:'A',accidents:null,fatalities:9}];
+test('shared filters intersect year and state',()=>assert.deepEqual(filterRows(rows,{year:'2023',states:['A']}),[rows[0]]));
+test('severity uses paired denominator only and is weighted',()=>{const a=aggregate(rows);assert.equal(a.severity,80/3);assert.equal(a.fatalities,89);assert.equal(a.pairs,2)});
+test('missing and zero are distinct',()=>{assert.equal(aggregate([{accidents:null,fatalities:null}]).accidents,null);assert.equal(aggregate([{accidents:0,fatalities:0}]).accidents,0);assert.equal(aggregate([{accidents:0,fatalities:0}]).severity,null)});
+test('ranking switches measures',()=>{assert.equal(group(rows,'state','accidents')[0].name,'B');assert.equal(group(rows,'state','fatalities')[0].name,'A')});
+test('combined risk is set intersection within context',()=>{const s={...DEFAULTS,topN:1};const result=riskStates(filterRows(rows,s),s);assert.equal(result.find(r=>r.name==='A').risk,'High severity');assert.equal(result.find(r=>r.name==='B').risk,'High accidents');s.topN=2;assert.equal(riskStates(filterRows(rows,s),s)[0].risk,'Combined high risk')});
+test('real extracts reproduce 2023 national counts, missing observations retained',()=>{const text=fs.readFileSync(new URL('../data/input/state_totals.csv',import.meta.url),'utf8');const fields=text.trim().split(/\r?\n/).slice(1).map(l=>l.split(','));const r=fields.filter(r=>r[0]==='2023').map(r=>({accidents:r[3]===''?null:+r[3],fatalities:r[4]===''?null:+r[4]}));assert.equal(aggregate(r).accidents,480583);assert.equal(aggregate(r).fatalities,172890);assert.equal(aggregate(r).fatalitiesCount,35)});

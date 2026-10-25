@@ -1,0 +1,80 @@
+[
+  {
+    "source_id": "morth2022_road_users",
+    "table": "vehicle_categories",
+    "title": "MoRTH Road Accidents in India 2022",
+    "url": "https://morth.nic.in/backend/documents/uploaded/1755600426_RA_2022_30_Oct.pdf",
+    "locator": "Annexure 29; PDF pp.181\u2013182 (printed 164\u2013165)",
+    "retrieved_on": "2026-10-25",
+    "definition": "Persons killed classified by road-user category, both sexes. Not impacting-vehicle accidents; accident denominator unavailable. In 2023 Kerala some Other figures are included in Pedestrian category.",
+    "coverage": "36 reporting states/UTs; 2022; road-user categories, not impacting vehicles; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+    "sha256": "d1908170c4e25153539d82244f0fe269805a577b71e42259a53a57422dd8d8ed",
+    "verified": true,
+    "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+  },
+  {
+    "source_id": "morth2022_violations",
+    "table": "causes",
+    "title": "MoRTH Road Accidents in India 2022",
+    "url": "https://morth.nic.in/backend/documents/uploaded/1755600426_RA_2022_30_Oct.pdf",
+    "locator": "Annexure 35; PDF pp.193\u2013194 (printed 176\u2013177)",
+    "retrieved_on": "2026-10-25",
+    "definition": "Accidents and persons killed classified by reported traffic-rule violation. Not a causal estimate. 2022 J&K jumping-red-light accident count left blank per explicit source footnote despite printed zero.",
+    "coverage": "36 reporting states/UTs; 2022; reported traffic violations; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+    "sha256": "d1908170c4e25153539d82244f0fe269805a577b71e42259a53a57422dd8d8ed",
+    "verified": true,
+    "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+  },
+  {
+    "source_id": "morth2023_road_users",
+    "table": "vehicle_categories",
+    "title": "MoRTH Road Accidents in India 2023",
+    "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+    "locator": "Annexure 29; PDF pp.204\u2013205 (printed 175\u2013176)",
+    "retrieved_on": "2026-10-25",
+    "definition": "Persons killed classified by road-user category, both sexes. Not impacting-vehicle accidents; accident denominator unavailable. In 2023 Kerala some Other figures are included in Pedestrian category.",
+    "coverage": "36 reporting states/UTs; 2023; road-user categories, not impacting vehicles; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+    "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+    "verified": true,
+    "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+  },
+  {
+    "source_id": "morth2023_violations",
+    "table": "causes",
+    "title": "MoRTH Road Accidents in India 2023",
+    "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+    "locator": "Annexure 35; PDF pp.220\u2013222 (printed 191\u2013193)",
+    "retrieved_on": "2026-10-25",
+    "definition": "Accidents and persons killed classified by reported traffic-rule violation. Not a causal estimate. 2022 J&K jumping-red-light accident count left blank per explicit source footnote despite printed zero.",
+    "coverage": "36 reporting states/UTs; 2023; reported traffic violations; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+    "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+    "verified": true,
+    "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+  },
+  {
+    "source_id": "morth2023_totals",
+    "table": "state_totals",
+    "title": "MoRTH Road Accidents in India 2023",
+    "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+    "locator": "Annexures 2\u20133; PDF pp.141,143 (printed 112,114)",
+    "retrieved_on": "2026-10-25",
+    "definition": "State/UT reported accidents and persons killed for 2020\u20132023. NA/dash retained as unavailable. Source footnotes document reconciled historical Tamil Nadu and West Bengal figures.",
+    "coverage": "36 current reporting states/UTs; 2020\u20132023; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+    "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+    "verified": true,
+    "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+  },
+  {
+    "source_id": "morth2023_roads",
+    "table": "road_types",
+    "title": "MoRTH Road Accidents in India 2023",
+    "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+    "locator": "Annexures 9\u201310,14\u201315,19; PDF pp.151\u2013152,166\u2013167,171\u2013172",
+    "retrieved_on": "2026-10-25",
+    "definition": "Accidents and persons killed on national highways (including expressways), state highways, other roads, 2020\u20132023. No state highways in Chandigarh or Delhi. NA/dash retained as unavailable.",
+    "coverage": "36 current reporting states/UTs; 2020\u20132023; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+    "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+    "verified": true,
+    "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+  }
+]

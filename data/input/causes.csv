@@ -1,0 +1,433 @@
+year,state,category,accidents,fatalities,source_id
+2022,Andhra Pradesh,Over-speeding,17290,6760,morth2022_violations
+2022,Andhra Pradesh,Drunken driving / alcohol and drugs,109,31,morth2022_violations
+2022,Andhra Pradesh,Driving on wrong side,1003,322,morth2022_violations
+2022,Andhra Pradesh,Jumping red light,24,6,morth2022_violations
+2022,Andhra Pradesh,Use of mobile phone,354,126,morth2022_violations
+2022,Andhra Pradesh,Others,2469,1048,morth2022_violations
+2022,Arunachal Pradesh,Over-speeding,87,65,morth2022_violations
+2022,Arunachal Pradesh,Drunken driving / alcohol and drugs,37,22,morth2022_violations
+2022,Arunachal Pradesh,Driving on wrong side,32,15,morth2022_violations
+2022,Arunachal Pradesh,Jumping red light,0,0,morth2022_violations
+2022,Arunachal Pradesh,Use of mobile phone,10,5,morth2022_violations
+2022,Arunachal Pradesh,Others,61,41,morth2022_violations
+2022,Assam,Over-speeding,4573,1933,morth2022_violations
+2022,Assam,Drunken driving / alcohol and drugs,284,139,morth2022_violations
+2022,Assam,Driving on wrong side,794,330,morth2022_violations
+2022,Assam,Jumping red light,187,60,morth2022_violations
+2022,Assam,Use of mobile phone,276,122,morth2022_violations
+2022,Assam,Others,909,410,morth2022_violations
+2022,Bihar,Over-speeding,6049,4928,morth2022_violations
+2022,Bihar,Drunken driving / alcohol and drugs,71,40,morth2022_violations
+2022,Bihar,Driving on wrong side,1526,1309,morth2022_violations
+2022,Bihar,Jumping red light,0,0,morth2022_violations
+2022,Bihar,Use of mobile phone,20,13,morth2022_violations
+2022,Bihar,Others,3135,2608,morth2022_violations
+2022,Chhattisgarh,Over-speeding,10934,4808,morth2022_violations
+2022,Chhattisgarh,Drunken driving / alcohol and drugs,111,40,morth2022_violations
+2022,Chhattisgarh,Driving on wrong side,476,147,morth2022_violations
+2022,Chhattisgarh,Jumping red light,80,8,morth2022_violations
+2022,Chhattisgarh,Use of mobile phone,28,7,morth2022_violations
+2022,Chhattisgarh,Others,1650,824,morth2022_violations
+2022,Goa,Over-speeding,2751,240,morth2022_violations
+2022,Goa,Drunken driving / alcohol and drugs,6,2,morth2022_violations
+2022,Goa,Driving on wrong side,3,0,morth2022_violations
+2022,Goa,Jumping red light,14,0,morth2022_violations
+2022,Goa,Use of mobile phone,0,0,morth2022_violations
+2022,Goa,Others,237,29,morth2022_violations
+2022,Gujarat,Over-speeding,14701,7236,morth2022_violations
+2022,Gujarat,Drunken driving / alcohol and drugs,51,7,morth2022_violations
+2022,Gujarat,Driving on wrong side,612,231,morth2022_violations
+2022,Gujarat,Jumping red light,0,0,morth2022_violations
+2022,Gujarat,Use of mobile phone,26,6,morth2022_violations
+2022,Gujarat,Others,361,138,morth2022_violations
+2022,Haryana,Over-speeding,6864,3489,morth2022_violations
+2022,Haryana,Drunken driving / alcohol and drugs,141,89,morth2022_violations
+2022,Haryana,Driving on wrong side,524,176,morth2022_violations
+2022,Haryana,Jumping red light,61,34,morth2022_violations
+2022,Haryana,Use of mobile phone,281,75,morth2022_violations
+2022,Haryana,Others,2558,1052,morth2022_violations
+2022,Himachal Pradesh,Over-speeding,927,304,morth2022_violations
+2022,Himachal Pradesh,Drunken driving / alcohol and drugs,44,24,morth2022_violations
+2022,Himachal Pradesh,Driving on wrong side,396,159,morth2022_violations
+2022,Himachal Pradesh,Jumping red light,0,0,morth2022_violations
+2022,Himachal Pradesh,Use of mobile phone,19,12,morth2022_violations
+2022,Himachal Pradesh,Others,1211,533,morth2022_violations
+2022,Jharkhand,Over-speeding,4128,3131,morth2022_violations
+2022,Jharkhand,Drunken driving / alcohol and drugs,203,125,morth2022_violations
+2022,Jharkhand,Driving on wrong side,227,133,morth2022_violations
+2022,Jharkhand,Jumping red light,3,0,morth2022_violations
+2022,Jharkhand,Use of mobile phone,31,12,morth2022_violations
+2022,Jharkhand,Others,583,497,morth2022_violations
+2022,Karnataka,Over-speeding,35550,10723,morth2022_violations
+2022,Karnataka,Drunken driving / alcohol and drugs,178,82,morth2022_violations
+2022,Karnataka,Driving on wrong side,1059,195,morth2022_violations
+2022,Karnataka,Jumping red light,17,4,morth2022_violations
+2022,Karnataka,Use of mobile phone,13,5,morth2022_violations
+2022,Karnataka,Others,2945,693,morth2022_violations
+2022,Kerala,Over-speeding,25004,2282,morth2022_violations
+2022,Kerala,Drunken driving / alcohol and drugs,180,31,morth2022_violations
+2022,Kerala,Driving on wrong side,2159,198,morth2022_violations
+2022,Kerala,Jumping red light,51,2,morth2022_violations
+2022,Kerala,Use of mobile phone,80,7,morth2022_violations
+2022,Kerala,Others,16436,1797,morth2022_violations
+2022,Madhya Pradesh,Over-speeding,41688,10356,morth2022_violations
+2022,Madhya Pradesh,Drunken driving / alcohol and drugs,1472,342,morth2022_violations
+2022,Madhya Pradesh,Driving on wrong side,3081,760,morth2022_violations
+2022,Madhya Pradesh,Jumping red light,324,18,morth2022_violations
+2022,Madhya Pradesh,Use of mobile phone,1115,338,morth2022_violations
+2022,Madhya Pradesh,Others,6752,1613,morth2022_violations
+2022,Maharashtra,Over-speeding,24554,11493,morth2022_violations
+2022,Maharashtra,Drunken driving / alcohol and drugs,335,133,morth2022_violations
+2022,Maharashtra,Driving on wrong side,1448,730,morth2022_violations
+2022,Maharashtra,Jumping red light,51,32,morth2022_violations
+2022,Maharashtra,Use of mobile phone,52,27,morth2022_violations
+2022,Maharashtra,Others,6943,2809,morth2022_violations
+2022,Manipur,Over-speeding,417,96,morth2022_violations
+2022,Manipur,Drunken driving / alcohol and drugs,24,7,morth2022_violations
+2022,Manipur,Driving on wrong side,16,5,morth2022_violations
+2022,Manipur,Jumping red light,0,0,morth2022_violations
+2022,Manipur,Use of mobile phone,1,0,morth2022_violations
+2022,Manipur,Others,50,19,morth2022_violations
+2022,Meghalaya,Over-speeding,148,96,morth2022_violations
+2022,Meghalaya,Drunken driving / alcohol and drugs,11,7,morth2022_violations
+2022,Meghalaya,Driving on wrong side,13,9,morth2022_violations
+2022,Meghalaya,Jumping red light,0,0,morth2022_violations
+2022,Meghalaya,Use of mobile phone,1,0,morth2022_violations
+2022,Meghalaya,Others,73,50,morth2022_violations
+2022,Mizoram,Over-speeding,62,57,morth2022_violations
+2022,Mizoram,Drunken driving / alcohol and drugs,14,13,morth2022_violations
+2022,Mizoram,Driving on wrong side,22,14,morth2022_violations
+2022,Mizoram,Jumping red light,0,0,morth2022_violations
+2022,Mizoram,Use of mobile phone,0,0,morth2022_violations
+2022,Mizoram,Others,35,29,morth2022_violations
+2022,Nagaland,Over-speeding,140,25,morth2022_violations
+2022,Nagaland,Drunken driving / alcohol and drugs,80,8,morth2022_violations
+2022,Nagaland,Driving on wrong side,40,2,morth2022_violations
+2022,Nagaland,Jumping red light,0,0,morth2022_violations
+2022,Nagaland,Use of mobile phone,0,0,morth2022_violations
+2022,Nagaland,Others,229,38,morth2022_violations
+2022,Odisha,Over-speeding,7383,3675,morth2022_violations
+2022,Odisha,Drunken driving / alcohol and drugs,654,301,morth2022_violations
+2022,Odisha,Driving on wrong side,1140,432,morth2022_violations
+2022,Odisha,Jumping red light,119,34,morth2022_violations
+2022,Odisha,Use of mobile phone,347,120,morth2022_violations
+2022,Odisha,Others,2020,905,morth2022_violations
+2022,Punjab,Over-speeding,4046,3090,morth2022_violations
+2022,Punjab,Drunken driving / alcohol and drugs,144,118,morth2022_violations
+2022,Punjab,Driving on wrong side,643,502,morth2022_violations
+2022,Punjab,Jumping red light,131,102,morth2022_violations
+2022,Punjab,Use of mobile phone,184,139,morth2022_violations
+2022,Punjab,Others,990,805,morth2022_violations
+2022,Rajasthan,Over-speeding,18963,8998,morth2022_violations
+2022,Rajasthan,Drunken driving / alcohol and drugs,212,98,morth2022_violations
+2022,Rajasthan,Driving on wrong side,1043,491,morth2022_violations
+2022,Rajasthan,Jumping red light,15,4,morth2022_violations
+2022,Rajasthan,Use of mobile phone,131,58,morth2022_violations
+2022,Rajasthan,Others,3250,1455,morth2022_violations
+2022,Sikkim,Over-speeding,51,20,morth2022_violations
+2022,Sikkim,Drunken driving / alcohol and drugs,22,3,morth2022_violations
+2022,Sikkim,Driving on wrong side,26,3,morth2022_violations
+2022,Sikkim,Jumping red light,0,0,morth2022_violations
+2022,Sikkim,Use of mobile phone,0,0,morth2022_violations
+2022,Sikkim,Others,112,66,morth2022_violations
+2022,Tamil Nadu,Over-speeding,57321,15653,morth2022_violations
+2022,Tamil Nadu,Drunken driving / alcohol and drugs,264,71,morth2022_violations
+2022,Tamil Nadu,Driving on wrong side,5,4,morth2022_violations
+2022,Tamil Nadu,Jumping red light,483,116,morth2022_violations
+2022,Tamil Nadu,Use of mobile phone,39,12,morth2022_violations
+2022,Tamil Nadu,Others,5993,2028,morth2022_violations
+2022,Telangana,Over-speeding,18395,6592,morth2022_violations
+2022,Telangana,Drunken driving / alcohol and drugs,797,190,morth2022_violations
+2022,Telangana,Driving on wrong side,421,95,morth2022_violations
+2022,Telangana,Jumping red light,64,3,morth2022_violations
+2022,Telangana,Use of mobile phone,25,9,morth2022_violations
+2022,Telangana,Others,1917,670,morth2022_violations
+2022,Tripura,Over-speeding,478,205,morth2022_violations
+2022,Tripura,Drunken driving / alcohol and drugs,0,0,morth2022_violations
+2022,Tripura,Driving on wrong side,97,36,morth2022_violations
+2022,Tripura,Jumping red light,0,0,morth2022_violations
+2022,Tripura,Use of mobile phone,0,0,morth2022_violations
+2022,Tripura,Others,0,0,morth2022_violations
+2022,Uttarakhand,Over-speeding,1325,782,morth2022_violations
+2022,Uttarakhand,Drunken driving / alcohol and drugs,13,7,morth2022_violations
+2022,Uttarakhand,Driving on wrong side,96,49,morth2022_violations
+2022,Uttarakhand,Jumping red light,1,0,morth2022_violations
+2022,Uttarakhand,Use of mobile phone,1,1,morth2022_violations
+2022,Uttarakhand,Others,238,203,morth2022_violations
+2022,Uttar Pradesh,Over-speeding,16607,9297,morth2022_violations
+2022,Uttar Pradesh,Drunken driving / alcohol and drugs,4220,2186,morth2022_violations
+2022,Uttar Pradesh,Driving on wrong side,5014,2580,morth2022_violations
+2022,Uttar Pradesh,Jumping red light,1860,917,morth2022_violations
+2022,Uttar Pradesh,Use of mobile phone,4238,2245,morth2022_violations
+2022,Uttar Pradesh,Others,9807,5370,morth2022_violations
+2022,West Bengal,Over-speeding,4080,1937,morth2022_violations
+2022,West Bengal,Drunken driving / alcohol and drugs,87,12,morth2022_violations
+2022,West Bengal,Driving on wrong side,90,45,morth2022_violations
+2022,West Bengal,Jumping red light,29,7,morth2022_violations
+2022,West Bengal,Use of mobile phone,14,6,morth2022_violations
+2022,West Bengal,Others,9386,3995,morth2022_violations
+2022,Andaman and Nicobar Islands,Over-speeding,18,2,morth2022_violations
+2022,Andaman and Nicobar Islands,Drunken driving / alcohol and drugs,27,3,morth2022_violations
+2022,Andaman and Nicobar Islands,Driving on wrong side,4,0,morth2022_violations
+2022,Andaman and Nicobar Islands,Jumping red light,0,0,morth2022_violations
+2022,Andaman and Nicobar Islands,Use of mobile phone,0,0,morth2022_violations
+2022,Andaman and Nicobar Islands,Others,92,14,morth2022_violations
+2022,Chandigarh,Over-speeding,186,59,morth2022_violations
+2022,Chandigarh,Drunken driving / alcohol and drugs,24,8,morth2022_violations
+2022,Chandigarh,Driving on wrong side,4,3,morth2022_violations
+2022,Chandigarh,Jumping red light,9,4,morth2022_violations
+2022,Chandigarh,Use of mobile phone,0,0,morth2022_violations
+2022,Chandigarh,Others,14,9,morth2022_violations
+2022,Dadra and Nagar Haveli and Daman and Diu,Over-speeding,169,74,morth2022_violations
+2022,Dadra and Nagar Haveli and Daman and Diu,Drunken driving / alcohol and drugs,13,6,morth2022_violations
+2022,Dadra and Nagar Haveli and Daman and Diu,Driving on wrong side,5,4,morth2022_violations
+2022,Dadra and Nagar Haveli and Daman and Diu,Jumping red light,0,0,morth2022_violations
+2022,Dadra and Nagar Haveli and Daman and Diu,Use of mobile phone,0,0,morth2022_violations
+2022,Dadra and Nagar Haveli and Daman and Diu,Others,9,6,morth2022_violations
+2022,Delhi,Over-speeding,2144,648,morth2022_violations
+2022,Delhi,Drunken driving / alcohol and drugs,196,51,morth2022_violations
+2022,Delhi,Driving on wrong side,448,105,morth2022_violations
+2022,Delhi,Jumping red light,498,111,morth2022_violations
+2022,Delhi,Use of mobile phone,239,49,morth2022_violations
+2022,Delhi,Others,2127,497,morth2022_violations
+2022,Jammu and Kashmir,Over-speeding,5990,797,morth2022_violations
+2022,Jammu and Kashmir,Drunken driving / alcohol and drugs,0,0,morth2022_violations
+2022,Jammu and Kashmir,Driving on wrong side,78,8,morth2022_violations
+2022,Jammu and Kashmir,Jumping red light,,0,morth2022_violations
+2022,Jammu and Kashmir,Use of mobile phone,24,0,morth2022_violations
+2022,Jammu and Kashmir,Others,0,0,morth2022_violations
+2022,Ladakh,Over-speeding,212,35,morth2022_violations
+2022,Ladakh,Drunken driving / alcohol and drugs,48,4,morth2022_violations
+2022,Ladakh,Driving on wrong side,36,2,morth2022_violations
+2022,Ladakh,Jumping red light,0,0,morth2022_violations
+2022,Ladakh,Use of mobile phone,9,1,morth2022_violations
+2022,Ladakh,Others,69,20,morth2022_violations
+2022,Lakshadweep,Over-speeding,3,2,morth2022_violations
+2022,Lakshadweep,Drunken driving / alcohol and drugs,0,0,morth2022_violations
+2022,Lakshadweep,Driving on wrong side,0,0,morth2022_violations
+2022,Lakshadweep,Jumping red light,0,0,morth2022_violations
+2022,Lakshadweep,Use of mobile phone,0,0,morth2022_violations
+2022,Lakshadweep,Others,0,0,morth2022_violations
+2022,Puducherry,Over-speeding,85,16,morth2022_violations
+2022,Puducherry,Drunken driving / alcohol and drugs,8,1,morth2022_violations
+2022,Puducherry,Driving on wrong side,5,0,morth2022_violations
+2022,Puducherry,Jumping red light,0,0,morth2022_violations
+2022,Puducherry,Use of mobile phone,0,0,morth2022_violations
+2022,Puducherry,Others,1083,164,morth2022_violations
+2023,Andhra Pradesh,Over-speeding,17171,6889,morth2023_violations
+2023,Andhra Pradesh,Drunken driving / alcohol and drugs,130,70,morth2023_violations
+2023,Andhra Pradesh,Driving on wrong side,685,206,morth2023_violations
+2023,Andhra Pradesh,Jumping red light,1,0,morth2023_violations
+2023,Andhra Pradesh,Use of mobile phone,254,94,morth2023_violations
+2023,Andhra Pradesh,Others,1708,878,morth2023_violations
+2023,Arunachal Pradesh,Over-speeding,124,72,morth2023_violations
+2023,Arunachal Pradesh,Drunken driving / alcohol and drugs,53,29,morth2023_violations
+2023,Arunachal Pradesh,Driving on wrong side,39,18,morth2023_violations
+2023,Arunachal Pradesh,Jumping red light,0,0,morth2023_violations
+2023,Arunachal Pradesh,Use of mobile phone,22,6,morth2023_violations
+2023,Arunachal Pradesh,Others,49,20,morth2023_violations
+2023,Assam,Over-speeding,5567,2540,morth2023_violations
+2023,Assam,Drunken driving / alcohol and drugs,225,112,morth2023_violations
+2023,Assam,Driving on wrong side,642,245,morth2023_violations
+2023,Assam,Jumping red light,61,23,morth2023_violations
+2023,Assam,Use of mobile phone,199,91,morth2023_violations
+2023,Assam,Others,727,285,morth2023_violations
+2023,Bihar,Over-speeding,7147,5802,morth2023_violations
+2023,Bihar,Drunken driving / alcohol and drugs,46,10,morth2023_violations
+2023,Bihar,Driving on wrong side,1424,1119,morth2023_violations
+2023,Bihar,Jumping red light,0,0,morth2023_violations
+2023,Bihar,Use of mobile phone,16,12,morth2023_violations
+2023,Bihar,Others,2381,1930,morth2023_violations
+2023,Chhattisgarh,Over-speeding,11298,5351,morth2023_violations
+2023,Chhattisgarh,Drunken driving / alcohol and drugs,93,40,morth2023_violations
+2023,Chhattisgarh,Driving on wrong side,422,129,morth2023_violations
+2023,Chhattisgarh,Jumping red light,36,4,morth2023_violations
+2023,Chhattisgarh,Use of mobile phone,35,5,morth2023_violations
+2023,Chhattisgarh,Others,1584,637,morth2023_violations
+2023,Goa,Over-speeding,2616,270,morth2023_violations
+2023,Goa,Drunken driving / alcohol and drugs,1,0,morth2023_violations
+2023,Goa,Driving on wrong side,1,0,morth2023_violations
+2023,Goa,Jumping red light,5,0,morth2023_violations
+2023,Goa,Use of mobile phone,0,0,morth2023_violations
+2023,Goa,Others,223,20,morth2023_violations
+2023,Gujarat,Over-speeding,14718,7278,morth2023_violations
+2023,Gujarat,Drunken driving / alcohol and drugs,92,39,morth2023_violations
+2023,Gujarat,Driving on wrong side,683,251,morth2023_violations
+2023,Gujarat,Jumping red light,45,14,morth2023_violations
+2023,Gujarat,Use of mobile phone,150,33,morth2023_violations
+2023,Gujarat,Others,661,239,morth2023_violations
+2023,Haryana,Over-speeding,6272,3124,morth2023_violations
+2023,Haryana,Drunken driving / alcohol and drugs,66,28,morth2023_violations
+2023,Haryana,Driving on wrong side,397,195,morth2023_violations
+2023,Haryana,Jumping red light,10,0,morth2023_violations
+2023,Haryana,Use of mobile phone,153,67,morth2023_violations
+2023,Haryana,Others,3565,1554,morth2023_violations
+2023,Himachal Pradesh,Over-speeding,825,355,morth2023_violations
+2023,Himachal Pradesh,Drunken driving / alcohol and drugs,69,20,morth2023_violations
+2023,Himachal Pradesh,Driving on wrong side,234,66,morth2023_violations
+2023,Himachal Pradesh,Jumping red light,0,0,morth2023_violations
+2023,Himachal Pradesh,Use of mobile phone,11,2,morth2023_violations
+2023,Himachal Pradesh,Others,1114,446,morth2023_violations
+2023,Jharkhand,Over-speeding,4066,3245,morth2023_violations
+2023,Jharkhand,Drunken driving / alcohol and drugs,257,200,morth2023_violations
+2023,Jharkhand,Driving on wrong side,359,282,morth2023_violations
+2023,Jharkhand,Jumping red light,38,20,morth2023_violations
+2023,Jharkhand,Use of mobile phone,91,57,morth2023_violations
+2023,Jharkhand,Others,504,369,morth2023_violations
+2023,Karnataka,Over-speeding,39857,11523,morth2023_violations
+2023,Karnataka,Drunken driving / alcohol and drugs,407,180,morth2023_violations
+2023,Karnataka,Driving on wrong side,1070,213,morth2023_violations
+2023,Karnataka,Jumping red light,49,6,morth2023_violations
+2023,Karnataka,Use of mobile phone,141,32,morth2023_violations
+2023,Karnataka,Others,1916,367,morth2023_violations
+2023,Kerala,Over-speeding,26500,2107,morth2023_violations
+2023,Kerala,Drunken driving / alcohol and drugs,196,19,morth2023_violations
+2023,Kerala,Driving on wrong side,1931,133,morth2023_violations
+2023,Kerala,Jumping red light,41,4,morth2023_violations
+2023,Kerala,Use of mobile phone,50,8,morth2023_violations
+2023,Kerala,Others,19373,1809,morth2023_violations
+2023,Madhya Pradesh,Over-speeding,44592,11380,morth2023_violations
+2023,Madhya Pradesh,Drunken driving / alcohol and drugs,1209,219,morth2023_violations
+2023,Madhya Pradesh,Driving on wrong side,3756,827,morth2023_violations
+2023,Madhya Pradesh,Jumping red light,33,1,morth2023_violations
+2023,Madhya Pradesh,Use of mobile phone,821,185,morth2023_violations
+2023,Madhya Pradesh,Others,4916,1186,morth2023_violations
+2023,Maharashtra,Over-speeding,23192,10279,morth2023_violations
+2023,Maharashtra,Drunken driving / alcohol and drugs,311,87,morth2023_violations
+2023,Maharashtra,Driving on wrong side,1077,425,morth2023_violations
+2023,Maharashtra,Jumping red light,42,13,morth2023_violations
+2023,Maharashtra,Use of mobile phone,47,36,morth2023_violations
+2023,Maharashtra,Others,10574,4526,morth2023_violations
+2023,Manipur,Over-speeding,345,55,morth2023_violations
+2023,Manipur,Drunken driving / alcohol and drugs,4,2,morth2023_violations
+2023,Manipur,Driving on wrong side,13,2,morth2023_violations
+2023,Manipur,Jumping red light,2,0,morth2023_violations
+2023,Manipur,Use of mobile phone,5,0,morth2023_violations
+2023,Manipur,Others,29,14,morth2023_violations
+2023,Meghalaya,Over-speeding,138,94,morth2023_violations
+2023,Meghalaya,Drunken driving / alcohol and drugs,11,9,morth2023_violations
+2023,Meghalaya,Driving on wrong side,13,8,morth2023_violations
+2023,Meghalaya,Jumping red light,0,0,morth2023_violations
+2023,Meghalaya,Use of mobile phone,0,0,morth2023_violations
+2023,Meghalaya,Others,61,57,morth2023_violations
+2023,Mizoram,Over-speeding,51,49,morth2023_violations
+2023,Mizoram,Drunken driving / alcohol and drugs,22,14,morth2023_violations
+2023,Mizoram,Driving on wrong side,5,2,morth2023_violations
+2023,Mizoram,Jumping red light,0,0,morth2023_violations
+2023,Mizoram,Use of mobile phone,2,3,morth2023_violations
+2023,Mizoram,Others,26,28,morth2023_violations
+2023,Nagaland,Over-speeding,166,47,morth2023_violations
+2023,Nagaland,Drunken driving / alcohol and drugs,38,10,morth2023_violations
+2023,Nagaland,Driving on wrong side,23,3,morth2023_violations
+2023,Nagaland,Jumping red light,0,0,morth2023_violations
+2023,Nagaland,Use of mobile phone,0,0,morth2023_violations
+2023,Nagaland,Others,76,26,morth2023_violations
+2023,Odisha,Over-speeding,6925,3470,morth2023_violations
+2023,Odisha,Drunken driving / alcohol and drugs,649,254,morth2023_violations
+2023,Odisha,Driving on wrong side,986,402,morth2023_violations
+2023,Odisha,Jumping red light,150,48,morth2023_violations
+2023,Odisha,Use of mobile phone,433,163,morth2023_violations
+2023,Odisha,Others,2849,1402,morth2023_violations
+2023,Punjab,Over-speeding,3648,2824,morth2023_violations
+2023,Punjab,Drunken driving / alcohol and drugs,165,116,morth2023_violations
+2023,Punjab,Driving on wrong side,705,522,morth2023_violations
+2023,Punjab,Jumping red light,82,40,morth2023_violations
+2023,Punjab,Use of mobile phone,160,118,morth2023_violations
+2023,Punjab,Others,1509,1209,morth2023_violations
+2023,Rajasthan,Over-speeding,20212,9697,morth2023_violations
+2023,Rajasthan,Drunken driving / alcohol and drugs,353,159,morth2023_violations
+2023,Rajasthan,Driving on wrong side,839,387,morth2023_violations
+2023,Rajasthan,Jumping red light,21,5,morth2023_violations
+2023,Rajasthan,Use of mobile phone,75,45,morth2023_violations
+2023,Rajasthan,Others,3194,1469,morth2023_violations
+2023,Sikkim,Over-speeding,71,15,morth2023_violations
+2023,Sikkim,Drunken driving / alcohol and drugs,17,7,morth2023_violations
+2023,Sikkim,Driving on wrong side,24,8,morth2023_violations
+2023,Sikkim,Jumping red light,0,0,morth2023_violations
+2023,Sikkim,Use of mobile phone,0,0,morth2023_violations
+2023,Sikkim,Others,70,27,morth2023_violations
+2023,Tamil Nadu,Over-speeding,42372,11153,morth2023_violations
+2023,Tamil Nadu,Drunken driving / alcohol and drugs,320,74,morth2023_violations
+2023,Tamil Nadu,Driving on wrong side,2363,675,morth2023_violations
+2023,Tamil Nadu,Jumping red light,56,12,morth2023_violations
+2023,Tamil Nadu,Use of mobile phone,299,46,morth2023_violations
+2023,Tamil Nadu,Others,21803,6387,morth2023_violations
+2023,Telangana,Over-speeding,19749,6720,morth2023_violations
+2023,Telangana,Drunken driving / alcohol and drugs,383,122,morth2023_violations
+2023,Telangana,Driving on wrong side,751,170,morth2023_violations
+2023,Telangana,Jumping red light,59,3,morth2023_violations
+2023,Telangana,Use of mobile phone,31,6,morth2023_violations
+2023,Telangana,Others,1930,639,morth2023_violations
+2023,Tripura,Over-speeding,522,237,morth2023_violations
+2023,Tripura,Drunken driving / alcohol and drugs,2,1,morth2023_violations
+2023,Tripura,Driving on wrong side,52,22,morth2023_violations
+2023,Tripura,Jumping red light,0,0,morth2023_violations
+2023,Tripura,Use of mobile phone,0,0,morth2023_violations
+2023,Tripura,Others,1,1,morth2023_violations
+2023,Uttarakhand,Over-speeding,1317,790,morth2023_violations
+2023,Uttarakhand,Drunken driving / alcohol and drugs,8,5,morth2023_violations
+2023,Uttarakhand,Driving on wrong side,138,72,morth2023_violations
+2023,Uttarakhand,Jumping red light,1,0,morth2023_violations
+2023,Uttarakhand,Use of mobile phone,0,0,morth2023_violations
+2023,Uttarakhand,Others,227,187,morth2023_violations
+2023,Uttar Pradesh,Over-speeding,15879,8726,morth2023_violations
+2023,Uttar Pradesh,Drunken driving / alcohol and drugs,3838,1822,morth2023_violations
+2023,Uttar Pradesh,Driving on wrong side,5930,2920,morth2023_violations
+2023,Uttar Pradesh,Jumping red light,1192,543,morth2023_violations
+2023,Uttar Pradesh,Use of mobile phone,3754,1815,morth2023_violations
+2023,Uttar Pradesh,Others,13941,7826,morth2023_violations
+2023,West Bengal,Over-speeding,3764,1788,morth2023_violations
+2023,West Bengal,Drunken driving / alcohol and drugs,81,9,morth2023_violations
+2023,West Bengal,Driving on wrong side,67,25,morth2023_violations
+2023,West Bengal,Jumping red light,26,8,morth2023_violations
+2023,West Bengal,Use of mobile phone,14,3,morth2023_violations
+2023,West Bengal,Others,9843,4194,morth2023_violations
+2023,Andaman and Nicobar Islands,Over-speeding,18,0,morth2023_violations
+2023,Andaman and Nicobar Islands,Drunken driving / alcohol and drugs,22,2,morth2023_violations
+2023,Andaman and Nicobar Islands,Driving on wrong side,0,0,morth2023_violations
+2023,Andaman and Nicobar Islands,Jumping red light,0,0,morth2023_violations
+2023,Andaman and Nicobar Islands,Use of mobile phone,0,0,morth2023_violations
+2023,Andaman and Nicobar Islands,Others,103,22,morth2023_violations
+2023,Chandigarh,Over-speeding,159,60,morth2023_violations
+2023,Chandigarh,Drunken driving / alcohol and drugs,14,4,morth2023_violations
+2023,Chandigarh,Driving on wrong side,1,1,morth2023_violations
+2023,Chandigarh,Jumping red light,8,2,morth2023_violations
+2023,Chandigarh,Use of mobile phone,0,0,morth2023_violations
+2023,Chandigarh,Others,0,0,morth2023_violations
+2023,Dadra and Nagar Haveli and Daman and Diu,Over-speeding,147,64,morth2023_violations
+2023,Dadra and Nagar Haveli and Daman and Diu,Drunken driving / alcohol and drugs,11,6,morth2023_violations
+2023,Dadra and Nagar Haveli and Daman and Diu,Driving on wrong side,7,0,morth2023_violations
+2023,Dadra and Nagar Haveli and Daman and Diu,Jumping red light,0,0,morth2023_violations
+2023,Dadra and Nagar Haveli and Daman and Diu,Use of mobile phone,0,0,morth2023_violations
+2023,Dadra and Nagar Haveli and Daman and Diu,Others,17,4,morth2023_violations
+2023,Delhi,Over-speeding,2645,703,morth2023_violations
+2023,Delhi,Drunken driving / alcohol and drugs,27,1,morth2023_violations
+2023,Delhi,Driving on wrong side,326,83,morth2023_violations
+2023,Delhi,Jumping red light,296,72,morth2023_violations
+2023,Delhi,Use of mobile phone,163,33,morth2023_violations
+2023,Delhi,Others,2377,565,morth2023_violations
+2023,Jammu and Kashmir,Over-speeding,5666,854,morth2023_violations
+2023,Jammu and Kashmir,Drunken driving / alcohol and drugs,0,0,morth2023_violations
+2023,Jammu and Kashmir,Driving on wrong side,252,15,morth2023_violations
+2023,Jammu and Kashmir,Jumping red light,186,0,morth2023_violations
+2023,Jammu and Kashmir,Use of mobile phone,194,24,morth2023_violations
+2023,Jammu and Kashmir,Others,0,0,morth2023_violations
+2023,Ladakh,Over-speeding,195,37,morth2023_violations
+2023,Ladakh,Drunken driving / alcohol and drugs,9,3,morth2023_violations
+2023,Ladakh,Driving on wrong side,0,0,morth2023_violations
+2023,Ladakh,Jumping red light,0,0,morth2023_violations
+2023,Ladakh,Use of mobile phone,0,0,morth2023_violations
+2023,Ladakh,Others,85,19,morth2023_violations
+2023,Lakshadweep,Over-speeding,0,0,morth2023_violations
+2023,Lakshadweep,Drunken driving / alcohol and drugs,0,0,morth2023_violations
+2023,Lakshadweep,Driving on wrong side,0,0,morth2023_violations
+2023,Lakshadweep,Jumping red light,0,0,morth2023_violations
+2023,Lakshadweep,Use of mobile phone,0,0,morth2023_violations
+2023,Lakshadweep,Others,1,0,morth2023_violations
+2023,Puducherry,Over-speeding,793,84,morth2023_violations
+2023,Puducherry,Drunken driving / alcohol and drugs,14,1,morth2023_violations
+2023,Puducherry,Driving on wrong side,27,6,morth2023_violations
+2023,Puducherry,Jumping red light,0,0,morth2023_violations
+2023,Puducherry,Use of mobile phone,2,0,morth2023_violations
+2023,Puducherry,Others,472,58,morth2023_violations

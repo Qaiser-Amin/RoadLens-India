@@ -1,0 +1,649 @@
+year,state,category,accidents,fatalities,source_id
+2022,Andhra Pradesh,Pedestrians,,1604,morth2022_road_users
+2022,Andhra Pradesh,Bicycles,,154,morth2022_road_users
+2022,Andhra Pradesh,Two-wheelers,,3703,morth2022_road_users
+2022,Andhra Pradesh,Auto rickshaws,,627,morth2022_road_users
+2022,Andhra Pradesh,"Cars, taxis, vans and LMV",,895,morth2022_road_users
+2022,Andhra Pradesh,Trucks / lorries,,663,morth2022_road_users
+2022,Andhra Pradesh,Buses,,221,morth2022_road_users
+2022,Andhra Pradesh,Other non-motor vehicles (E-rickshaw),,20,morth2022_road_users
+2022,Andhra Pradesh,Others,,406,morth2022_road_users
+2022,Arunachal Pradesh,Pedestrians,,7,morth2022_road_users
+2022,Arunachal Pradesh,Bicycles,,0,morth2022_road_users
+2022,Arunachal Pradesh,Two-wheelers,,45,morth2022_road_users
+2022,Arunachal Pradesh,Auto rickshaws,,5,morth2022_road_users
+2022,Arunachal Pradesh,"Cars, taxis, vans and LMV",,32,morth2022_road_users
+2022,Arunachal Pradesh,Trucks / lorries,,33,morth2022_road_users
+2022,Arunachal Pradesh,Buses,,4,morth2022_road_users
+2022,Arunachal Pradesh,Other non-motor vehicles (E-rickshaw),,0,morth2022_road_users
+2022,Arunachal Pradesh,Others,,22,morth2022_road_users
+2022,Assam,Pedestrians,,506,morth2022_road_users
+2022,Assam,Bicycles,,308,morth2022_road_users
+2022,Assam,Two-wheelers,,871,morth2022_road_users
+2022,Assam,Auto rickshaws,,261,morth2022_road_users
+2022,Assam,"Cars, taxis, vans and LMV",,371,morth2022_road_users
+2022,Assam,Trucks / lorries,,292,morth2022_road_users
+2022,Assam,Buses,,138,morth2022_road_users
+2022,Assam,Other non-motor vehicles (E-rickshaw),,100,morth2022_road_users
+2022,Assam,Others,,147,morth2022_road_users
+2022,Bihar,Pedestrians,,3345,morth2022_road_users
+2022,Bihar,Bicycles,,524,morth2022_road_users
+2022,Bihar,Two-wheelers,,2984,morth2022_road_users
+2022,Bihar,Auto rickshaws,,513,morth2022_road_users
+2022,Bihar,"Cars, taxis, vans and LMV",,556,morth2022_road_users
+2022,Bihar,Trucks / lorries,,213,morth2022_road_users
+2022,Bihar,Buses,,106,morth2022_road_users
+2022,Bihar,Other non-motor vehicles (E-rickshaw),,60,morth2022_road_users
+2022,Bihar,Others,,597,morth2022_road_users
+2022,Chhattisgarh,Pedestrians,,741,morth2022_road_users
+2022,Chhattisgarh,Bicycles,,172,morth2022_road_users
+2022,Chhattisgarh,Two-wheelers,,3856,morth2022_road_users
+2022,Chhattisgarh,Auto rickshaws,,46,morth2022_road_users
+2022,Chhattisgarh,"Cars, taxis, vans and LMV",,363,morth2022_road_users
+2022,Chhattisgarh,Trucks / lorries,,197,morth2022_road_users
+2022,Chhattisgarh,Buses,,46,morth2022_road_users
+2022,Chhattisgarh,Other non-motor vehicles (E-rickshaw),,4,morth2022_road_users
+2022,Chhattisgarh,Others,,409,morth2022_road_users
+2022,Goa,Pedestrians,,51,morth2022_road_users
+2022,Goa,Bicycles,,2,morth2022_road_users
+2022,Goa,Two-wheelers,,180,morth2022_road_users
+2022,Goa,Auto rickshaws,,0,morth2022_road_users
+2022,Goa,"Cars, taxis, vans and LMV",,28,morth2022_road_users
+2022,Goa,Trucks / lorries,,3,morth2022_road_users
+2022,Goa,Buses,,0,morth2022_road_users
+2022,Goa,Other non-motor vehicles (E-rickshaw),,0,morth2022_road_users
+2022,Goa,Others,,7,morth2022_road_users
+2022,Gujarat,Pedestrians,,1568,morth2022_road_users
+2022,Gujarat,Bicycles,,161,morth2022_road_users
+2022,Gujarat,Two-wheelers,,3381,morth2022_road_users
+2022,Gujarat,Auto rickshaws,,379,morth2022_road_users
+2022,Gujarat,"Cars, taxis, vans and LMV",,1045,morth2022_road_users
+2022,Gujarat,Trucks / lorries,,645,morth2022_road_users
+2022,Gujarat,Buses,,109,morth2022_road_users
+2022,Gujarat,Other non-motor vehicles (E-rickshaw),,51,morth2022_road_users
+2022,Gujarat,Others,,279,morth2022_road_users
+2022,Haryana,Pedestrians,,1231,morth2022_road_users
+2022,Haryana,Bicycles,,190,morth2022_road_users
+2022,Haryana,Two-wheelers,,1445,morth2022_road_users
+2022,Haryana,Auto rickshaws,,148,morth2022_road_users
+2022,Haryana,"Cars, taxis, vans and LMV",,617,morth2022_road_users
+2022,Haryana,Trucks / lorries,,358,morth2022_road_users
+2022,Haryana,Buses,,217,morth2022_road_users
+2022,Haryana,Other non-motor vehicles (E-rickshaw),,74,morth2022_road_users
+2022,Haryana,Others,,635,morth2022_road_users
+2022,Himachal Pradesh,Pedestrians,,199,morth2022_road_users
+2022,Himachal Pradesh,Bicycles,,4,morth2022_road_users
+2022,Himachal Pradesh,Two-wheelers,,273,morth2022_road_users
+2022,Himachal Pradesh,Auto rickshaws,,2,morth2022_road_users
+2022,Himachal Pradesh,"Cars, taxis, vans and LMV",,389,morth2022_road_users
+2022,Himachal Pradesh,Trucks / lorries,,91,morth2022_road_users
+2022,Himachal Pradesh,Buses,,34,morth2022_road_users
+2022,Himachal Pradesh,Other non-motor vehicles (E-rickshaw),,13,morth2022_road_users
+2022,Himachal Pradesh,Others,,27,morth2022_road_users
+2022,Jharkhand,Pedestrians,,479,morth2022_road_users
+2022,Jharkhand,Bicycles,,103,morth2022_road_users
+2022,Jharkhand,Two-wheelers,,1862,morth2022_road_users
+2022,Jharkhand,Auto rickshaws,,219,morth2022_road_users
+2022,Jharkhand,"Cars, taxis, vans and LMV",,480,morth2022_road_users
+2022,Jharkhand,Trucks / lorries,,291,morth2022_road_users
+2022,Jharkhand,Buses,,93,morth2022_road_users
+2022,Jharkhand,Other non-motor vehicles (E-rickshaw),,117,morth2022_road_users
+2022,Jharkhand,Others,,254,morth2022_road_users
+2022,Karnataka,Pedestrians,,2105,morth2022_road_users
+2022,Karnataka,Bicycles,,83,morth2022_road_users
+2022,Karnataka,Two-wheelers,,5686,morth2022_road_users
+2022,Karnataka,Auto rickshaws,,397,morth2022_road_users
+2022,Karnataka,"Cars, taxis, vans and LMV",,1536,morth2022_road_users
+2022,Karnataka,Trucks / lorries,,703,morth2022_road_users
+2022,Karnataka,Buses,,288,morth2022_road_users
+2022,Karnataka,Other non-motor vehicles (E-rickshaw),,96,morth2022_road_users
+2022,Karnataka,Others,,808,morth2022_road_users
+2022,Kerala,Pedestrians,,1158,morth2022_road_users
+2022,Kerala,Bicycles,,91,morth2022_road_users
+2022,Kerala,Two-wheelers,,2424,morth2022_road_users
+2022,Kerala,Auto rickshaws,,227,morth2022_road_users
+2022,Kerala,"Cars, taxis, vans and LMV",,304,morth2022_road_users
+2022,Kerala,Trucks / lorries,,36,morth2022_road_users
+2022,Kerala,Buses,,43,morth2022_road_users
+2022,Kerala,Other non-motor vehicles (E-rickshaw),,2,morth2022_road_users
+2022,Kerala,Others,,32,morth2022_road_users
+2022,Madhya Pradesh,Pedestrians,,1672,morth2022_road_users
+2022,Madhya Pradesh,Bicycles,,137,morth2022_road_users
+2022,Madhya Pradesh,Two-wheelers,,6357,morth2022_road_users
+2022,Madhya Pradesh,Auto rickshaws,,363,morth2022_road_users
+2022,Madhya Pradesh,"Cars, taxis, vans and LMV",,1794,morth2022_road_users
+2022,Madhya Pradesh,Trucks / lorries,,1193,morth2022_road_users
+2022,Madhya Pradesh,Buses,,312,morth2022_road_users
+2022,Madhya Pradesh,Other non-motor vehicles (E-rickshaw),,146,morth2022_road_users
+2022,Madhya Pradesh,Others,,1453,morth2022_road_users
+2022,Maharashtra,Pedestrians,,2894,morth2022_road_users
+2022,Maharashtra,Bicycles,,162,morth2022_road_users
+2022,Maharashtra,Two-wheelers,,7733,morth2022_road_users
+2022,Maharashtra,Auto rickshaws,,447,morth2022_road_users
+2022,Maharashtra,"Cars, taxis, vans and LMV",,2219,morth2022_road_users
+2022,Maharashtra,Trucks / lorries,,808,morth2022_road_users
+2022,Maharashtra,Buses,,119,morth2022_road_users
+2022,Maharashtra,Other non-motor vehicles (E-rickshaw),,15,morth2022_road_users
+2022,Maharashtra,Others,,827,morth2022_road_users
+2022,Manipur,Pedestrians,,32,morth2022_road_users
+2022,Manipur,Bicycles,,6,morth2022_road_users
+2022,Manipur,Two-wheelers,,40,morth2022_road_users
+2022,Manipur,Auto rickshaws,,4,morth2022_road_users
+2022,Manipur,"Cars, taxis, vans and LMV",,18,morth2022_road_users
+2022,Manipur,Trucks / lorries,,12,morth2022_road_users
+2022,Manipur,Buses,,9,morth2022_road_users
+2022,Manipur,Other non-motor vehicles (E-rickshaw),,0,morth2022_road_users
+2022,Manipur,Others,,6,morth2022_road_users
+2022,Meghalaya,Pedestrians,,42,morth2022_road_users
+2022,Meghalaya,Bicycles,,3,morth2022_road_users
+2022,Meghalaya,Two-wheelers,,47,morth2022_road_users
+2022,Meghalaya,Auto rickshaws,,4,morth2022_road_users
+2022,Meghalaya,"Cars, taxis, vans and LMV",,50,morth2022_road_users
+2022,Meghalaya,Trucks / lorries,,12,morth2022_road_users
+2022,Meghalaya,Buses,,1,morth2022_road_users
+2022,Meghalaya,Other non-motor vehicles (E-rickshaw),,0,morth2022_road_users
+2022,Meghalaya,Others,,3,morth2022_road_users
+2022,Mizoram,Pedestrians,,9,morth2022_road_users
+2022,Mizoram,Bicycles,,1,morth2022_road_users
+2022,Mizoram,Two-wheelers,,38,morth2022_road_users
+2022,Mizoram,Auto rickshaws,,5,morth2022_road_users
+2022,Mizoram,"Cars, taxis, vans and LMV",,38,morth2022_road_users
+2022,Mizoram,Trucks / lorries,,20,morth2022_road_users
+2022,Mizoram,Buses,,0,morth2022_road_users
+2022,Mizoram,Other non-motor vehicles (E-rickshaw),,0,morth2022_road_users
+2022,Mizoram,Others,,2,morth2022_road_users
+2022,Nagaland,Pedestrians,,10,morth2022_road_users
+2022,Nagaland,Bicycles,,1,morth2022_road_users
+2022,Nagaland,Two-wheelers,,18,morth2022_road_users
+2022,Nagaland,Auto rickshaws,,3,morth2022_road_users
+2022,Nagaland,"Cars, taxis, vans and LMV",,20,morth2022_road_users
+2022,Nagaland,Trucks / lorries,,21,morth2022_road_users
+2022,Nagaland,Buses,,0,morth2022_road_users
+2022,Nagaland,Other non-motor vehicles (E-rickshaw),,0,morth2022_road_users
+2022,Nagaland,Others,,0,morth2022_road_users
+2022,Odisha,Pedestrians,,800,morth2022_road_users
+2022,Odisha,Bicycles,,199,morth2022_road_users
+2022,Odisha,Two-wheelers,,2498,morth2022_road_users
+2022,Odisha,Auto rickshaws,,142,morth2022_road_users
+2022,Odisha,"Cars, taxis, vans and LMV",,625,morth2022_road_users
+2022,Odisha,Trucks / lorries,,498,morth2022_road_users
+2022,Odisha,Buses,,139,morth2022_road_users
+2022,Odisha,Other non-motor vehicles (E-rickshaw),,45,morth2022_road_users
+2022,Odisha,Others,,521,morth2022_road_users
+2022,Punjab,Pedestrians,,608,morth2022_road_users
+2022,Punjab,Bicycles,,206,morth2022_road_users
+2022,Punjab,Two-wheelers,,2306,morth2022_road_users
+2022,Punjab,Auto rickshaws,,178,morth2022_road_users
+2022,Punjab,"Cars, taxis, vans and LMV",,1163,morth2022_road_users
+2022,Punjab,Trucks / lorries,,67,morth2022_road_users
+2022,Punjab,Buses,,24,morth2022_road_users
+2022,Punjab,Other non-motor vehicles (E-rickshaw),,21,morth2022_road_users
+2022,Punjab,Others,,183,morth2022_road_users
+2022,Rajasthan,Pedestrians,,1745,morth2022_road_users
+2022,Rajasthan,Bicycles,,55,morth2022_road_users
+2022,Rajasthan,Two-wheelers,,4782,morth2022_road_users
+2022,Rajasthan,Auto rickshaws,,145,morth2022_road_users
+2022,Rajasthan,"Cars, taxis, vans and LMV",,2221,morth2022_road_users
+2022,Rajasthan,Trucks / lorries,,848,morth2022_road_users
+2022,Rajasthan,Buses,,226,morth2022_road_users
+2022,Rajasthan,Other non-motor vehicles (E-rickshaw),,204,morth2022_road_users
+2022,Rajasthan,Others,,878,morth2022_road_users
+2022,Sikkim,Pedestrians,,9,morth2022_road_users
+2022,Sikkim,Bicycles,,0,morth2022_road_users
+2022,Sikkim,Two-wheelers,,20,morth2022_road_users
+2022,Sikkim,Auto rickshaws,,0,morth2022_road_users
+2022,Sikkim,"Cars, taxis, vans and LMV",,20,morth2022_road_users
+2022,Sikkim,Trucks / lorries,,29,morth2022_road_users
+2022,Sikkim,Buses,,14,morth2022_road_users
+2022,Sikkim,Other non-motor vehicles (E-rickshaw),,0,morth2022_road_users
+2022,Sikkim,Others,,0,morth2022_road_users
+2022,Tamil Nadu,Pedestrians,,4427,morth2022_road_users
+2022,Tamil Nadu,Bicycles,,421,morth2022_road_users
+2022,Tamil Nadu,Two-wheelers,,11140,morth2022_road_users
+2022,Tamil Nadu,Auto rickshaws,,267,morth2022_road_users
+2022,Tamil Nadu,"Cars, taxis, vans and LMV",,1051,morth2022_road_users
+2022,Tamil Nadu,Trucks / lorries,,332,morth2022_road_users
+2022,Tamil Nadu,Buses,,213,morth2022_road_users
+2022,Tamil Nadu,Other non-motor vehicles (E-rickshaw),,9,morth2022_road_users
+2022,Tamil Nadu,Others,,24,morth2022_road_users
+2022,Telangana,Pedestrians,,1458,morth2022_road_users
+2022,Telangana,Bicycles,,69,morth2022_road_users
+2022,Telangana,Two-wheelers,,3977,morth2022_road_users
+2022,Telangana,Auto rickshaws,,334,morth2022_road_users
+2022,Telangana,"Cars, taxis, vans and LMV",,588,morth2022_road_users
+2022,Telangana,Trucks / lorries,,397,morth2022_road_users
+2022,Telangana,Buses,,98,morth2022_road_users
+2022,Telangana,Other non-motor vehicles (E-rickshaw),,53,morth2022_road_users
+2022,Telangana,Others,,585,morth2022_road_users
+2022,Tripura,Pedestrians,,81,morth2022_road_users
+2022,Tripura,Bicycles,,10,morth2022_road_users
+2022,Tripura,Two-wheelers,,98,morth2022_road_users
+2022,Tripura,Auto rickshaws,,14,morth2022_road_users
+2022,Tripura,"Cars, taxis, vans and LMV",,16,morth2022_road_users
+2022,Tripura,Trucks / lorries,,16,morth2022_road_users
+2022,Tripura,Buses,,2,morth2022_road_users
+2022,Tripura,Other non-motor vehicles (E-rickshaw),,2,morth2022_road_users
+2022,Tripura,Others,,2,morth2022_road_users
+2022,Uttarakhand,Pedestrians,,290,morth2022_road_users
+2022,Uttarakhand,Bicycles,,21,morth2022_road_users
+2022,Uttarakhand,Two-wheelers,,327,morth2022_road_users
+2022,Uttarakhand,Auto rickshaws,,4,morth2022_road_users
+2022,Uttarakhand,"Cars, taxis, vans and LMV",,278,morth2022_road_users
+2022,Uttarakhand,Trucks / lorries,,19,morth2022_road_users
+2022,Uttarakhand,Buses,,3,morth2022_road_users
+2022,Uttarakhand,Other non-motor vehicles (E-rickshaw),,2,morth2022_road_users
+2022,Uttarakhand,Others,,98,morth2022_road_users
+2022,Uttar Pradesh,Pedestrians,,1959,morth2022_road_users
+2022,Uttar Pradesh,Bicycles,,1412,morth2022_road_users
+2022,Uttar Pradesh,Two-wheelers,,6959,morth2022_road_users
+2022,Uttar Pradesh,Auto rickshaws,,1414,morth2022_road_users
+2022,Uttar Pradesh,"Cars, taxis, vans and LMV",,3536,morth2022_road_users
+2022,Uttar Pradesh,Trucks / lorries,,2192,morth2022_road_users
+2022,Uttar Pradesh,Buses,,1279,morth2022_road_users
+2022,Uttar Pradesh,Other non-motor vehicles (E-rickshaw),,1233,morth2022_road_users
+2022,Uttar Pradesh,Others,,2611,morth2022_road_users
+2022,West Bengal,Pedestrians,,2938,morth2022_road_users
+2022,West Bengal,Bicycles,,260,morth2022_road_users
+2022,West Bengal,Two-wheelers,,863,morth2022_road_users
+2022,West Bengal,Auto rickshaws,,390,morth2022_road_users
+2022,West Bengal,"Cars, taxis, vans and LMV",,504,morth2022_road_users
+2022,West Bengal,Trucks / lorries,,491,morth2022_road_users
+2022,West Bengal,Buses,,228,morth2022_road_users
+2022,West Bengal,Other non-motor vehicles (E-rickshaw),,87,morth2022_road_users
+2022,West Bengal,Others,,241,morth2022_road_users
+2022,Andaman and Nicobar Islands,Pedestrians,,3,morth2022_road_users
+2022,Andaman and Nicobar Islands,Bicycles,,1,morth2022_road_users
+2022,Andaman and Nicobar Islands,Two-wheelers,,10,morth2022_road_users
+2022,Andaman and Nicobar Islands,Auto rickshaws,,0,morth2022_road_users
+2022,Andaman and Nicobar Islands,"Cars, taxis, vans and LMV",,2,morth2022_road_users
+2022,Andaman and Nicobar Islands,Trucks / lorries,,0,morth2022_road_users
+2022,Andaman and Nicobar Islands,Buses,,2,morth2022_road_users
+2022,Andaman and Nicobar Islands,Other non-motor vehicles (E-rickshaw),,0,morth2022_road_users
+2022,Andaman and Nicobar Islands,Others,,1,morth2022_road_users
+2022,Chandigarh,Pedestrians,,23,morth2022_road_users
+2022,Chandigarh,Bicycles,,12,morth2022_road_users
+2022,Chandigarh,Two-wheelers,,40,morth2022_road_users
+2022,Chandigarh,Auto rickshaws,,5,morth2022_road_users
+2022,Chandigarh,"Cars, taxis, vans and LMV",,0,morth2022_road_users
+2022,Chandigarh,Trucks / lorries,,0,morth2022_road_users
+2022,Chandigarh,Buses,,1,morth2022_road_users
+2022,Chandigarh,Other non-motor vehicles (E-rickshaw),,2,morth2022_road_users
+2022,Chandigarh,Others,,0,morth2022_road_users
+2022,Dadra and Nagar Haveli and Daman and Diu,Pedestrians,,21,morth2022_road_users
+2022,Dadra and Nagar Haveli and Daman and Diu,Bicycles,,6,morth2022_road_users
+2022,Dadra and Nagar Haveli and Daman and Diu,Two-wheelers,,55,morth2022_road_users
+2022,Dadra and Nagar Haveli and Daman and Diu,Auto rickshaws,,1,morth2022_road_users
+2022,Dadra and Nagar Haveli and Daman and Diu,"Cars, taxis, vans and LMV",,6,morth2022_road_users
+2022,Dadra and Nagar Haveli and Daman and Diu,Trucks / lorries,,1,morth2022_road_users
+2022,Dadra and Nagar Haveli and Daman and Diu,Buses,,0,morth2022_road_users
+2022,Dadra and Nagar Haveli and Daman and Diu,Other non-motor vehicles (E-rickshaw),,0,morth2022_road_users
+2022,Dadra and Nagar Haveli and Daman and Diu,Others,,0,morth2022_road_users
+2022,Delhi,Pedestrians,,629,morth2022_road_users
+2022,Delhi,Bicycles,,48,morth2022_road_users
+2022,Delhi,Two-wheelers,,551,morth2022_road_users
+2022,Delhi,Auto rickshaws,,38,morth2022_road_users
+2022,Delhi,"Cars, taxis, vans and LMV",,50,morth2022_road_users
+2022,Delhi,Trucks / lorries,,9,morth2022_road_users
+2022,Delhi,Buses,,4,morth2022_road_users
+2022,Delhi,Other non-motor vehicles (E-rickshaw),,13,morth2022_road_users
+2022,Delhi,Others,,119,morth2022_road_users
+2022,Jammu and Kashmir,Pedestrians,,131,morth2022_road_users
+2022,Jammu and Kashmir,Bicycles,,11,morth2022_road_users
+2022,Jammu and Kashmir,Two-wheelers,,196,morth2022_road_users
+2022,Jammu and Kashmir,Auto rickshaws,,12,morth2022_road_users
+2022,Jammu and Kashmir,"Cars, taxis, vans and LMV",,192,morth2022_road_users
+2022,Jammu and Kashmir,Trucks / lorries,,85,morth2022_road_users
+2022,Jammu and Kashmir,Buses,,17,morth2022_road_users
+2022,Jammu and Kashmir,Other non-motor vehicles (E-rickshaw),,1,morth2022_road_users
+2022,Jammu and Kashmir,Others,,160,morth2022_road_users
+2022,Ladakh,Pedestrians,,4,morth2022_road_users
+2022,Ladakh,Bicycles,,0,morth2022_road_users
+2022,Ladakh,Two-wheelers,,4,morth2022_road_users
+2022,Ladakh,Auto rickshaws,,0,morth2022_road_users
+2022,Ladakh,"Cars, taxis, vans and LMV",,31,morth2022_road_users
+2022,Ladakh,Trucks / lorries,,9,morth2022_road_users
+2022,Ladakh,Buses,,12,morth2022_road_users
+2022,Ladakh,Other non-motor vehicles (E-rickshaw),,2,morth2022_road_users
+2022,Ladakh,Others,,0,morth2022_road_users
+2022,Lakshadweep,Pedestrians,,0,morth2022_road_users
+2022,Lakshadweep,Bicycles,,0,morth2022_road_users
+2022,Lakshadweep,Two-wheelers,,2,morth2022_road_users
+2022,Lakshadweep,Auto rickshaws,,0,morth2022_road_users
+2022,Lakshadweep,"Cars, taxis, vans and LMV",,0,morth2022_road_users
+2022,Lakshadweep,Trucks / lorries,,0,morth2022_road_users
+2022,Lakshadweep,Buses,,0,morth2022_road_users
+2022,Lakshadweep,Other non-motor vehicles (E-rickshaw),,0,morth2022_road_users
+2022,Lakshadweep,Others,,0,morth2022_road_users
+2022,Puducherry,Pedestrians,,46,morth2022_road_users
+2022,Puducherry,Bicycles,,3,morth2022_road_users
+2022,Puducherry,Two-wheelers,,126,morth2022_road_users
+2022,Puducherry,Auto rickshaws,,2,morth2022_road_users
+2022,Puducherry,"Cars, taxis, vans and LMV",,2,morth2022_road_users
+2022,Puducherry,Trucks / lorries,,0,morth2022_road_users
+2022,Puducherry,Buses,,2,morth2022_road_users
+2022,Puducherry,Other non-motor vehicles (E-rickshaw),,0,morth2022_road_users
+2022,Puducherry,Others,,0,morth2022_road_users
+2023,Andhra Pradesh,Pedestrians,,1645,morth2023_road_users
+2023,Andhra Pradesh,Bicycles,,138,morth2023_road_users
+2023,Andhra Pradesh,Two-wheelers,,4160,morth2023_road_users
+2023,Andhra Pradesh,Auto rickshaws,,632,morth2023_road_users
+2023,Andhra Pradesh,"Cars, taxis, vans and LMV",,701,morth2023_road_users
+2023,Andhra Pradesh,Trucks / lorries,,330,morth2023_road_users
+2023,Andhra Pradesh,Buses,,109,morth2023_road_users
+2023,Andhra Pradesh,Other non-motor vehicles (E-rickshaw),,15,morth2023_road_users
+2023,Andhra Pradesh,Others,,407,morth2023_road_users
+2023,Arunachal Pradesh,Pedestrians,,1,morth2023_road_users
+2023,Arunachal Pradesh,Bicycles,,0,morth2023_road_users
+2023,Arunachal Pradesh,Two-wheelers,,55,morth2023_road_users
+2023,Arunachal Pradesh,Auto rickshaws,,10,morth2023_road_users
+2023,Arunachal Pradesh,"Cars, taxis, vans and LMV",,51,morth2023_road_users
+2023,Arunachal Pradesh,Trucks / lorries,,16,morth2023_road_users
+2023,Arunachal Pradesh,Buses,,7,morth2023_road_users
+2023,Arunachal Pradesh,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Arunachal Pradesh,Others,,5,morth2023_road_users
+2023,Assam,Pedestrians,,793,morth2023_road_users
+2023,Assam,Bicycles,,201,morth2023_road_users
+2023,Assam,Two-wheelers,,1140,morth2023_road_users
+2023,Assam,Auto rickshaws,,152,morth2023_road_users
+2023,Assam,"Cars, taxis, vans and LMV",,531,morth2023_road_users
+2023,Assam,Trucks / lorries,,202,morth2023_road_users
+2023,Assam,Buses,,101,morth2023_road_users
+2023,Assam,Other non-motor vehicles (E-rickshaw),,61,morth2023_road_users
+2023,Assam,Others,,115,morth2023_road_users
+2023,Bihar,Pedestrians,,3462,morth2023_road_users
+2023,Bihar,Bicycles,,506,morth2023_road_users
+2023,Bihar,Two-wheelers,,3203,morth2023_road_users
+2023,Bihar,Auto rickshaws,,428,morth2023_road_users
+2023,Bihar,"Cars, taxis, vans and LMV",,571,morth2023_road_users
+2023,Bihar,Trucks / lorries,,130,morth2023_road_users
+2023,Bihar,Buses,,35,morth2023_road_users
+2023,Bihar,Other non-motor vehicles (E-rickshaw),,109,morth2023_road_users
+2023,Bihar,Others,,429,morth2023_road_users
+2023,Chhattisgarh,Pedestrians,,942,morth2023_road_users
+2023,Chhattisgarh,Bicycles,,176,morth2023_road_users
+2023,Chhattisgarh,Two-wheelers,,3805,morth2023_road_users
+2023,Chhattisgarh,Auto rickshaws,,45,morth2023_road_users
+2023,Chhattisgarh,"Cars, taxis, vans and LMV",,455,morth2023_road_users
+2023,Chhattisgarh,Trucks / lorries,,213,morth2023_road_users
+2023,Chhattisgarh,Buses,,49,morth2023_road_users
+2023,Chhattisgarh,Other non-motor vehicles (E-rickshaw),,27,morth2023_road_users
+2023,Chhattisgarh,Others,,454,morth2023_road_users
+2023,Goa,Pedestrians,,44,morth2023_road_users
+2023,Goa,Bicycles,,4,morth2023_road_users
+2023,Goa,Two-wheelers,,209,morth2023_road_users
+2023,Goa,Auto rickshaws,,0,morth2023_road_users
+2023,Goa,"Cars, taxis, vans and LMV",,28,morth2023_road_users
+2023,Goa,Trucks / lorries,,2,morth2023_road_users
+2023,Goa,Buses,,1,morth2023_road_users
+2023,Goa,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Goa,Others,,2,morth2023_road_users
+2023,Gujarat,Pedestrians,,1757,morth2023_road_users
+2023,Gujarat,Bicycles,,122,morth2023_road_users
+2023,Gujarat,Two-wheelers,,3628,morth2023_road_users
+2023,Gujarat,Auto rickshaws,,413,morth2023_road_users
+2023,Gujarat,"Cars, taxis, vans and LMV",,968,morth2023_road_users
+2023,Gujarat,Trucks / lorries,,533,morth2023_road_users
+2023,Gujarat,Buses,,77,morth2023_road_users
+2023,Gujarat,Other non-motor vehicles (E-rickshaw),,41,morth2023_road_users
+2023,Gujarat,Others,,315,morth2023_road_users
+2023,Haryana,Pedestrians,,1386,morth2023_road_users
+2023,Haryana,Bicycles,,79,morth2023_road_users
+2023,Haryana,Two-wheelers,,1585,morth2023_road_users
+2023,Haryana,Auto rickshaws,,87,morth2023_road_users
+2023,Haryana,"Cars, taxis, vans and LMV",,655,morth2023_road_users
+2023,Haryana,Trucks / lorries,,410,morth2023_road_users
+2023,Haryana,Buses,,80,morth2023_road_users
+2023,Haryana,Other non-motor vehicles (E-rickshaw),,51,morth2023_road_users
+2023,Haryana,Others,,635,morth2023_road_users
+2023,Himachal Pradesh,Pedestrians,,122,morth2023_road_users
+2023,Himachal Pradesh,Bicycles,,5,morth2023_road_users
+2023,Himachal Pradesh,Two-wheelers,,324,morth2023_road_users
+2023,Himachal Pradesh,Auto rickshaws,,3,morth2023_road_users
+2023,Himachal Pradesh,"Cars, taxis, vans and LMV",,317,morth2023_road_users
+2023,Himachal Pradesh,Trucks / lorries,,78,morth2023_road_users
+2023,Himachal Pradesh,Buses,,27,morth2023_road_users
+2023,Himachal Pradesh,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Himachal Pradesh,Others,,13,morth2023_road_users
+2023,Jharkhand,Pedestrians,,718,morth2023_road_users
+2023,Jharkhand,Bicycles,,126,morth2023_road_users
+2023,Jharkhand,Two-wheelers,,1861,morth2023_road_users
+2023,Jharkhand,Auto rickshaws,,218,morth2023_road_users
+2023,Jharkhand,"Cars, taxis, vans and LMV",,522,morth2023_road_users
+2023,Jharkhand,Trucks / lorries,,390,morth2023_road_users
+2023,Jharkhand,Buses,,78,morth2023_road_users
+2023,Jharkhand,Other non-motor vehicles (E-rickshaw),,19,morth2023_road_users
+2023,Jharkhand,Others,,241,morth2023_road_users
+2023,Karnataka,Pedestrians,,2418,morth2023_road_users
+2023,Karnataka,Bicycles,,71,morth2023_road_users
+2023,Karnataka,Two-wheelers,,5389,morth2023_road_users
+2023,Karnataka,Auto rickshaws,,371,morth2023_road_users
+2023,Karnataka,"Cars, taxis, vans and LMV",,1733,morth2023_road_users
+2023,Karnataka,Trucks / lorries,,497,morth2023_road_users
+2023,Karnataka,Buses,,258,morth2023_road_users
+2023,Karnataka,Other non-motor vehicles (E-rickshaw),,35,morth2023_road_users
+2023,Karnataka,Others,,1549,morth2023_road_users
+2023,Kerala,Pedestrians,,1147,morth2023_road_users
+2023,Kerala,Bicycles,,88,morth2023_road_users
+2023,Kerala,Two-wheelers,,2233,morth2023_road_users
+2023,Kerala,Auto rickshaws,,240,morth2023_road_users
+2023,Kerala,"Cars, taxis, vans and LMV",,267,morth2023_road_users
+2023,Kerala,Trucks / lorries,,32,morth2023_road_users
+2023,Kerala,Buses,,41,morth2023_road_users
+2023,Kerala,Other non-motor vehicles (E-rickshaw),,1,morth2023_road_users
+2023,Kerala,Others,,31,morth2023_road_users
+2023,Madhya Pradesh,Pedestrians,,1793,morth2023_road_users
+2023,Madhya Pradesh,Bicycles,,139,morth2023_road_users
+2023,Madhya Pradesh,Two-wheelers,,6764,morth2023_road_users
+2023,Madhya Pradesh,Auto rickshaws,,295,morth2023_road_users
+2023,Madhya Pradesh,"Cars, taxis, vans and LMV",,2033,morth2023_road_users
+2023,Madhya Pradesh,Trucks / lorries,,1090,morth2023_road_users
+2023,Madhya Pradesh,Buses,,427,morth2023_road_users
+2023,Madhya Pradesh,Other non-motor vehicles (E-rickshaw),,98,morth2023_road_users
+2023,Madhya Pradesh,Others,,1159,morth2023_road_users
+2023,Maharashtra,Pedestrians,,3110,morth2023_road_users
+2023,Maharashtra,Bicycles,,160,morth2023_road_users
+2023,Maharashtra,Two-wheelers,,8182,morth2023_road_users
+2023,Maharashtra,Auto rickshaws,,431,morth2023_road_users
+2023,Maharashtra,"Cars, taxis, vans and LMV",,1831,morth2023_road_users
+2023,Maharashtra,Trucks / lorries,,742,morth2023_road_users
+2023,Maharashtra,Buses,,280,morth2023_road_users
+2023,Maharashtra,Other non-motor vehicles (E-rickshaw),,24,morth2023_road_users
+2023,Maharashtra,Others,,606,morth2023_road_users
+2023,Manipur,Pedestrians,,17,morth2023_road_users
+2023,Manipur,Bicycles,,2,morth2023_road_users
+2023,Manipur,Two-wheelers,,28,morth2023_road_users
+2023,Manipur,Auto rickshaws,,1,morth2023_road_users
+2023,Manipur,"Cars, taxis, vans and LMV",,11,morth2023_road_users
+2023,Manipur,Trucks / lorries,,6,morth2023_road_users
+2023,Manipur,Buses,,1,morth2023_road_users
+2023,Manipur,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Manipur,Others,,7,morth2023_road_users
+2023,Meghalaya,Pedestrians,,56,morth2023_road_users
+2023,Meghalaya,Bicycles,,3,morth2023_road_users
+2023,Meghalaya,Two-wheelers,,42,morth2023_road_users
+2023,Meghalaya,Auto rickshaws,,6,morth2023_road_users
+2023,Meghalaya,"Cars, taxis, vans and LMV",,44,morth2023_road_users
+2023,Meghalaya,Trucks / lorries,,15,morth2023_road_users
+2023,Meghalaya,Buses,,2,morth2023_road_users
+2023,Meghalaya,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Meghalaya,Others,,0,morth2023_road_users
+2023,Mizoram,Pedestrians,,17,morth2023_road_users
+2023,Mizoram,Bicycles,,0,morth2023_road_users
+2023,Mizoram,Two-wheelers,,24,morth2023_road_users
+2023,Mizoram,Auto rickshaws,,2,morth2023_road_users
+2023,Mizoram,"Cars, taxis, vans and LMV",,35,morth2023_road_users
+2023,Mizoram,Trucks / lorries,,16,morth2023_road_users
+2023,Mizoram,Buses,,2,morth2023_road_users
+2023,Mizoram,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Mizoram,Others,,0,morth2023_road_users
+2023,Nagaland,Pedestrians,,19,morth2023_road_users
+2023,Nagaland,Bicycles,,1,morth2023_road_users
+2023,Nagaland,Two-wheelers,,13,morth2023_road_users
+2023,Nagaland,Auto rickshaws,,2,morth2023_road_users
+2023,Nagaland,"Cars, taxis, vans and LMV",,28,morth2023_road_users
+2023,Nagaland,Trucks / lorries,,21,morth2023_road_users
+2023,Nagaland,Buses,,1,morth2023_road_users
+2023,Nagaland,Other non-motor vehicles (E-rickshaw),,1,morth2023_road_users
+2023,Nagaland,Others,,0,morth2023_road_users
+2023,Odisha,Pedestrians,,848,morth2023_road_users
+2023,Odisha,Bicycles,,208,morth2023_road_users
+2023,Odisha,Two-wheelers,,2471,morth2023_road_users
+2023,Odisha,Auto rickshaws,,225,morth2023_road_users
+2023,Odisha,"Cars, taxis, vans and LMV",,597,morth2023_road_users
+2023,Odisha,Trucks / lorries,,497,morth2023_road_users
+2023,Odisha,Buses,,164,morth2023_road_users
+2023,Odisha,Other non-motor vehicles (E-rickshaw),,86,morth2023_road_users
+2023,Odisha,Others,,643,morth2023_road_users
+2023,Punjab,Pedestrians,,716,morth2023_road_users
+2023,Punjab,Bicycles,,233,morth2023_road_users
+2023,Punjab,Two-wheelers,,2299,morth2023_road_users
+2023,Punjab,Auto rickshaws,,93,morth2023_road_users
+2023,Punjab,"Cars, taxis, vans and LMV",,1110,morth2023_road_users
+2023,Punjab,Trucks / lorries,,156,morth2023_road_users
+2023,Punjab,Buses,,51,morth2023_road_users
+2023,Punjab,Other non-motor vehicles (E-rickshaw),,36,morth2023_road_users
+2023,Punjab,Others,,135,morth2023_road_users
+2023,Rajasthan,Pedestrians,,1878,morth2023_road_users
+2023,Rajasthan,Bicycles,,96,morth2023_road_users
+2023,Rajasthan,Two-wheelers,,5340,morth2023_road_users
+2023,Rajasthan,Auto rickshaws,,225,morth2023_road_users
+2023,Rajasthan,"Cars, taxis, vans and LMV",,2149,morth2023_road_users
+2023,Rajasthan,Trucks / lorries,,708,morth2023_road_users
+2023,Rajasthan,Buses,,261,morth2023_road_users
+2023,Rajasthan,Other non-motor vehicles (E-rickshaw),,208,morth2023_road_users
+2023,Rajasthan,Others,,897,morth2023_road_users
+2023,Sikkim,Pedestrians,,12,morth2023_road_users
+2023,Sikkim,Bicycles,,0,morth2023_road_users
+2023,Sikkim,Two-wheelers,,16,morth2023_road_users
+2023,Sikkim,Auto rickshaws,,0,morth2023_road_users
+2023,Sikkim,"Cars, taxis, vans and LMV",,16,morth2023_road_users
+2023,Sikkim,Trucks / lorries,,7,morth2023_road_users
+2023,Sikkim,Buses,,0,morth2023_road_users
+2023,Sikkim,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Sikkim,Others,,6,morth2023_road_users
+2023,Tamil Nadu,Pedestrians,,4577,morth2023_road_users
+2023,Tamil Nadu,Bicycles,,407,morth2023_road_users
+2023,Tamil Nadu,Two-wheelers,,11490,morth2023_road_users
+2023,Tamil Nadu,Auto rickshaws,,291,morth2023_road_users
+2023,Tamil Nadu,"Cars, taxis, vans and LMV",,1026,morth2023_road_users
+2023,Tamil Nadu,Trucks / lorries,,292,morth2023_road_users
+2023,Tamil Nadu,Buses,,238,morth2023_road_users
+2023,Tamil Nadu,Other non-motor vehicles (E-rickshaw),,7,morth2023_road_users
+2023,Tamil Nadu,Others,,19,morth2023_road_users
+2023,Telangana,Pedestrians,,1554,morth2023_road_users
+2023,Telangana,Bicycles,,73,morth2023_road_users
+2023,Telangana,Two-wheelers,,3844,morth2023_road_users
+2023,Telangana,Auto rickshaws,,354,morth2023_road_users
+2023,Telangana,"Cars, taxis, vans and LMV",,583,morth2023_road_users
+2023,Telangana,Trucks / lorries,,401,morth2023_road_users
+2023,Telangana,Buses,,104,morth2023_road_users
+2023,Telangana,Other non-motor vehicles (E-rickshaw),,39,morth2023_road_users
+2023,Telangana,Others,,708,morth2023_road_users
+2023,Tripura,Pedestrians,,75,morth2023_road_users
+2023,Tripura,Bicycles,,9,morth2023_road_users
+2023,Tripura,Two-wheelers,,121,morth2023_road_users
+2023,Tripura,Auto rickshaws,,14,morth2023_road_users
+2023,Tripura,"Cars, taxis, vans and LMV",,17,morth2023_road_users
+2023,Tripura,Trucks / lorries,,3,morth2023_road_users
+2023,Tripura,Buses,,1,morth2023_road_users
+2023,Tripura,Other non-motor vehicles (E-rickshaw),,6,morth2023_road_users
+2023,Tripura,Others,,15,morth2023_road_users
+2023,Uttarakhand,Pedestrians,,223,morth2023_road_users
+2023,Uttarakhand,Bicycles,,24,morth2023_road_users
+2023,Uttarakhand,Two-wheelers,,139,morth2023_road_users
+2023,Uttarakhand,Auto rickshaws,,10,morth2023_road_users
+2023,Uttarakhand,"Cars, taxis, vans and LMV",,217,morth2023_road_users
+2023,Uttarakhand,Trucks / lorries,,304,morth2023_road_users
+2023,Uttarakhand,Buses,,64,morth2023_road_users
+2023,Uttarakhand,Other non-motor vehicles (E-rickshaw),,2,morth2023_road_users
+2023,Uttarakhand,Others,,71,morth2023_road_users
+2023,Uttar Pradesh,Pedestrians,,2075,morth2023_road_users
+2023,Uttar Pradesh,Bicycles,,1316,morth2023_road_users
+2023,Uttar Pradesh,Two-wheelers,,7397,morth2023_road_users
+2023,Uttar Pradesh,Auto rickshaws,,1645,morth2023_road_users
+2023,Uttar Pradesh,"Cars, taxis, vans and LMV",,4021,morth2023_road_users
+2023,Uttar Pradesh,Trucks / lorries,,2276,morth2023_road_users
+2023,Uttar Pradesh,Buses,,1304,morth2023_road_users
+2023,Uttar Pradesh,Other non-motor vehicles (E-rickshaw),,1090,morth2023_road_users
+2023,Uttar Pradesh,Others,,2528,morth2023_road_users
+2023,West Bengal,Pedestrians,,2926,morth2023_road_users
+2023,West Bengal,Bicycles,,307,morth2023_road_users
+2023,West Bengal,Two-wheelers,,878,morth2023_road_users
+2023,West Bengal,Auto rickshaws,,62,morth2023_road_users
+2023,West Bengal,"Cars, taxis, vans and LMV",,641,morth2023_road_users
+2023,West Bengal,Trucks / lorries,,584,morth2023_road_users
+2023,West Bengal,Buses,,158,morth2023_road_users
+2023,West Bengal,Other non-motor vehicles (E-rickshaw),,24,morth2023_road_users
+2023,West Bengal,Others,,447,morth2023_road_users
+2023,Andaman and Nicobar Islands,Pedestrians,,10,morth2023_road_users
+2023,Andaman and Nicobar Islands,Bicycles,,1,morth2023_road_users
+2023,Andaman and Nicobar Islands,Two-wheelers,,9,morth2023_road_users
+2023,Andaman and Nicobar Islands,Auto rickshaws,,1,morth2023_road_users
+2023,Andaman and Nicobar Islands,"Cars, taxis, vans and LMV",,3,morth2023_road_users
+2023,Andaman and Nicobar Islands,Trucks / lorries,,0,morth2023_road_users
+2023,Andaman and Nicobar Islands,Buses,,0,morth2023_road_users
+2023,Andaman and Nicobar Islands,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Andaman and Nicobar Islands,Others,,0,morth2023_road_users
+2023,Chandigarh,Pedestrians,,28,morth2023_road_users
+2023,Chandigarh,Bicycles,,12,morth2023_road_users
+2023,Chandigarh,Two-wheelers,,21,morth2023_road_users
+2023,Chandigarh,Auto rickshaws,,1,morth2023_road_users
+2023,Chandigarh,"Cars, taxis, vans and LMV",,3,morth2023_road_users
+2023,Chandigarh,Trucks / lorries,,0,morth2023_road_users
+2023,Chandigarh,Buses,,0,morth2023_road_users
+2023,Chandigarh,Other non-motor vehicles (E-rickshaw),,2,morth2023_road_users
+2023,Chandigarh,Others,,0,morth2023_road_users
+2023,Dadra and Nagar Haveli and Daman and Diu,Pedestrians,,29,morth2023_road_users
+2023,Dadra and Nagar Haveli and Daman and Diu,Bicycles,,2,morth2023_road_users
+2023,Dadra and Nagar Haveli and Daman and Diu,Two-wheelers,,34,morth2023_road_users
+2023,Dadra and Nagar Haveli and Daman and Diu,Auto rickshaws,,0,morth2023_road_users
+2023,Dadra and Nagar Haveli and Daman and Diu,"Cars, taxis, vans and LMV",,5,morth2023_road_users
+2023,Dadra and Nagar Haveli and Daman and Diu,Trucks / lorries,,0,morth2023_road_users
+2023,Dadra and Nagar Haveli and Daman and Diu,Buses,,1,morth2023_road_users
+2023,Dadra and Nagar Haveli and Daman and Diu,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Dadra and Nagar Haveli and Daman and Diu,Others,,3,morth2023_road_users
+2023,Delhi,Pedestrians,,622,morth2023_road_users
+2023,Delhi,Bicycles,,30,morth2023_road_users
+2023,Delhi,Two-wheelers,,549,morth2023_road_users
+2023,Delhi,Auto rickshaws,,38,morth2023_road_users
+2023,Delhi,"Cars, taxis, vans and LMV",,68,morth2023_road_users
+2023,Delhi,Trucks / lorries,,13,morth2023_road_users
+2023,Delhi,Buses,,3,morth2023_road_users
+2023,Delhi,Other non-motor vehicles (E-rickshaw),,24,morth2023_road_users
+2023,Delhi,Others,,110,morth2023_road_users
+2023,Jammu and Kashmir,Pedestrians,,158,morth2023_road_users
+2023,Jammu and Kashmir,Bicycles,,15,morth2023_road_users
+2023,Jammu and Kashmir,Two-wheelers,,199,morth2023_road_users
+2023,Jammu and Kashmir,Auto rickshaws,,12,morth2023_road_users
+2023,Jammu and Kashmir,"Cars, taxis, vans and LMV",,215,morth2023_road_users
+2023,Jammu and Kashmir,Trucks / lorries,,87,morth2023_road_users
+2023,Jammu and Kashmir,Buses,,28,morth2023_road_users
+2023,Jammu and Kashmir,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Jammu and Kashmir,Others,,179,morth2023_road_users
+2023,Ladakh,Pedestrians,,1,morth2023_road_users
+2023,Ladakh,Bicycles,,0,morth2023_road_users
+2023,Ladakh,Two-wheelers,,3,morth2023_road_users
+2023,Ladakh,Auto rickshaws,,0,morth2023_road_users
+2023,Ladakh,"Cars, taxis, vans and LMV",,41,morth2023_road_users
+2023,Ladakh,Trucks / lorries,,13,morth2023_road_users
+2023,Ladakh,Buses,,1,morth2023_road_users
+2023,Ladakh,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Ladakh,Others,,0,morth2023_road_users
+2023,Lakshadweep,Pedestrians,,0,morth2023_road_users
+2023,Lakshadweep,Bicycles,,0,morth2023_road_users
+2023,Lakshadweep,Two-wheelers,,0,morth2023_road_users
+2023,Lakshadweep,Auto rickshaws,,0,morth2023_road_users
+2023,Lakshadweep,"Cars, taxis, vans and LMV",,0,morth2023_road_users
+2023,Lakshadweep,Trucks / lorries,,0,morth2023_road_users
+2023,Lakshadweep,Buses,,0,morth2023_road_users
+2023,Lakshadweep,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Lakshadweep,Others,,0,morth2023_road_users
+2023,Puducherry,Pedestrians,,42,morth2023_road_users
+2023,Puducherry,Bicycles,,6,morth2023_road_users
+2023,Puducherry,Two-wheelers,,84,morth2023_road_users
+2023,Puducherry,Auto rickshaws,,1,morth2023_road_users
+2023,Puducherry,"Cars, taxis, vans and LMV",,3,morth2023_road_users
+2023,Puducherry,Trucks / lorries,,2,morth2023_road_users
+2023,Puducherry,Buses,,2,morth2023_road_users
+2023,Puducherry,Other non-motor vehicles (E-rickshaw),,0,morth2023_road_users
+2023,Puducherry,Others,,9,morth2023_road_users

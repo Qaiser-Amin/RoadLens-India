@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+data/tableau/*.csv
+data/tableau/*.json
+data/sources/*.pdf
+data/sources/*.download
+data/tableau/*.zip
