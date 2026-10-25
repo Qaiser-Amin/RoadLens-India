@@ -105,4 +105,18 @@ class TableauDraftTests(unittest.TestCase):
         self.assertTrue(all(r['Fatalities']=='' for r in rows if r['Year']=='2020'))
         self.assertIn('NOT OPENED OR TESTED IN TABLEAU',self.manifest['status'])
 
+
+
+class CombinedRiskMembershipTests(unittest.TestCase):
+    def test_combined_risk_sheet_shows_union_of_both_sets_not_measure_top_n(self):
+        import xml.etree.ElementTree as ET
+        root = ET.parse(Path(__file__).resolve().parents[1] / 'tableau' / 'RoadLens-India-DRAFT.twb').getroot()
+        sheet = next(w for w in root.iter('worksheet') if w.get('name') == 'Combined Risk Ranking')
+        unions = [g for g in sheet.iter('groupfilter') if g.get('function') == 'union']
+        self.assertEqual(len(unions), 1)
+        refs = {g.get('field') for g in unions[0] if g.get('function') == 'reference'}
+        self.assertEqual(refs, {'[Totals].[High Accidents]', '[Totals].[High Severity]'})
+        filters = sheet.find('table/view').findall('filter')
+        self.assertFalse([g for f in filters for g in f.iter('groupfilter') if g.get('function') == 'end'])
+
 if __name__=='__main__':unittest.main()

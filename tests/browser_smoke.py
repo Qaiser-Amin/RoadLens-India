@@ -38,7 +38,7 @@ with sync_playwright() as p:
     page.fill('#threshold','20')
     page.locator('#threshold').press('Tab')
     assert page.locator('#threshold').input_value()=='20'
-    assert page.locator('.risk-table tbody tr').count()==15
+    assert page.locator('.risk-table tbody tr').count()==29  # all years: Top-15 accidents (15) ∪ severity≥20 (28), 14 overlap
     page.click('#reset')
     page.click('#stateSummary')
     page.locator('[data-state-check][value="Kerala"]').check()
@@ -62,6 +62,9 @@ with sync_playwright() as p:
     assert page.locator('[data-kpi="severity"] strong').inner_text()=='Unavailable'
     assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
     page.click('[data-tab="risks"]')
+    assert page.locator('.risk-table tbody tr').count()==17
+    assert page.locator('.risk-table').get_by_role('button',name='Kerala',exact=True).count()==1
+    assert 'Uttar Pradesh' in page.locator('.risk-table tbody tr').first.inner_text()
     page.fill('#threshold','1000');page.locator('#threshold').press('Tab')
     assert not page.locator('.risk-table tbody td:nth-child(5)').filter(has_text='In set').count()
     page.fill('#threshold','0');page.locator('#threshold').press('Tab')

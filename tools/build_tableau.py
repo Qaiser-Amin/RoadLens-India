@@ -179,7 +179,7 @@ def build():
     actions=sub(root,'actions');worksheets=sub(root,'worksheets');dashboards=sub(root,'dashboards');windows=sub(root,'windows')
     metadata={}
 
-    def sheet(name,ds,kind,field=None,dimension=None,category=None,compare=False,top=False,color=None,controls=False):
+    def sheet(name,ds,kind,field=None,dimension=None,category=None,compare=False,top=False,color=None,controls=False,risk_members=False):
         w=sub(worksheets,'worksheet',name=name)
         title=sub(sub(w,'layout-options'),'title');text=sub(title,'formatted-text');sub(text,'run',text=name)
         if not controls:
@@ -209,6 +209,11 @@ def build():
             gf=sub(f,'groupfilter',count='[Parameters].[Top N]',end='top',function='end',units='records')
             ordered=sub(gf,'groupfilter',direction='DESC',expression=CALCS['Selected Measure'][0],function='order')
             sub(ordered,'groupfilter',function='level-members',level=instance('State')[0])
+        if risk_members:
+            # Show every state in High Accidents OR High Severity (not Top-N by the selected measure).
+            f=ET.SubElement(view,'filter',{'class':'categorical','column':ref(ds,'State')})
+            gf=sub(f,'groupfilter',function='union')
+            for set_name in ('High Accidents','High Severity'):sub(gf,'groupfilter',field=f'[{ds}].[{set_name}]',function='reference')
         if kind=='bars':sub(view,'sort',column=ref(ds,dimension),direction='DESC',using=ref(ds,field),**{'class':'computed'})
         sub(view,'aggregation',value='true')
         sub(table,'style')
@@ -249,7 +254,7 @@ def build():
         cards=sub(win,'cards');edge=sub(cards,'edge',name='right');strip=sub(edge,'strip',size=190)
         for p in PARAMETERS:sub(strip,'card',type='parameter',mode='compact',param=f'[Parameters].[{p}]')
         uid(win)
-        metadata[name]={'source':ds,'kind':kind,'top_n':top,'category':category,'controls':controls}
+        metadata[name]={'source':ds,'kind':kind,'top_n':top,'category':category,'controls':controls,'risk_members':risk_members}
         return name
 
     for name,label in [('Nav Overview','Nav Overview'),('Nav Vehicles','Nav Vehicles'),('Nav Risks','Nav Risks'),('Reset','Reset Label')]:
@@ -269,7 +274,7 @@ def build():
     sheet('Traffic Violation Availability','Causes','text',field='Reporting Status')
     sheet('Road-Type Comparison','Roads','bars',field='Selected Measure',dimension='Category')
     sheet('Road-Type Availability','Roads','text',field='Reporting Status')
-    sheet('Combined Risk Ranking','Totals','bars',field='Selected Measure',dimension='State',top=True,color='Risk Class')
+    sheet('Combined Risk Ranking','Totals','bars',field='Selected Measure',dimension='State',color='Risk Class',risk_members=True)
 
     def action_parameter(caption,source,field,target,clear=False):
         a=sub(actions,'edit-parameter-action',caption=caption,name='[Action_'+str(uuid.uuid4()).replace('-','')+']')

@@ -44,6 +44,8 @@ when opening the TWB instead of TWBX.
 - Top-N state filters use the current measure and selected context; the High
   Accidents set always ranks accident counts. High Severity uses complete paired
   counts and the threshold parameter; their native combined set uses intersection.
+  The Combined Risk Ranking sheet displays the union of the two sets; the intersection
+  remains a separate risk class. It is not truncated to Top-N by the displayed measure.
 - Four state-selection parameter actions (map and state rankings) change the shared
   State parameter. Clearing a selection is configured to assign All. Native
   cross-dashboard behavior and multi-mark selection handling require testing.
@@ -86,14 +88,13 @@ including Kerala category attribution and the J&K footnote override.
 
 ## Validation performed here
 
-- Eight automated structural/data tests passed: archive integrity, workbook/data path
+- Nine automated structural/data tests passed: archive integrity, workbook/data path
   portability, field and parameter references, shared context filters, dashboard and
-  action references, native set definitions, exact observation preservation, and
-  missing two-wheeler denominators.
+  action references, native set definitions, exact observation preservation, missing two-wheeler denominators, and union-based risk-sheet membership.
 - Both TWB and TWBX were read by Tableau's Python Document API as five data sources
   (four CSV sources plus Parameters) and 26 worksheets. This is document parsing,
   **not Tableau Desktop compatibility or calculation compilation**.
-- The previous nine data-pipeline tests remain passing. The six JavaScript tests and
+- The previous nine data-pipeline tests remain passing. The nine JavaScript tests and
   Chromium validation concern the separate web app; they do not test this workbook.
 
 ## Required Tableau checks — all NOT RUN

@@ -83,7 +83,8 @@ this cloud environment runs Linux and has not tested those operating systems dir
 - Choose All years to show 2020–2023 trends. A single selected year shows one point.
 - Switch between accidents, fatalities, and weighted severity. Nulls never become zero.
 - Causes & Risk Factors shows reported violations, road types, and the intersection
-  of the Top-N accident set with the high-severity set. Adjust the severity threshold.
+  of the Top-N accident set with the high-severity set. The table includes every state
+  in either set, with overlapping states first. Adjust the severity threshold.
 - Reset restores the default dashboard, 2023, all states, fatalities, Top 10, and
   threshold 50. Export downloads the complete verified source CSV for the current
   dashboard (not only the filtered marks).
@@ -128,5 +129,5 @@ Extraction requires Poppler `pdftotext`. The PDF downloader checks pinned SHA-25
 hashes. The pipeline preserves separate reporting grains. No synthetic observations
 or static screenshots are used in the application.
 
-Generate the Tableau draft with `python tools/build_tableau.py`. Its eight structural/data
+Generate the Tableau draft with `python tools/build_tableau.py`. Its nine structural/data
 tests are included in the Python test command. They do not test the Tableau engine.

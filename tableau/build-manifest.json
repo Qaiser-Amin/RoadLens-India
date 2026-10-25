@@ -13,182 +13,208 @@
       "kind": "text",
       "top_n": false,
       "category": null,
-      "controls": true
+      "controls": true,
+      "risk_members": false
     },
     "Nav Vehicles": {
       "source": "Totals",
       "kind": "text",
       "top_n": false,
       "category": null,
-      "controls": true
+      "controls": true,
+      "risk_members": false
     },
     "Nav Risks": {
       "source": "Totals",
       "kind": "text",
       "top_n": false,
       "category": null,
-      "controls": true
+      "controls": true,
+      "risk_members": false
     },
     "Reset": {
       "source": "Totals",
       "kind": "text",
       "top_n": false,
       "category": null,
-      "controls": true
+      "controls": true,
+      "risk_members": false
     },
     "National Accidents KPI": {
       "source": "Totals",
       "kind": "text",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "National Fatalities KPI": {
       "source": "Totals",
       "kind": "text",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "National Severity KPI": {
       "source": "Totals",
       "kind": "text",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "National Coverage": {
       "source": "Totals",
       "kind": "text",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "National Availability": {
       "source": "Totals",
       "kind": "text",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "National State Ranking": {
       "source": "Totals",
       "kind": "bars",
       "top_n": true,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "National Trend": {
       "source": "Totals",
       "kind": "line",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Two-Wheeler Accidents KPI": {
       "source": "Vehicles",
       "kind": "text",
       "top_n": false,
       "category": "Two-wheelers",
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Two-Wheeler Fatalities KPI": {
       "source": "Vehicles",
       "kind": "text",
       "top_n": false,
       "category": "Two-wheelers",
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Two-Wheeler Severity KPI": {
       "source": "Vehicles",
       "kind": "text",
       "top_n": false,
       "category": "Two-wheelers",
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Two-Wheeler Coverage": {
       "source": "Vehicles",
       "kind": "text",
       "top_n": false,
       "category": "Two-wheelers",
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Two-Wheeler Availability": {
       "source": "Vehicles",
       "kind": "text",
       "top_n": false,
       "category": "Two-wheelers",
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Two-Wheeler State Ranking": {
       "source": "Vehicles",
       "kind": "bars",
       "top_n": true,
       "category": "Two-wheelers",
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Two-Wheeler Trend": {
       "source": "Vehicles",
       "kind": "line",
       "top_n": false,
       "category": "Two-wheelers",
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "India State Map": {
       "source": "Totals",
       "kind": "map",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Road-User Category Comparison": {
       "source": "Vehicles",
       "kind": "bars",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Two-State Historical Comparison": {
       "source": "Vehicles",
       "kind": "line",
       "top_n": false,
       "category": "Two-wheelers",
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Reported Traffic Violations": {
       "source": "Causes",
       "kind": "bars",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Traffic Violation Availability": {
       "source": "Causes",
       "kind": "text",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Road-Type Comparison": {
       "source": "Roads",
       "kind": "bars",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Road-Type Availability": {
       "source": "Roads",
       "kind": "text",
       "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": false
     },
     "Combined Risk Ranking": {
       "source": "Totals",
       "kind": "bars",
-      "top_n": true,
+      "top_n": false,
       "category": null,
-      "controls": false
+      "controls": false,
+      "risk_members": true
     }
   },
   "parameters": [

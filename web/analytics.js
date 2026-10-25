@@ -24,3 +24,9 @@ export function riskStates(rows,s) {
   risk:!complete?'Unclassified':highAccidents.has(r.name)&&highSeverity?'Combined high risk':highSeverity?'High severity':highAccidents.has(r.name)?'High accidents':'Other reported'};
  });
 }
+export function riskTable(rows,s) {
+ // Show every state in either set (not just Top-N by the selected measure), intersection first.
+ const order={'Combined high risk':0,'High accidents':1,'High severity':2};
+ return riskStates(rows,s).filter(r=>r.highAccidents||r.highSeverity)
+  .sort((a,b)=>(order[a.risk]??3)-(order[b.risk]??3)||(b.stats.accidents??-1)-(a.stats.accidents??-1)||String(a.name).localeCompare(String(b.name)));
+}

@@ -20,9 +20,10 @@ mobile screenshots were visually inspected during development.
 
 ## Automated checks
 
-- 6 JavaScript calculation tests: filter intersection, paired weighted severity,
+- 9 JavaScript calculation tests: filter intersection, paired weighted severity,
   missing versus zero, measure-dependent ranking, combined risk sets and independent
-  reconciliation of real 2023 counts.
+  reconciliation of real 2023 counts, risk-union completeness, inclusion of Kerala in
+  the accident set, and intersection-first sorting with incomplete members.
 - 9 Python extraction-pipeline validation tests.
 - Browser tests in `tests/browser_smoke.py` exercise the actual app in Chromium:
   year, state map, cross-dashboard selection, missing slices, measure switch,
@@ -31,3 +32,14 @@ mobile screenshots were visually inspected during development.
 
 251 upstream source reconciliation checks remain documented in DATA_VERIFICATION.md.
 All Tableau interaction checks remain NOT RUN in ACCEPTANCE.md.
+
+## Risk table correction
+
+The risk table lists every state in the union of High Accidents and High Severity;
+it is not limited to Top-N by the selected display measure. Combined-risk members
+appear first, followed by single-set members and unclassified high-accident members.
+At defaults (2023, all states, Top 10 accidents, severity threshold 50), it lists
+17 states, including Kerala, with Uttar Pradesh first. The browser smoke test checks
+these default results and the 29 members in its All-years/Top-15/threshold-20 scenario.
+The Tableau generator now defines the same union membership for Combined Risk Ranking;
+its native rendering, set evaluation and actions still require testing in Tableau.
