@@ -6,19 +6,73 @@ Factors. This web app complements the Tableau specification; a Tableau workbook
 now has a generated draft in `tableau/RoadLens-India-DRAFT.twbx`; opening, calculation
 compilation and interaction verification still require Tableau Desktop.
 
-## Run
+## Run on Windows or macOS
 
-Python 3.12+; the application has no third-party runtime dependencies or CDN requests.
+Install **Python 3.12 or newer** from [python.org](https://www.python.org/downloads/)
+and [Git](https://git-scm.com/downloads). The web app uses only the Python standard
+library: no pip packages, Node.js, npm installation, Oracle connection, or Tableau
+installation is needed to run it. Verified CSVs and map assets are already included.
 
-```sh
-cd /workspace/RoadLens-India
-python server.py --port 8000
+### Windows (PowerShell)
+
+Open PowerShell in the folder where you want to keep the project:
+
+```powershell
+git clone https://github.com/Qaiser-Amin/RoadLens-India.git
+cd RoadLens-India
+py -3 --version
+py -3 server.py --host 127.0.0.1 --port 8000
 ```
 
-Open port 8000 through your development environment, or use localhost port 8000 on
-your own machine. The server uses the verified CSVs already included in `data/input`.
-It serves the HTML/CSS/JavaScript app, the data API and source CSV downloads. It is a
-local development server; use an approved production server/reverse proxy to deploy.
+Check that the displayed Python version is 3.12 or newer. If `py` is unavailable but
+Python is installed and on PATH, use `python` instead. Reopen PowerShell after
+installing Python or Git so newly installed commands are available.
+
+### macOS (Terminal)
+
+Install Python from python.org rather than relying on an older system Python. Open
+Terminal in the folder where you want to keep the project:
+
+```sh
+git clone https://github.com/Qaiser-Amin/RoadLens-India.git
+cd RoadLens-India
+python3 --version
+python3 server.py --host 127.0.0.1 --port 8000
+```
+
+Check that the displayed Python version is 3.12 or newer. If macOS prompts for
+Command Line Tools when running Git, complete that installation and retry Git.
+
+### View and stop the app
+
+With the terminal still running, open your browser and enter `http://localhost:8000`.
+Keep that terminal open while using the app. Press **Ctrl+C** in the terminal to stop
+it. If port 8000 is occupied, use `--port 8001` and browse to `http://localhost:8001`.
+
+If you already cloned the project, run `git pull --ff-only` from its folder before
+starting it. You can also use GitHub **Code → Download ZIP**, extract it, open a
+terminal in the extracted folder, and run the appropriate server command above.
+Do not open `web/index.html` directly: the dashboard requires the local data API.
+If the dashboard does not load, check the terminal output and verify that `/api/data`
+on the same local port returns JSON.
+
+This is a local development server; running it does not publish a website. The
+prepared cloud environment can still start it with `python server.py --port 8000`
+from `/workspace/RoadLens-India`.
+
+### Open the Tableau draft (Windows and macOS)
+
+Install a current Tableau Desktop or Tableau Public desktop application, then open
+`tableau/RoadLens-India-DRAFT.twbx`. It includes the CSV data; the Python server is not
+needed for Tableau. If double-clicking does not select Tableau, use Tableau's
+**File → Open** command. See [the draft opening guide](tableau/README.md) for data-path
+repairs and acceptance checks.
+
+**The Tableau workbook is an untested generated draft.** XML/data structural checks
+passed here; compatibility, calculation compilation, rendering, interactions and
+publishing must be verified inside Tableau. The working web app and its browser tests
+are separate from that draft. Windows and macOS startup instructions are documented;
+this cloud environment runs Linux and has not tested those operating systems directly.
 
 ## Explore
 
