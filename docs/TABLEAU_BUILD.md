@@ -2,12 +2,14 @@
 
 ## Status and prerequisites
 
-No existing .twb/.twbx was found. No Tableau Desktop, Server connection, or Tableau
-control tool is available in this environment. This is a construction specification,
-not a generated or tested Tableau workbook. Verified MoRTH extracts are now bundled
+An untested generated draft is now available in `tableau/RoadLens-India-DRAFT.twbx`.
+Start with `tableau/README.md` for opening, design differences, and compatibility checks.
+No Tableau runtime/control tool is available here: calculation compilation, rendering,
+interaction checks and publishing remain manual. Verified MoRTH extracts are bundled
 under `data/input/`; see `docs/DATA_VERIFICATION.md` for limitations.
-All Tableau construction, publishing, and interaction acceptance checks below remain
-manual. Use a current supported Tableau Desktop release (or Tableau Public only for
+The following manual construction blueprint uses raw sources plus scaffold joins;
+the generated draft instead uses separate pre-expanded CSVs and shared parameter-driven
+context filters. It preserves the same source grains and missing-data rules. Use a current supported Tableau Desktop release (or Tableau Public only for
 public, non-sensitive official extracts). Do not substitute screenshots for sheets.
 
 1. Review the supplied official MoRTH extracts per `data/README.md`, and run

@@ -1,6 +1,8 @@
 # Tableau acceptance record
 
 Tableau status: **NOT RUN — no Tableau runtime available.**
+A generated TWB/TWBX draft is available in `tableau/`; its eight structural/data tests
+passed, but workbook compatibility and all Tableau interactions remain NOT RUN.
 Verified extracts are now available; extraction validation completed outside Tableau
 (251 reconciliation checks and 9 pipeline tests passed; see DATA_VERIFICATION.md).
 A Python test pass does not test Tableau. Record Desktop version, source hashes,

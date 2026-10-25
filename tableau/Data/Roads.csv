@@ -1,0 +1,433 @@
+Year,State,Category,Accidents,Fatalities,Source ID,Country,Record Status
+2020,Andaman and Nicobar Islands,National highways (including expressways),42,8,morth2023_roads,India,Source observation
+2020,Andaman and Nicobar Islands,Other roads,65,3,morth2023_roads,India,Source observation
+2020,Andaman and Nicobar Islands,State highways,34,3,morth2023_roads,India,Source observation
+2020,Andhra Pradesh,National highways (including expressways),7167,2858,morth2023_roads,India,Source observation
+2020,Andhra Pradesh,Other roads,7834,2477,morth2023_roads,India,Source observation
+2020,Andhra Pradesh,State highways,4508,1704,morth2023_roads,India,Source observation
+2020,Arunachal Pradesh,National highways (including expressways),67,32,morth2023_roads,India,Source observation
+2020,Arunachal Pradesh,Other roads,28,19,morth2023_roads,India,Source observation
+2020,Arunachal Pradesh,State highways,39,22,morth2023_roads,India,Source observation
+2020,Assam,National highways (including expressways),2963,1322,morth2023_roads,India,Source observation
+2020,Assam,Other roads,1880,672,morth2023_roads,India,Source observation
+2020,Assam,State highways,1752,635,morth2023_roads,India,Source observation
+2020,Bihar,National highways (including expressways),4101,3285,morth2023_roads,India,Source observation
+2020,Bihar,Other roads,2827,2005,morth2023_roads,India,Source observation
+2020,Bihar,State highways,1711,1409,morth2023_roads,India,Source observation
+2020,Chandigarh,National highways (including expressways),15,6,morth2023_roads,India,Source observation
+2020,Chandigarh,Other roads,144,47,morth2023_roads,India,Source observation
+2020,Chandigarh,State highways,0,0,morth2023_roads,India,Source observation
+2020,Chhattisgarh,National highways (including expressways),3463,1390,morth2023_roads,India,Source observation
+2020,Chhattisgarh,Other roads,6022,2260,morth2023_roads,India,Source observation
+2020,Chhattisgarh,State highways,2171,956,morth2023_roads,India,Source observation
+2020,Dadra and Nagar Haveli and Daman and Diu,National highways (including expressways),0,0,morth2023_roads,India,Source observation
+2020,Dadra and Nagar Haveli and Daman and Diu,Other roads,67,46,morth2023_roads,India,Source observation
+2020,Dadra and Nagar Haveli and Daman and Diu,State highways,33,18,morth2023_roads,India,Source observation
+2020,Delhi,National highways (including expressways),460,149,morth2023_roads,India,Source observation
+2020,Delhi,Other roads,3718,1047,morth2023_roads,India,Source observation
+2020,Delhi,State highways,0,0,morth2023_roads,India,Source observation
+2020,Goa,National highways (including expressways),787,61,morth2023_roads,India,Source observation
+2020,Goa,Other roads,1260,132,morth2023_roads,India,Source observation
+2020,Goa,State highways,328,30,morth2023_roads,India,Source observation
+2020,Gujarat,National highways (including expressways),3234,1797,morth2023_roads,India,Source observation
+2020,Gujarat,Other roads,6517,2465,morth2023_roads,India,Source observation
+2020,Gujarat,State highways,3647,1908,morth2023_roads,India,Source observation
+2020,Haryana,National highways (including expressways),3039,1663,morth2023_roads,India,Source observation
+2020,Haryana,Other roads,4520,1930,morth2023_roads,India,Source observation
+2020,Haryana,State highways,1872,914,morth2023_roads,India,Source observation
+2020,Himachal Pradesh,National highways (including expressways),1045,314,morth2023_roads,India,Source observation
+2020,Himachal Pradesh,Other roads,771,416,morth2023_roads,India,Source observation
+2020,Himachal Pradesh,State highways,423,163,morth2023_roads,India,Source observation
+2020,Jammu and Kashmir,National highways (including expressways),1512,258,morth2023_roads,India,Source observation
+2020,Jammu and Kashmir,Other roads,2732,402,morth2023_roads,India,Source observation
+2020,Jammu and Kashmir,State highways,616,68,morth2023_roads,India,Source observation
+2020,Jharkhand,National highways (including expressways),1772,1241,morth2023_roads,India,Source observation
+2020,Jharkhand,Other roads,1311,868,morth2023_roads,India,Source observation
+2020,Jharkhand,State highways,1322,935,morth2023_roads,India,Source observation
+2020,Karnataka,National highways (including expressways),11230,3330,morth2023_roads,India,Source observation
+2020,Karnataka,Other roads,13483,3531,morth2023_roads,India,Source observation
+2020,Karnataka,State highways,9465,2899,morth2023_roads,India,Source observation
+2020,Kerala,National highways (including expressways),6594,887,morth2023_roads,India,Source observation
+2020,Kerala,Other roads,15407,1463,morth2023_roads,India,Source observation
+2020,Kerala,State highways,5876,629,morth2023_roads,India,Source observation
+2020,Ladakh,National highways (including expressways),,,morth2023_roads,India,Source observation
+2020,Ladakh,Other roads,,,morth2023_roads,India,Source observation
+2020,Ladakh,State highways,,,morth2023_roads,India,Source observation
+2020,Lakshadweep,National highways (including expressways),0,0,morth2023_roads,India,Source observation
+2020,Lakshadweep,Other roads,1,0,morth2023_roads,India,Source observation
+2020,Lakshadweep,State highways,0,0,morth2023_roads,India,Source observation
+2020,Madhya Pradesh,National highways (including expressways),9866,3022,morth2023_roads,India,Source observation
+2020,Madhya Pradesh,Other roads,23649,5200,morth2023_roads,India,Source observation
+2020,Madhya Pradesh,State highways,11751,2919,morth2023_roads,India,Source observation
+2020,Maharashtra,National highways (including expressways),6501,3528,morth2023_roads,India,Source observation
+2020,Maharashtra,Other roads,12952,5070,morth2023_roads,India,Source observation
+2020,Maharashtra,State highways,5518,2971,morth2023_roads,India,Source observation
+2020,Manipur,National highways (including expressways),273,90,morth2023_roads,India,Source observation
+2020,Manipur,Other roads,53,21,morth2023_roads,India,Source observation
+2020,Manipur,State highways,106,16,morth2023_roads,India,Source observation
+2020,Meghalaya,National highways (including expressways),128,81,morth2023_roads,India,Source observation
+2020,Meghalaya,Other roads,65,50,morth2023_roads,India,Source observation
+2020,Meghalaya,State highways,21,13,morth2023_roads,India,Source observation
+2020,Mizoram,National highways (including expressways),25,20,morth2023_roads,India,Source observation
+2020,Mizoram,Other roads,1,0,morth2023_roads,India,Source observation
+2020,Mizoram,State highways,27,22,morth2023_roads,India,Source observation
+2020,Nagaland,National highways (including expressways),309,29,morth2023_roads,India,Source observation
+2020,Nagaland,Other roads,75,11,morth2023_roads,India,Source observation
+2020,Nagaland,State highways,116,13,morth2023_roads,India,Source observation
+2020,Odisha,National highways (including expressways),3673,1781,morth2023_roads,India,Source observation
+2020,Odisha,Other roads,3779,1778,morth2023_roads,India,Source observation
+2020,Odisha,State highways,2365,1179,morth2023_roads,India,Source observation
+2020,Puducherry,National highways (including expressways),567,71,morth2023_roads,India,Source observation
+2020,Puducherry,Other roads,264,57,morth2023_roads,India,Source observation
+2020,Puducherry,State highways,138,17,morth2023_roads,India,Source observation
+2020,Punjab,National highways (including expressways),2032,1492,morth2023_roads,India,Source observation
+2020,Punjab,Other roads,1688,1294,morth2023_roads,India,Source observation
+2020,Punjab,State highways,1483,1112,morth2023_roads,India,Source observation
+2020,Rajasthan,National highways (including expressways),5764,3320,morth2023_roads,India,Source observation
+2020,Rajasthan,Other roads,10093,4128,morth2023_roads,India,Source observation
+2020,Rajasthan,State highways,3257,1802,morth2023_roads,India,Source observation
+2020,Sikkim,National highways (including expressways),37,14,morth2023_roads,India,Source observation
+2020,Sikkim,Other roads,54,17,morth2023_roads,India,Source observation
+2020,Sikkim,State highways,47,16,morth2023_roads,India,Source observation
+2020,Tamil Nadu,National highways (including expressways),18372,5454,morth2023_roads,India,Source observation
+2020,Tamil Nadu,Other roads,12774,3580,morth2023_roads,India,Source observation
+2020,Tamil Nadu,State highways,18698,5493,morth2023_roads,India,Source observation
+2020,Telangana,National highways (including expressways),6820,2620,morth2023_roads,India,Source observation
+2020,Telangana,Other roads,10360,3503,morth2023_roads,India,Source observation
+2020,Telangana,State highways,1992,759,morth2023_roads,India,Source observation
+2020,Tripura,National highways (including expressways),184,78,morth2023_roads,India,Source observation
+2020,Tripura,Other roads,108,47,morth2023_roads,India,Source observation
+2020,Tripura,State highways,174,67,morth2023_roads,India,Source observation
+2020,Uttar Pradesh,National highways (including expressways),13695,7859,morth2023_roads,India,Source observation
+2020,Uttar Pradesh,Other roads,9993,5465,morth2023_roads,India,Source observation
+2020,Uttar Pradesh,State highways,10555,5825,morth2023_roads,India,Source observation
+2020,Uttarakhand,National highways (including expressways),524,365,morth2023_roads,India,Source observation
+2020,Uttarakhand,Other roads,297,163,morth2023_roads,India,Source observation
+2020,Uttarakhand,State highways,220,146,morth2023_roads,India,Source observation
+2020,West Bengal,National highways (including expressways),3354,1826,morth2023_roads,India,Source observation
+2020,West Bengal,Other roads,5523,2211,morth2023_roads,India,Source observation
+2020,West Bengal,State highways,1986,1091,morth2023_roads,India,Source observation
+2021,Andaman and Nicobar Islands,National highways (including expressways),41,5,morth2023_roads,India,Source observation
+2021,Andaman and Nicobar Islands,Other roads,43,11,morth2023_roads,India,Source observation
+2021,Andaman and Nicobar Islands,State highways,31,4,morth2023_roads,India,Source observation
+2021,Andhra Pradesh,National highways (including expressways),8241,3602,morth2023_roads,India,Source observation
+2021,Andhra Pradesh,Other roads,8611,2680,morth2023_roads,India,Source observation
+2021,Andhra Pradesh,State highways,4704,1904,morth2023_roads,India,Source observation
+2021,Arunachal Pradesh,National highways (including expressways),147,87,morth2023_roads,India,Source observation
+2021,Arunachal Pradesh,Other roads,61,31,morth2023_roads,India,Source observation
+2021,Arunachal Pradesh,State highways,75,39,morth2023_roads,India,Source observation
+2021,Assam,National highways (including expressways),3408,1574,morth2023_roads,India,Source observation
+2021,Assam,Other roads,2221,833,morth2023_roads,India,Source observation
+2021,Assam,State highways,1782,629,morth2023_roads,India,Source observation
+2021,Bihar,National highways (including expressways),4349,3517,morth2023_roads,India,Source observation
+2021,Bihar,Other roads,3089,2396,morth2023_roads,India,Source observation
+2021,Bihar,State highways,2115,1747,morth2023_roads,India,Source observation
+2021,Chandigarh,National highways (including expressways),29,21,morth2023_roads,India,Source observation
+2021,Chandigarh,Other roads,179,75,morth2023_roads,India,Source observation
+2021,Chandigarh,State highways,0,0,morth2023_roads,India,Source observation
+2021,Chhattisgarh,National highways (including expressways),3610,1663,morth2023_roads,India,Source observation
+2021,Chhattisgarh,Other roads,6599,2710,morth2023_roads,India,Source observation
+2021,Chhattisgarh,State highways,2166,998,morth2023_roads,India,Source observation
+2021,Dadra and Nagar Haveli and Daman and Diu,National highways (including expressways),0,0,morth2023_roads,India,Source observation
+2021,Dadra and Nagar Haveli and Daman and Diu,Other roads,84,47,morth2023_roads,India,Source observation
+2021,Dadra and Nagar Haveli and Daman and Diu,State highways,56,29,morth2023_roads,India,Source observation
+2021,Delhi,National highways (including expressways),457,201,morth2023_roads,India,Source observation
+2021,Delhi,Other roads,4263,1038,morth2023_roads,India,Source observation
+2021,Delhi,State highways,0,0,morth2023_roads,India,Source observation
+2021,Goa,National highways (including expressways),1116,83,morth2023_roads,India,Source observation
+2021,Goa,Other roads,1289,113,morth2023_roads,India,Source observation
+2021,Goa,State highways,444,30,morth2023_roads,India,Source observation
+2021,Gujarat,National highways (including expressways),3406,2077,morth2023_roads,India,Source observation
+2021,Gujarat,Other roads,7386,2984,morth2023_roads,India,Source observation
+2021,Gujarat,State highways,4394,2391,morth2023_roads,India,Source observation
+2021,Haryana,National highways (including expressways),3174,1766,morth2023_roads,India,Source observation
+2021,Haryana,Other roads,5097,2038,morth2023_roads,India,Source observation
+2021,Haryana,State highways,1662,902,morth2023_roads,India,Source observation
+2021,Himachal Pradesh,National highways (including expressways),1179,425,morth2023_roads,India,Source observation
+2021,Himachal Pradesh,Other roads,708,424,morth2023_roads,India,Source observation
+2021,Himachal Pradesh,State highways,517,203,morth2023_roads,India,Source observation
+2021,Jammu and Kashmir,National highways (including expressways),1899,268,morth2023_roads,India,Source observation
+2021,Jammu and Kashmir,Other roads,2891,428,morth2023_roads,India,Source observation
+2021,Jammu and Kashmir,State highways,662,78,morth2023_roads,India,Source observation
+2021,Jharkhand,National highways (including expressways),1890,1496,morth2023_roads,India,Source observation
+2021,Jharkhand,Other roads,1797,1222,morth2023_roads,India,Source observation
+2021,Jharkhand,State highways,1041,795,morth2023_roads,India,Source observation
+2021,Karnataka,National highways (including expressways),11462,3487,morth2023_roads,India,Source observation
+2021,Karnataka,Other roads,14365,3774,morth2023_roads,India,Source observation
+2021,Karnataka,State highways,8820,2777,morth2023_roads,India,Source observation
+2021,Kerala,National highways (including expressways),8048,975,morth2023_roads,India,Source observation
+2021,Kerala,Other roads,17958,1686,morth2023_roads,India,Source observation
+2021,Kerala,State highways,7290,768,morth2023_roads,India,Source observation
+2021,Ladakh,National highways (including expressways),119,27,morth2023_roads,India,Source observation
+2021,Ladakh,Other roads,35,9,morth2023_roads,India,Source observation
+2021,Ladakh,State highways,82,20,morth2023_roads,India,Source observation
+2021,Lakshadweep,National highways (including expressways),0,0,morth2023_roads,India,Source observation
+2021,Lakshadweep,Other roads,4,1,morth2023_roads,India,Source observation
+2021,Lakshadweep,State highways,0,0,morth2023_roads,India,Source observation
+2021,Madhya Pradesh,National highways (including expressways),11030,3389,morth2023_roads,India,Source observation
+2021,Madhya Pradesh,Other roads,26372,5646,morth2023_roads,India,Source observation
+2021,Madhya Pradesh,State highways,11475,3022,morth2023_roads,India,Source observation
+2021,Maharashtra,National highways (including expressways),7501,4080,morth2023_roads,India,Source observation
+2021,Maharashtra,Other roads,15648,6037,morth2023_roads,India,Source observation
+2021,Maharashtra,State highways,6328,3411,morth2023_roads,India,Source observation
+2021,Manipur,National highways (including expressways),236,77,morth2023_roads,India,Source observation
+2021,Manipur,Other roads,55,12,morth2023_roads,India,Source observation
+2021,Manipur,State highways,75,21,morth2023_roads,India,Source observation
+2021,Meghalaya,National highways (including expressways),153,112,morth2023_roads,India,Source observation
+2021,Meghalaya,Other roads,46,36,morth2023_roads,India,Source observation
+2021,Meghalaya,State highways,46,39,morth2023_roads,India,Source observation
+2021,Mizoram,National highways (including expressways),29,23,morth2023_roads,India,Source observation
+2021,Mizoram,Other roads,0,0,morth2023_roads,India,Source observation
+2021,Mizoram,State highways,40,33,morth2023_roads,India,Source observation
+2021,Nagaland,National highways (including expressways),488,25,morth2023_roads,India,Source observation
+2021,Nagaland,Other roads,115,14,morth2023_roads,India,Source observation
+2021,Nagaland,State highways,143,16,morth2023_roads,India,Source observation
+2021,Odisha,National highways (including expressways),4087,1933,morth2023_roads,India,Source observation
+2021,Odisha,Other roads,4557,2049,morth2023_roads,India,Source observation
+2021,Odisha,State highways,2339,1099,morth2023_roads,India,Source observation
+2021,Puducherry,National highways (including expressways),587,87,morth2023_roads,India,Source observation
+2021,Puducherry,Other roads,340,34,morth2023_roads,India,Source observation
+2021,Puducherry,State highways,122,19,morth2023_roads,India,Source observation
+2021,Punjab,National highways (including expressways),2288,1950,morth2023_roads,India,Source observation
+2021,Punjab,Other roads,1758,1276,morth2023_roads,India,Source observation
+2021,Punjab,State highways,1825,1363,morth2023_roads,India,Source observation
+2021,Rajasthan,National highways (including expressways),6424,3829,morth2023_roads,India,Source observation
+2021,Rajasthan,Other roads,10967,4269,morth2023_roads,India,Source observation
+2021,Rajasthan,State highways,3560,1945,morth2023_roads,India,Source observation
+2021,Sikkim,National highways (including expressways),73,23,morth2023_roads,India,Source observation
+2021,Sikkim,Other roads,29,15,morth2023_roads,India,Source observation
+2021,Sikkim,State highways,53,18,morth2023_roads,India,Source observation
+2021,Tamil Nadu,National highways (including expressways),16869,5263,morth2023_roads,India,Source observation
+2021,Tamil Nadu,Other roads,20157,5009,morth2023_roads,India,Source observation
+2021,Tamil Nadu,State highways,18656,5112,morth2023_roads,India,Source observation
+2021,Telangana,National highways (including expressways),7214,2735,morth2023_roads,India,Source observation
+2021,Telangana,Other roads,11909,3958,morth2023_roads,India,Source observation
+2021,Telangana,State highways,2192,864,morth2023_roads,India,Source observation
+2021,Tripura,National highways (including expressways),199,94,morth2023_roads,India,Source observation
+2021,Tripura,Other roads,109,40,morth2023_roads,India,Source observation
+2021,Tripura,State highways,171,60,morth2023_roads,India,Source observation
+2021,Uttar Pradesh,National highways (including expressways),14540,8506,morth2023_roads,India,Source observation
+2021,Uttar Pradesh,Other roads,12093,6455,morth2023_roads,India,Source observation
+2021,Uttar Pradesh,State highways,11096,6266,morth2023_roads,India,Source observation
+2021,Uttarakhand,National highways (including expressways),711,430,morth2023_roads,India,Source observation
+2021,Uttarakhand,Other roads,400,216,morth2023_roads,India,Source observation
+2021,Uttarakhand,State highways,294,174,morth2023_roads,India,Source observation
+2021,West Bengal,National highways (including expressways),3821,2177,morth2023_roads,India,Source observation
+2021,West Bengal,Other roads,5990,2436,morth2023_roads,India,Source observation
+2021,West Bengal,State highways,2126,1187,morth2023_roads,India,Source observation
+2022,Andaman and Nicobar Islands,National highways (including expressways),43,11,morth2023_roads,India,Source observation
+2022,Andaman and Nicobar Islands,Other roads,54,6,morth2023_roads,India,Source observation
+2022,Andaman and Nicobar Islands,State highways,44,2,morth2023_roads,India,Source observation
+2022,Andhra Pradesh,National highways (including expressways),8650,3793,morth2023_roads,India,Source observation
+2022,Andhra Pradesh,Other roads,7756,2631,morth2023_roads,India,Source observation
+2022,Andhra Pradesh,State highways,4843,1869,morth2023_roads,India,Source observation
+2022,Arunachal Pradesh,National highways (including expressways),131,73,morth2023_roads,India,Source observation
+2022,Arunachal Pradesh,Other roads,25,31,morth2023_roads,India,Source observation
+2022,Arunachal Pradesh,State highways,71,44,morth2023_roads,India,Source observation
+2022,Assam,National highways (including expressways),3244,1428,morth2023_roads,India,Source observation
+2022,Assam,Other roads,2021,931,morth2023_roads,India,Source observation
+2022,Assam,State highways,1758,635,morth2023_roads,India,Source observation
+2022,Bihar,National highways (including expressways),4601,3953,morth2023_roads,India,Source observation
+2022,Bihar,Other roads,3772,2948,morth2023_roads,India,Source observation
+2022,Bihar,State highways,2428,1997,morth2023_roads,India,Source observation
+2022,Chandigarh,National highways (including expressways),29,9,morth2023_roads,India,Source observation
+2022,Chandigarh,Other roads,208,74,morth2023_roads,India,Source observation
+2022,Chandigarh,State highways,0,0,morth2023_roads,India,Source observation
+2022,Chhattisgarh,National highways (including expressways),4115,1885,morth2023_roads,India,Source observation
+2022,Chhattisgarh,Other roads,7024,2922,morth2023_roads,India,Source observation
+2022,Chhattisgarh,State highways,2140,1027,morth2023_roads,India,Source observation
+2022,Dadra and Nagar Haveli and Daman and Diu,National highways (including expressways),14,9,morth2023_roads,India,Source observation
+2022,Dadra and Nagar Haveli and Daman and Diu,Other roads,125,59,morth2023_roads,India,Source observation
+2022,Dadra and Nagar Haveli and Daman and Diu,State highways,57,22,morth2023_roads,India,Source observation
+2022,Delhi,National highways (including expressways),799,252,morth2023_roads,India,Source observation
+2022,Delhi,Other roads,4853,1209,morth2023_roads,India,Source observation
+2022,Delhi,State highways,0,0,morth2023_roads,India,Source observation
+2022,Goa,National highways (including expressways),1259,127,morth2023_roads,India,Source observation
+2022,Goa,Other roads,1306,99,morth2023_roads,India,Source observation
+2022,Goa,State highways,446,45,morth2023_roads,India,Source observation
+2022,Gujarat,National highways (including expressways),3536,2109,morth2023_roads,India,Source observation
+2022,Gujarat,Other roads,8162,3244,morth2023_roads,India,Source observation
+2022,Gujarat,State highways,4053,2265,morth2023_roads,India,Source observation
+2022,Haryana,National highways (including expressways),3727,2038,morth2023_roads,India,Source observation
+2022,Haryana,Other roads,5042,2119,morth2023_roads,India,Source observation
+2022,Haryana,State highways,1660,758,morth2023_roads,India,Source observation
+2022,Himachal Pradesh,National highways (including expressways),1258,443,morth2023_roads,India,Source observation
+2022,Himachal Pradesh,Other roads,797,396,morth2023_roads,India,Source observation
+2022,Himachal Pradesh,State highways,542,193,morth2023_roads,India,Source observation
+2022,Jammu and Kashmir,National highways (including expressways),2378,259,morth2023_roads,India,Source observation
+2022,Jammu and Kashmir,Other roads,3115,462,morth2023_roads,India,Source observation
+2022,Jammu and Kashmir,State highways,599,84,morth2023_roads,India,Source observation
+2022,Jharkhand,National highways (including expressways),2125,1699,morth2023_roads,India,Source observation
+2022,Jharkhand,Other roads,1981,1387,morth2023_roads,India,Source observation
+2022,Jharkhand,State highways,1069,812,morth2023_roads,India,Source observation
+2022,Karnataka,National highways (including expressways),13384,4164,morth2023_roads,India,Source observation
+2022,Karnataka,Other roads,16578,4260,morth2023_roads,India,Source observation
+2022,Karnataka,State highways,9800,3278,morth2023_roads,India,Source observation
+2022,Kerala,National highways (including expressways),17627,1197,morth2023_roads,India,Source observation
+2022,Kerala,Other roads,16842,2134,morth2023_roads,India,Source observation
+2022,Kerala,State highways,9441,986,morth2023_roads,India,Source observation
+2022,Ladakh,National highways (including expressways),196,30,morth2023_roads,India,Source observation
+2022,Ladakh,Other roads,74,15,morth2023_roads,India,Source observation
+2022,Ladakh,State highways,104,17,morth2023_roads,India,Source observation
+2022,Lakshadweep,National highways (including expressways),0,0,morth2023_roads,India,Source observation
+2022,Lakshadweep,Other roads,3,2,morth2023_roads,India,Source observation
+2022,Lakshadweep,State highways,0,0,morth2023_roads,India,Source observation
+2022,Madhya Pradesh,National highways (including expressways),13860,4025,morth2023_roads,India,Source observation
+2022,Madhya Pradesh,Other roads,28743,6245,morth2023_roads,India,Source observation
+2022,Madhya Pradesh,State highways,11829,3157,morth2023_roads,India,Source observation
+2022,Maharashtra,National highways (including expressways),9417,4923,morth2023_roads,India,Source observation
+2022,Maharashtra,Other roads,17064,6481,morth2023_roads,India,Source observation
+2022,Maharashtra,State highways,6902,3820,morth2023_roads,India,Source observation
+2022,Manipur,National highways (including expressways),313,74,morth2023_roads,India,Source observation
+2022,Manipur,Other roads,88,30,morth2023_roads,India,Source observation
+2022,Manipur,State highways,107,23,morth2023_roads,India,Source observation
+2022,Meghalaya,National highways (including expressways),157,98,morth2023_roads,India,Source observation
+2022,Meghalaya,Other roads,58,39,morth2023_roads,India,Source observation
+2022,Meghalaya,State highways,31,25,morth2023_roads,India,Source observation
+2022,Mizoram,National highways (including expressways),77,72,morth2023_roads,India,Source observation
+2022,Mizoram,Other roads,21,14,morth2023_roads,India,Source observation
+2022,Mizoram,State highways,35,27,morth2023_roads,India,Source observation
+2022,Nagaland,National highways (including expressways),304,55,morth2023_roads,India,Source observation
+2022,Nagaland,Other roads,50,8,morth2023_roads,India,Source observation
+2022,Nagaland,State highways,135,10,morth2023_roads,India,Source observation
+2022,Odisha,National highways (including expressways),4317,2043,morth2023_roads,India,Source observation
+2022,Odisha,Other roads,4698,2150,morth2023_roads,India,Source observation
+2022,Odisha,State highways,2648,1274,morth2023_roads,India,Source observation
+2022,Puducherry,National highways (including expressways),448,71,morth2023_roads,India,Source observation
+2022,Puducherry,Other roads,639,100,morth2023_roads,India,Source observation
+2022,Puducherry,State highways,94,10,morth2023_roads,India,Source observation
+2022,Punjab,National highways (including expressways),2293,1881,morth2023_roads,India,Source observation
+2022,Punjab,Other roads,1957,1494,morth2023_roads,India,Source observation
+2022,Punjab,State highways,1888,1381,morth2023_roads,India,Source observation
+2022,Rajasthan,National highways (including expressways),7093,4156,morth2023_roads,India,Source observation
+2022,Rajasthan,Other roads,12361,4724,morth2023_roads,India,Source observation
+2022,Rajasthan,State highways,4160,2224,morth2023_roads,India,Source observation
+2022,Sikkim,National highways (including expressways),74,27,morth2023_roads,India,Source observation
+2022,Sikkim,Other roads,75,45,morth2023_roads,India,Source observation
+2022,Sikkim,State highways,62,20,morth2023_roads,India,Source observation
+2022,Tamil Nadu,National highways (including expressways),18972,5978,morth2023_roads,India,Source observation
+2022,Tamil Nadu,Other roads,22500,5542,morth2023_roads,India,Source observation
+2022,Tamil Nadu,State highways,22633,6364,morth2023_roads,India,Source observation
+2022,Telangana,National highways (including expressways),7505,3010,morth2023_roads,India,Source observation
+2022,Telangana,Other roads,11931,3729,morth2023_roads,India,Source observation
+2022,Telangana,State highways,2183,820,morth2023_roads,India,Source observation
+2022,Tripura,National highways (including expressways),241,105,morth2023_roads,India,Source observation
+2022,Tripura,Other roads,141,59,morth2023_roads,India,Source observation
+2022,Tripura,State highways,193,77,morth2023_roads,India,Source observation
+2022,Uttar Pradesh,National highways (including expressways),14990,8479,morth2023_roads,India,Source observation
+2022,Uttar Pradesh,Other roads,14688,7711,morth2023_roads,India,Source observation
+2022,Uttar Pradesh,State highways,12068,6405,morth2023_roads,India,Source observation
+2022,Uttarakhand,National highways (including expressways),827,545,morth2023_roads,India,Source observation
+2022,Uttarakhand,Other roads,591,348,morth2023_roads,India,Source observation
+2022,Uttarakhand,State highways,256,149,morth2023_roads,India,Source observation
+2022,West Bengal,National highways (including expressways),3993,2017,morth2023_roads,India,Source observation
+2022,West Bengal,Other roads,7290,2793,morth2023_roads,India,Source observation
+2022,West Bengal,State highways,2403,1192,morth2023_roads,India,Source observation
+2023,Andaman and Nicobar Islands,National highways (including expressways),39,6,morth2023_roads,India,Source observation
+2023,Andaman and Nicobar Islands,Other roads,55,13,morth2023_roads,India,Source observation
+2023,Andaman and Nicobar Islands,State highways,49,5,morth2023_roads,India,Source observation
+2023,Andhra Pradesh,National highways (including expressways),8276,3806,morth2023_roads,India,Source observation
+2023,Andhra Pradesh,Other roads,7174,2444,morth2023_roads,India,Source observation
+2023,Andhra Pradesh,State highways,4499,1887,morth2023_roads,India,Source observation
+2023,Arunachal Pradesh,National highways (including expressways),156,88,morth2023_roads,India,Source observation
+2023,Arunachal Pradesh,Other roads,51,19,morth2023_roads,India,Source observation
+2023,Arunachal Pradesh,State highways,80,38,morth2023_roads,India,Source observation
+2023,Assam,National highways (including expressways),3427,1564,morth2023_roads,India,Source observation
+2023,Assam,Other roads,2244,1025,morth2023_roads,India,Source observation
+2023,Assam,State highways,1750,707,morth2023_roads,India,Source observation
+2023,Bihar,National highways (including expressways),4925,4078,morth2023_roads,India,Source observation
+2023,Bihar,Other roads,3841,2998,morth2023_roads,India,Source observation
+2023,Bihar,State highways,2248,1797,morth2023_roads,India,Source observation
+2023,Chandigarh,National highways (including expressways),11,4,morth2023_roads,India,Source observation
+2023,Chandigarh,Other roads,171,63,morth2023_roads,India,Source observation
+2023,Chandigarh,State highways,0,0,morth2023_roads,India,Source observation
+2023,Chhattisgarh,National highways (including expressways),4144,1910,morth2023_roads,India,Source observation
+2023,Chhattisgarh,Other roads,7188,3178,morth2023_roads,India,Source observation
+2023,Chhattisgarh,State highways,2136,1078,morth2023_roads,India,Source observation
+2023,Dadra and Nagar Haveli and Daman and Diu,National highways (including expressways),3,2,morth2023_roads,India,Source observation
+2023,Dadra and Nagar Haveli and Daman and Diu,Other roads,119,44,morth2023_roads,India,Source observation
+2023,Dadra and Nagar Haveli and Daman and Diu,State highways,60,28,morth2023_roads,India,Source observation
+2023,Delhi,National highways (including expressways),745,230,morth2023_roads,India,Source observation
+2023,Delhi,Other roads,5089,1227,morth2023_roads,India,Source observation
+2023,Delhi,State highways,0,0,morth2023_roads,India,Source observation
+2023,Goa,National highways (including expressways),1125,102,morth2023_roads,India,Source observation
+2023,Goa,Other roads,1311,137,morth2023_roads,India,Source observation
+2023,Goa,State highways,410,51,morth2023_roads,India,Source observation
+2023,Gujarat,National highways (including expressways),3607,2233,morth2023_roads,India,Source observation
+2023,Gujarat,Other roads,8683,3388,morth2023_roads,India,Source observation
+2023,Gujarat,State highways,4059,2233,morth2023_roads,India,Source observation
+2023,Haryana,National highways (including expressways),3642,2033,morth2023_roads,India,Source observation
+2023,Haryana,Other roads,5453,2203,morth2023_roads,India,Source observation
+2023,Haryana,State highways,1368,732,morth2023_roads,India,Source observation
+2023,Himachal Pradesh,National highways (including expressways),1074,365,morth2023_roads,India,Source observation
+2023,Himachal Pradesh,Other roads,760,347,morth2023_roads,India,Source observation
+2023,Himachal Pradesh,State highways,419,177,morth2023_roads,India,Source observation
+2023,Jammu and Kashmir,National highways (including expressways),2342,294,morth2023_roads,India,Source observation
+2023,Jammu and Kashmir,Other roads,3226,508,morth2023_roads,India,Source observation
+2023,Jammu and Kashmir,State highways,730,91,morth2023_roads,India,Source observation
+2023,Jharkhand,National highways (including expressways),1994,1672,morth2023_roads,India,Source observation
+2023,Jharkhand,Other roads,2277,1687,morth2023_roads,India,Source observation
+2023,Jharkhand,State highways,1044,814,morth2023_roads,India,Source observation
+2023,Karnataka,National highways (including expressways),14270,4383,morth2023_roads,India,Source observation
+2023,Karnataka,Other roads,18214,4490,morth2023_roads,India,Source observation
+2023,Karnataka,State highways,10956,3448,morth2023_roads,India,Source observation
+2023,Kerala,National highways (including expressways),10640,1056,morth2023_roads,India,Source observation
+2023,Kerala,Other roads,26621,2085,morth2023_roads,India,Source observation
+2023,Kerala,State highways,10830,939,morth2023_roads,India,Source observation
+2023,Ladakh,National highways (including expressways),132,37,morth2023_roads,India,Source observation
+2023,Ladakh,Other roads,73,9,morth2023_roads,India,Source observation
+2023,Ladakh,State highways,84,13,morth2023_roads,India,Source observation
+2023,Lakshadweep,National highways (including expressways),0,0,morth2023_roads,India,Source observation
+2023,Lakshadweep,Other roads,1,0,morth2023_roads,India,Source observation
+2023,Lakshadweep,State highways,0,0,morth2023_roads,India,Source observation
+2023,Madhya Pradesh,National highways (including expressways),14561,4476,morth2023_roads,India,Source observation
+2023,Madhya Pradesh,Other roads,29145,6362,morth2023_roads,India,Source observation
+2023,Madhya Pradesh,State highways,11621,2960,morth2023_roads,India,Source observation
+2023,Maharashtra,National highways (including expressways),10881,5780,morth2023_roads,India,Source observation
+2023,Maharashtra,Other roads,18306,6371,morth2023_roads,India,Source observation
+2023,Maharashtra,State highways,6056,3215,morth2023_roads,India,Source observation
+2023,Manipur,National highways (including expressways),272,51,morth2023_roads,India,Source observation
+2023,Manipur,Other roads,71,13,morth2023_roads,India,Source observation
+2023,Manipur,State highways,55,9,morth2023_roads,India,Source observation
+2023,Meghalaya,National highways (including expressways),114,78,morth2023_roads,India,Source observation
+2023,Meghalaya,Other roads,73,56,morth2023_roads,India,Source observation
+2023,Meghalaya,State highways,36,34,morth2023_roads,India,Source observation
+2023,Mizoram,National highways (including expressways),57,47,morth2023_roads,India,Source observation
+2023,Mizoram,Other roads,8,13,morth2023_roads,India,Source observation
+2023,Mizoram,State highways,41,36,morth2023_roads,India,Source observation
+2023,Nagaland,National highways (including expressways),201,60,morth2023_roads,India,Source observation
+2023,Nagaland,Other roads,25,7,morth2023_roads,India,Source observation
+2023,Nagaland,State highways,77,19,morth2023_roads,India,Source observation
+2023,Odisha,National highways (including expressways),4587,2180,morth2023_roads,India,Source observation
+2023,Odisha,Other roads,5009,2409,morth2023_roads,India,Source observation
+2023,Odisha,State highways,2396,1150,morth2023_roads,India,Source observation
+2023,Puducherry,National highways (including expressways),497,74,morth2023_roads,India,Source observation
+2023,Puducherry,Other roads,677,58,morth2023_roads,India,Source observation
+2023,Puducherry,State highways,134,17,morth2023_roads,India,Source observation
+2023,Punjab,National highways (including expressways),2388,1895,morth2023_roads,India,Source observation
+2023,Punjab,Other roads,2119,1604,morth2023_roads,India,Source observation
+2023,Punjab,State highways,1762,1330,morth2023_roads,India,Source observation
+2023,Rajasthan,National highways (including expressways),7179,4172,morth2023_roads,India,Source observation
+2023,Rajasthan,Other roads,13257,5210,morth2023_roads,India,Source observation
+2023,Rajasthan,State highways,4258,2380,morth2023_roads,India,Source observation
+2023,Sikkim,National highways (including expressways),83,24,morth2023_roads,India,Source observation
+2023,Sikkim,Other roads,54,18,morth2023_roads,India,Source observation
+2023,Sikkim,State highways,45,15,morth2023_roads,India,Source observation
+2023,Tamil Nadu,National highways (including expressways),20582,6258,morth2023_roads,India,Source observation
+2023,Tamil Nadu,Other roads,23465,5764,morth2023_roads,India,Source observation
+2023,Tamil Nadu,State highways,23166,6325,morth2023_roads,India,Source observation
+2023,Telangana,National highways (including expressways),8103,3058,morth2023_roads,India,Source observation
+2023,Telangana,Other roads,12940,3885,morth2023_roads,India,Source observation
+2023,Telangana,State highways,1860,717,morth2023_roads,India,Source observation
+2023,Tripura,National highways (including expressways),255,129,morth2023_roads,India,Source observation
+2023,Tripura,Other roads,113,47,morth2023_roads,India,Source observation
+2023,Tripura,State highways,209,85,morth2023_roads,India,Source observation
+2023,Uttar Pradesh,National highways (including expressways),15184,8446,morth2023_roads,India,Source observation
+2023,Uttar Pradesh,Other roads,18903,9508,morth2023_roads,India,Source observation
+2023,Uttar Pradesh,State highways,10447,5698,morth2023_roads,India,Source observation
+2023,Uttarakhand,National highways (including expressways),840,564,morth2023_roads,India,Source observation
+2023,Uttarakhand,Other roads,568,323,morth2023_roads,India,Source observation
+2023,Uttarakhand,State highways,283,167,morth2023_roads,India,Source observation
+2023,West Bengal,National highways (including expressways),3841,1957,morth2023_roads,India,Source observation
+2023,West Bengal,Other roads,7460,2826,morth2023_roads,India,Source observation
+2023,West Bengal,State highways,2494,1244,morth2023_roads,India,Source observation

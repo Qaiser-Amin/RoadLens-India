@@ -3,7 +3,8 @@
 A working, responsive road-safety analytics web app using official MoRTH extracts.
 Three connected views: National Overview, Two-Wheeler Safety, and Causes & Risk
 Factors. This web app complements the Tableau specification; a Tableau workbook
-still requires manual construction and verification in Tableau Desktop.
+now has a generated draft in `tableau/RoadLens-India-DRAFT.twbx`; opening, calculation
+compilation and interaction verification still require Tableau Desktop.
 
 ## Run
 
@@ -57,7 +58,8 @@ See [web validation](docs/WEB_VALIDATION.md) for actual test outcomes.
 ## Sources and Tableau
 
 - [Data contract](data/README.md) and [source verification](docs/DATA_VERIFICATION.md)
-- [Tableau workbook construction](docs/TABLEAU_BUILD.md)
+- [Generated Tableau draft: opening and validation guide](tableau/README.md)
+- [Tableau manual construction blueprint](docs/TABLEAU_BUILD.md)
 - [Tableau acceptance checklist — still manual](docs/ACCEPTANCE.md)
 
 Reproduce data preparation:
@@ -71,3 +73,6 @@ python tools/prepare_tableau.py
 Extraction requires Poppler `pdftotext`. The PDF downloader checks pinned SHA-256
 hashes. The pipeline preserves separate reporting grains. No synthetic observations
 or static screenshots are used in the application.
+
+Generate the Tableau draft with `python tools/build_tableau.py`. Its eight structural/data
+tests are included in the Python test command. They do not test the Tableau engine.
