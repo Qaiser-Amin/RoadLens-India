@@ -1,7 +1,7 @@
 # Tableau acceptance record
 
 Tableau status: **NOT RUN — no Tableau runtime available.**
-A generated TWB/TWBX draft is available in `tableau/`; its 15 structural/data and loader-regression tests
+A generated TWB/TWBX draft is available in `tableau/`; its 17 structural/data and loader-regression tests
 passed, but workbook compatibility and all Tableau interactions remain NOT RUN.
 Verified extracts are now available; extraction validation completed outside Tableau
 (251 reconciliation checks and 9 pipeline tests passed; see DATA_VERIFICATION.md).
@@ -12,7 +12,7 @@ screenshots only as test evidence, never as the delivered interface.
 
 | Test | Procedure / expected evidence | Status |
 | --- | --- | --- |
-| Workbook loads | Original draft failed in Windows Tableau with D2E8DA72. Revised draft passes targeted regressions and a community 2026.1 XSD; reopen it in Tableau | FAILED (original); RETEST PENDING (revised) |
+| Workbook loads | Two prior drafts failed Windows Tableau with D2E8DA72. Current revision targets the reported loader; the external XSD result is superseded. Reopen the new package | FAILED (prior revisions); RETEST PENDING (current) |
 | Extract integrity | Pinned PDFs, count totals, provenance and selected visual spot checks; see DATA_VERIFICATION.md | PASS (extraction only) |
 | Model grain | Compare sheet sums to CSVs; no multiplication from scaffold joins | NOT RUN |
 | Year | Select two different years; reconcile each KPI and affected chart in all dashboards | NOT RUN |

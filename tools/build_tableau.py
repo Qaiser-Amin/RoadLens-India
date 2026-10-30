@@ -76,10 +76,6 @@ def q(value):
     return '"'+value.replace('"','""')+'"' if isinstance(value,str) else str(value)
 
 
-def uid(parent):
-    sub(parent,'simple-id',uuid='{'+str(uuid.uuid4()).upper()+'}')
-
-
 def prepare_data():
     raw={}
     for caption,table in TABLES.items():
@@ -218,7 +214,9 @@ def build():
             f=ET.SubElement(view,'filter',{'class':'categorical','column':ref(ds,'State')})
             gf=sub(f,'groupfilter',function='union')
             for set_name in ('High Accidents','High Severity'):sub(gf,'groupfilter',field=f'[{ds}].[{set_name}]',function='reference')
-        if kind=='bars':sub(view,'computed-sort',column=ref(ds,dimension),direction='DESC',using=ref(ds,field))
+        # Use the sort form named by the user's actual loader content model.
+        # The unrelated 2026.1 community schema expects a different representation.
+        if kind=='bars':sub(view,'sort',column=ref(ds,dimension),direction='DESC',using=ref(ds,field),**{'class':'computed'})
         sub(view,'aggregation',value='true')
         sub(table,'style')
         pane=sub(sub(table,'panes'),'pane',selection_relaxation_option='selection-relaxation-allow')
@@ -253,11 +251,10 @@ def build():
                 m=sub(en,'map',to=hexcolor);sub(m,'bucket',text=q(label))
         rows=ref(ds,dimension) if kind=='bars' else ref(ds,field) if kind=='line' else f'[{ds}].[Latitude (generated)]' if kind=='map' else ''
         cols=ref(ds,field) if kind=='bars' else ref(ds,'Year') if kind=='line' else f'[{ds}].[Longitude (generated)]' if kind=='map' else ''
-        sub(table,'rows',text=rows);sub(table,'cols',text=cols);uid(w)
+        sub(table,'rows',text=rows);sub(table,'cols',text=cols)
         win=sub(windows,'window',name=name,maximized='true',**{'class':'worksheet'})
         cards=sub(win,'cards');edge=sub(cards,'edge',name='right');strip=sub(edge,'strip',size=190)
         for p in PARAMETERS:sub(strip,'card',type='parameter',mode='compact',param=f'[Parameters].[{p}]')
-        uid(win)
         metadata[name]={'source':ds,'kind':kind,'top_n':top,'category':category,'controls':controls,'risk_members':risk_members}
         return name
 
@@ -339,22 +336,19 @@ def build():
             zone(1000,60000,49000,5000,'Traffic Violation Availability');zone(50500,60000,48500,5000,'Road-Type Availability')
             zone(1000,65500,98000,28500,'Combined Risk Ranking')
         zone(1000,95000,98000,4500,text='MoRTH 2022/2023 reports | Severity = deaths / 100 paired accidents | All years aggregates counts | Missing data is unavailable | Select All years for trends')
-        uid(d)
         win=sub(windows,'window',name=name,maximized='true',**{'class':'dashboard'});vp=sub(win,'viewpoints')
         for z in layout.findall('zone'):
             if z.get('name'):sub(vp,'viewpoint',name=z.get('name'))
-        sub(win,'active',id='2');uid(win)
+        sub(win,'active',id='2')
     for i,name in enumerate(DASHBOARDS):dashboard(name,i)
-    # Canonical workbook metadata accepted by the 2026.1 schema. Explain Data is
-    # disabled; it is not used by this project or a substitute for source analysis.
-    explain=sub(root,'explain-data',enabled_for_viewer='false',extreme_values_enabled_for_all='false')
-    sub(explain,'explanation-types')
+    # Omit optional simple-id and explain-data metadata: the user's loader rejects
+    # those elements for this workbook format. Actions identify sheets by name.
     ET.indent(root,space='  ')
     path=OUT/'RoadLens-India-DRAFT.twb';ET.ElementTree(root).write(path,encoding='utf-8',xml_declaration=True)
-    report={'status':'DRAFT — NOT OPENED OR TESTED IN TABLEAU','workbook':path.name,
-            'tableau_version_target':'Modern Tableau Desktop/Public; XML version 18.1 (compatibility unverified)',
+    report={'status':'DRAFT — PREVIOUS REVISIONS FAILED TABLEAU LOAD; CURRENT REVISION NOT RETESTED IN TABLEAU','workbook':path.name,
+            'tableau_version_target':'Reported loader content model; XML version 18.1; installed build not available',
             'dashboards':DASHBOARDS,'worksheets':metadata,'parameters':list(PARAMETERS),
-            'sources':list(TABLES),'validation_scope':'XML syntax, internal references, packaged CSV paths and counts only',
+            'sources':list(TABLES),'validation_scope':'XML syntax, internal references, packaged CSV paths/data and observed loader-error regressions only; no matching installed schema available',
             'input_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((ROOT/'data/input').glob('*')) if p.is_file()},
             'manual_verification':['Open/save in Tableau; repair any version-specific XML validation errors','Compile every calculation and resolve geographic roles/locations','Verify dashboard controls, parameter actions, Top-N tie behavior, context filters and sets','Verify map/tooltip/nav/reset/state comparison and device readability','Confirm source sums and missing slices; publish and test published workbook']}
     (OUT/'build-manifest.json').write_text(json.dumps(report,indent=2)+'\n')

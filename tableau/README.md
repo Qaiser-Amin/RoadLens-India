@@ -1,6 +1,6 @@
 # RoadLens India — Tableau draft
 
-**Status: generated draft, NOT opened or tested in Tableau Desktop/Public.**
+**Status: prior revisions failed to load in the user’s Tableau. The current revision is NOT RETESTED in Tableau Desktop/Public.**
 The file is genuine Tableau workbook XML, packaged with CSV connections. It contains
 editable worksheets, calculations, parameters, sets, and action definitions. It does
 not contain screenshots. Passing XML checks does not prove that Tableau can compile,
@@ -88,7 +88,7 @@ including Kerala category attribution and the J&K footnote override.
 
 ## Validation performed here
 
-- 15 automated structural/data and loader-regression tests passed: archive integrity, workbook/data path
+- 17 automated structural/data and loader-regression tests passed: archive integrity, workbook/data path
   portability, field and parameter references, shared context filters, dashboard and
   action references, native set definitions, exact observation preservation, missing two-wheeler denominators, and union-based risk-sheet membership.
 - Both TWB and TWBX were read by Tableau's Python Document API as five data sources
@@ -146,42 +146,47 @@ API or a Tableau XSD validation guarantee.
 
 ## Reported Windows load error D2E8DA72
 
-The first generated draft failed to load in the user's Tableau installation. The
-visible errors in the screenshot are confirmed defects in the generator, not a
-Windows folder-path issue. The revised files correct:
+Two prior revisions failed to load in the user's Tableau installation. The current
+revision is a compatibility repair based on the complete error text, not a claim of
+successful Desktop execution.
 
-- Missing required workbook `source-build` metadata. Its value is a compatibility
-  header from saved Tableau XML, not a claim that Tableau Desktop authored this file.
-- Invalid action aggregation `none`: the actions now use `min`, which also supports
-  state names and constant reset values. A multi-state selection uses the minimum
-  state name, so use a single map mark for the global single-state selector.
-- Actions in the wrong schema sequence: datasource declarations/dependencies now
-  precede navigation actions, which precede parameter actions.
-- Native `group` definitions copied into worksheet dependencies: sets remain in the
-  top-level data sources, where their definitions belong.
-- Legacy bar-sort markup: canonical `computed-sort` elements now carry the sort.
-- Feature-encoded clear-selection markup: canonical `clear-option` elements now
-  assign All when selection clears.
+Retained repairs from the first error report:
 
-The revised workbook includes disabled Explain Data configuration required by the
-additional 2026.1 schema check. This does not change dashboard calculations or filters.
-Six new regression tests cover the reported and additional XML structure issues.
-The TWBX also passed validation against a community-hosted 2026.1 XSD with imported
-schemas; `schema-validation.json` records the source, hashes and exact package checked.
-That schema is not verified as the user's installed Tableau schema, and it cannot
-compile calculations or exercise Tableau interactions. **Desktop retesting is pending.**
+- Required `source-build` metadata is present. This is a compatibility header from
+  saved XML, not a claim that Tableau Desktop authored the generated file.
+- Parameter actions use `min` rather than the invalid `none` aggregation. State
+  selection is a single-state control; selecting multiple marks uses the minimum
+  state name. Constant reset values are unchanged by the minimum aggregation.
+- Action datasource declarations/dependencies precede navigation and parameter actions.
+- Native sets are defined at datasource scope rather than inside worksheet dependencies.
+- Clear-selection actions use the supported `clear-option` element.
 
-Download the revised TWBX or pull the latest GitHub commit and reopen it. If you
-have an older ZIP download, extract a fresh copy so you do not reopen the old TWB.
-If another error appears, copy the complete error text and the precise version/build
-from Help → About Tableau. The original screenshot showed only part of the error list.
+Repairs based on the second, complete error report:
 
-Optional full-schema check (requires `lxml` for validation only):
+- Removed all 58 optional `simple-id` elements rejected from worksheets, dashboards
+  and windows. Actions still identify sheets by name and dashboard zones by numeric ID.
+- Restored six `sort class="computed"` elements. The user's reported view content model
+  names `sort` and rejects `computed-sort`, regardless of the application's release.
+- Removed optional `explain-data` and `explanation-types` metadata, which the reported
+  workbook content model rejects. Dashboard calculations and source data are unchanged.
+
+**The earlier community-hosted 2026.1 XSD check did not match the actual loader.** Its
+PASS result for an earlier package is superseded in `schema-validation.json` and must
+not be used as evidence that this workbook opens. The record binds the current package
+hash and records known errors/repairs. Current validation consists of targeted loader
+regressions, field/action/path references and preservation of verified observations.
+
+Download the new TWBX or pull the latest commit. If another error appears, send its
+complete text. A small `.twb` saved directly from the same Tableau installation would
+also provide a reliable native-format reference; the precise version/build appears
+under Help → About Tableau. Avoid reopening a copy from an earlier ZIP download.
+
+The optional validator remains available for a schema that actually matches the
+installed workbook format (requires `lxml` for validation only):
 
 ```sh
-python tools/validate_tableau_schema.py --schema /path/to/twb_2026.1.0.xsd
+python tools/validate_tableau_schema.py --schema /path/to/matching-tableau-schema.xsd
 ```
 
-Keep `tableau_user.xsd` and `xml_namespace.xsd` beside that schema. A schema supplied
-from the installed Tableau build is preferable. The validator disables network
-resolution and reports failures without changing the workbook or source data.
+Keep any imported XSD files beside that schema. The validator disables network
+resolution. Even a matching XSD cannot compile formulas or test Tableau interactions.

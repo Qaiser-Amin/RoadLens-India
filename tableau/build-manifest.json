@@ -1,7 +1,7 @@
 {
-  "status": "DRAFT \u2014 NOT OPENED OR TESTED IN TABLEAU",
+  "status": "DRAFT \u2014 PREVIOUS REVISIONS FAILED TABLEAU LOAD; CURRENT REVISION NOT RETESTED IN TABLEAU",
   "workbook": "RoadLens-India-DRAFT.twb",
-  "tableau_version_target": "Modern Tableau Desktop/Public; XML version 18.1 (compatibility unverified)",
+  "tableau_version_target": "Reported loader content model; XML version 18.1; installed build not available",
   "dashboards": [
     "1 National Overview",
     "2 Two-Wheeler Safety",
@@ -232,7 +232,7 @@
     "Causes",
     "Roads"
   ],
-  "validation_scope": "XML syntax, internal references, packaged CSV paths and counts only",
+  "validation_scope": "XML syntax, internal references, packaged CSV paths/data and observed loader-error regressions only; no matching installed schema available",
   "input_sha256": {
     "causes.csv": "24da4894457ffa7d85778ca8502d3266698b01e15b1c2576fa80e7e73f5d5264",
     "road_types.csv": "06d4a7f5f876a9edc8e98b67d710342455711fb4e7c5244fc7939253fa2fc5b2",

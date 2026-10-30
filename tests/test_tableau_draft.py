@@ -103,7 +103,7 @@ class TableauDraftTests(unittest.TestCase):
         self.assertTrue(all(r['Accidents']=='' for r in rows))
         self.assertEqual(sum(int(r['Fatalities']) for r in rows if r['Year']=='2023' and r['Category']=='Two-wheelers'),77539)
         self.assertTrue(all(r['Fatalities']=='' for r in rows if r['Year']=='2020'))
-        self.assertIn('NOT OPENED OR TESTED IN TABLEAU',self.manifest['status'])
+        self.assertIn('NOT RETESTED IN TABLEAU',self.manifest['status'])
 
 
 
@@ -149,15 +149,23 @@ class ReportedWorkbookSchemaTests(unittest.TestCase):
             ds=self.root.find(f"datasources/datasource[@name='{name}']")
             self.assertEqual(len(ds.findall('group')),3)
 
-    def test_bar_charts_use_canonical_computed_sort_elements(self):
+    def test_bar_charts_use_sort_form_required_by_reported_loader(self):
         views=self.root.findall('worksheets/worksheet/table/view')
-        self.assertTrue(all(v.find('sort') is None for v in views))
-        sorts=self.root.findall('worksheets/worksheet/table/view/computed-sort')
+        self.assertTrue(all(v.find('computed-sort') is None for v in views))
+        sorts=self.root.findall('worksheets/worksheet/table/view/sort')
         self.assertEqual(len(sorts),6)
         for sort in sorts:
+            self.assertEqual(sort.get('class'),'computed')
             self.assertTrue(sort.get('column'))
             self.assertTrue(sort.get('using'))
             self.assertEqual(sort.get('direction'),'DESC')
+
+    def test_optional_tracking_ids_rejected_by_loader_are_omitted(self):
+        self.assertEqual(self.root.findall('.//simple-id'),[])
+
+    def test_explain_data_extension_rejected_by_loader_is_omitted(self):
+        self.assertIsNone(self.root.find('explain-data'))
+        self.assertEqual(self.root.findall('.//explanation-types'),[])
 
     def test_clear_selection_uses_canonical_action_element(self):
         options=self.root.findall('actions/edit-parameter-action/clear-option')
