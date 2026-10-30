@@ -129,5 +129,5 @@ Extraction requires Poppler `pdftotext`. The PDF downloader checks pinned SHA-25
 hashes. The pipeline preserves separate reporting grains. No synthetic observations
 or static screenshots are used in the application.
 
-Generate the Tableau draft with `python tools/build_tableau.py`. Its nine structural/data
+Generate the Tableau draft with `python tools/build_tableau.py`. Its 15 structural/data and loader-regression
 tests are included in the Python test command. They do not test the Tableau engine.

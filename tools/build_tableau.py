@@ -21,6 +21,9 @@ USER = 'http://www.tableausoftware.com/xml/user'
 ET.register_namespace('user', USER)
 TABLES = {'Totals':'state_totals','Vehicles':'vehicle_categories','Causes':'causes','Roads':'road_types'}
 DASHBOARDS = ['1 National Overview','2 Two-Wheeler Safety','3 Causes and Risk Factors']
+# Compatibility header from a saved Tableau 18.1-format workbook. This does not
+# mean the draft was authored or validated by that Desktop installation.
+SOURCE_BUILD = '2023.2.0 (20232.23.0611.2007)'
 PARAMETERS = {
  'Year': ('string','2023',['All','2020','2021','2022','2023']),
  'State': ('string','All',[]),
@@ -169,7 +172,7 @@ def build():
     (OUT/'Data').mkdir(parents=True,exist_ok=True)
     prepare(ROOT/'data/input', ROOT/'data/tableau')
     raw=prepare_data()
-    root=ET.Element('workbook',{'source-platform':'win','version':'18.1'})
+    root=ET.Element('workbook',{'source-build':SOURCE_BUILD,'source-platform':'win','version':'18.1'})
     manifest=sub(root,'document-format-change-manifest')
     for tag in ('NavigationAction','ParameterAction','_.fcp.ParameterActionClearSelection.true...ParameterActionClearSelection'):
         sub(manifest,tag)
@@ -191,7 +194,8 @@ def build():
         for c in params.findall('column'):pd.append(deepcopy(c))
         deps=sub(view,'datasource-dependencies',datasource=ds)
         for c in defs[ds].findall('column'):deps.append(deepcopy(c))
-        for g in defs[ds].findall('group'):deps.append(deepcopy(g))
+        # Native set definitions belong to the top-level datasource. The worksheet
+        # datasource-dependencies content model does not permit group elements.
         for f in [*FIELDS,*CALCS]:
             inst,derivation,typ=instance(f)
             sub(deps,'column-instance',column=f'[{f}]',derivation=derivation,name=inst,pivot='key',type=typ)
@@ -214,7 +218,7 @@ def build():
             f=ET.SubElement(view,'filter',{'class':'categorical','column':ref(ds,'State')})
             gf=sub(f,'groupfilter',function='union')
             for set_name in ('High Accidents','High Severity'):sub(gf,'groupfilter',field=f'[{ds}].[{set_name}]',function='reference')
-        if kind=='bars':sub(view,'sort',column=ref(ds,dimension),direction='DESC',using=ref(ds,field),**{'class':'computed'})
+        if kind=='bars':sub(view,'computed-sort',column=ref(ds,dimension),direction='DESC',using=ref(ds,field))
         sub(view,'aggregation',value='true')
         sub(table,'style')
         pane=sub(sub(table,'panes'),'pane',selection_relaxation_option='selection-relaxation-allow')
@@ -279,8 +283,10 @@ def build():
     def action_parameter(caption,source,field,target,clear=False):
         a=sub(actions,'edit-parameter-action',caption=caption,name='[Action_'+str(uuid.uuid4()).replace('-','')+']')
         sub(a,'activation',type='on-select');sub(a,'source',type='sheet',worksheet=source)
-        sub(a,'agg-type',type='none')
-        if clear:sub(a,'_.fcp.ParameterActionClearSelection.true...clear-option',type='assign-fixed-value',value='s:3:All')
+        # "none" is not in Tableau's agg-type enumeration. MIN works for state
+        # names and the constant reset fields, including numeric reset values.
+        sub(a,'agg-type',type='min')
+        if clear:sub(a,'clear-option',type='assign-fixed-value',value='s:3:All')
         pr=sub(a,'params');sub(pr,'param',name='source-field',value=ref(metadata[source]['source'],field));sub(pr,'param',name='target-parameter',value=f'[Parameters].[{target}]')
     for source in ('India State Map','National State Ranking','Two-Wheeler State Ranking','Combined Risk Ranking'):
         action_parameter('Select state globally — '+source,source,'State','State',True)
@@ -295,6 +301,10 @@ def build():
         dep=sub(actions,'datasource-dependencies',datasource=ds)
         for field in ('State',*[f'Reset {p}' for p in RESET]):
             dep.append(deepcopy(next(c for c in defs[ds].findall('column') if c.get('name')==f'[{field}]')))
+    # Tableau validates actions in this sequence, independently of creation order.
+    action_order={'action':0,'datasources':1,'datasource-dependencies':2,
+                  'nav-action':3,'edit-parameter-action':4}
+    actions[:]=sorted(actions,key=lambda el:action_order[el.tag])
 
     def dashboard(name,index):
         d=sub(dashboards,'dashboard',name=name);sub(d,'style');sub(d,'size',maxheight=800,maxwidth=1200,minheight=800,minwidth=1200)
@@ -335,6 +345,10 @@ def build():
             if z.get('name'):sub(vp,'viewpoint',name=z.get('name'))
         sub(win,'active',id='2');uid(win)
     for i,name in enumerate(DASHBOARDS):dashboard(name,i)
+    # Canonical workbook metadata accepted by the 2026.1 schema. Explain Data is
+    # disabled; it is not used by this project or a substitute for source analysis.
+    explain=sub(root,'explain-data',enabled_for_viewer='false',extreme_values_enabled_for_all='false')
+    sub(explain,'explanation-types')
     ET.indent(root,space='  ')
     path=OUT/'RoadLens-India-DRAFT.twb';ET.ElementTree(root).write(path,encoding='utf-8',xml_declaration=True)
     report={'status':'DRAFT — NOT OPENED OR TESTED IN TABLEAU','workbook':path.name,

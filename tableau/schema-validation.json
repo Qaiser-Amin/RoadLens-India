@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-10-30T09:43:19.944423+00:00",
+  "result": "PASS \u2014 supplied XML schema only",
+  "workbook": "RoadLens-India-DRAFT.twbx",
+  "workbook_sha256": "701968a6dd3c2c45418d91c7acea9d9034353d60f6b17bcad95863683fe99328",
+  "schema": "twb_2026.1.0.xsd",
+  "schema_sha256": "1ef7c88943f7c29410acc6d4dfb02aa3bb7cd95dbe7fce063be359708623ccb5",
+  "schema_source_url": "https://raw.githubusercontent.com/chami1221-eng/tableau-twb-xml-toolkit/master/schemas/twb_2026.1.0.xsd",
+  "schema_supporting_files_sha256": {
+    "tableau_user.xsd": "5b5aa89c1b9ab30b63eabc7d9af2d4ab429eecf6bd1a75f7cae204cace174642",
+    "xml_namespace.xsd": "1a53db7d50ea27f9100e40922d290c2388b2fb0c790c7d73cbf6fef8010f7391"
+  },
+  "tableau_desktop_retest": "NOT RUN",
+  "limits": "External community-hosted schema; not a Tableau engine, formula, geography or interaction test."
+}

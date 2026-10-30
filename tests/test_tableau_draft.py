@@ -119,4 +119,53 @@ class CombinedRiskMembershipTests(unittest.TestCase):
         filters = sheet.find('table/view').findall('filter')
         self.assertFalse([g for f in filters for g in f.iter('groupfilter') if g.get('function') == 'end'])
 
+class ReportedWorkbookSchemaTests(unittest.TestCase):
+    """Regression checks from the user's Tableau D2E8DA72 load error.
+
+    These target observed schema rules, not a full Tableau XSD/engine validator.
+    """
+    @classmethod
+    def setUpClass(cls):
+        cls.root=ET.parse(OUT/'RoadLens-India-DRAFT.twb').getroot()
+
+    def test_workbook_includes_required_source_build(self):
+        self.assertTrue(self.root.get('source-build','').strip())
+
+    def test_parameter_actions_use_string_safe_supported_aggregation(self):
+        for agg in self.root.findall('actions/edit-parameter-action/agg-type'):
+            self.assertIn(agg.get('type'),{'min','max'})
+
+    def test_actions_follow_tableau_content_model_order(self):
+        order={'action':0,'datasources':1,'datasource-dependencies':2,
+               'nav-action':3,'edit-parameter-action':4}
+        children=list(self.root.find('actions'))
+        ranks=[order[el.tag] for el in children]
+        self.assertEqual(ranks,sorted(ranks))
+
+    def test_set_definitions_are_not_copied_into_worksheet_dependencies(self):
+        for deps in self.root.findall('worksheets/worksheet/table/view/datasource-dependencies'):
+            self.assertEqual(deps.findall('group'),[])
+        for name in ['Totals','Vehicles','Causes','Roads']:
+            ds=self.root.find(f"datasources/datasource[@name='{name}']")
+            self.assertEqual(len(ds.findall('group')),3)
+
+    def test_bar_charts_use_canonical_computed_sort_elements(self):
+        views=self.root.findall('worksheets/worksheet/table/view')
+        self.assertTrue(all(v.find('sort') is None for v in views))
+        sorts=self.root.findall('worksheets/worksheet/table/view/computed-sort')
+        self.assertEqual(len(sorts),6)
+        for sort in sorts:
+            self.assertTrue(sort.get('column'))
+            self.assertTrue(sort.get('using'))
+            self.assertEqual(sort.get('direction'),'DESC')
+
+    def test_clear_selection_uses_canonical_action_element(self):
+        options=self.root.findall('actions/edit-parameter-action/clear-option')
+        self.assertEqual(len(options),4)
+        for option in options:
+            self.assertEqual(option.get('type'),'assign-fixed-value')
+            self.assertEqual(option.get('value'),'s:3:All')
+        self.assertFalse(any('...clear-option' in el.tag for el in self.root.iter()))
+
+
 if __name__=='__main__':unittest.main()
