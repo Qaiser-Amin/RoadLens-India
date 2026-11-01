@@ -1,0 +1,16 @@
+{
+  "conditions": "Linux cloud container; loopback HTTP; built frontend; 6732 rows; no network throttling; fresh browser context; UI measurements include a conservative 400ms animation allowance.",
+  "api_warm": {
+    "n": 100,
+    "p50_ms": 12.76,
+    "p95_ms": 16.82,
+    "max_ms": 19.41
+  },
+  "first_usable_with_animation_ms": 651.54,
+  "ui_filters_with_animation": {
+    "n": 10,
+    "p50_ms": 451.68,
+    "p95_ms": 460.41,
+    "max_ms": 460.41
+  }
+}

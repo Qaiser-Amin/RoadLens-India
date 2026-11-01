@@ -1,3 +1,7 @@
+# Primary V2 data
+
+The expanded web app uses `analytics/facts.csv` and `analytics/catalog.json`. See [V2 dictionary](../docs/V2_DATA.md) for 17 families, supported measures/years, source checks and exceptions. The contract below describes the preserved original four extracts used by the supporting Tableau draft.
+
 # Verified data contract
 
 The input CSV files now contain extracts from official MoRTH 2022 and 2023 reports.

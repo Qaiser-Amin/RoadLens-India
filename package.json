@@ -1,1 +1,27 @@
-{"name":"roadlens-india","private":true,"type":"module","scripts":{"start":"python server.py","test":"node --test tests/analytics.test.js"}}
+{
+  "name": "roadlens-india",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python server.py",
+    "test": "node --test tests/analytics.test.js",
+    "dev": "vite --config frontend/vite.config.ts frontend",
+    "build": "tsc --noEmit && vite build --config frontend/vite.config.ts frontend",
+    "preview": "vite preview --config frontend/vite.config.ts frontend"
+  },
+  "dependencies": {
+    "echarts": "^6.1.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}

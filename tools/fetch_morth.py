@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Download two pinned official MoRTH PDFs with TLS and SHA-256 verification."""
+"""Download pinned official MoRTH PDFs with TLS and SHA-256 verification."""
 import hashlib
 from pathlib import Path
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORTS = {
+    2024: {'url':'https://morth.gov.in/backend/documents/uploaded/Road%20Accidents%20in%20India%20-%202024.pdf', 'sha256':'70a2cf4a92c7074d13502a84ce25d606ce4655d4e7e79d49740c97fd908600ea'},
     2022: {
         'url': 'https://morth.nic.in/backend/documents/uploaded/1755600426_RA_2022_30_Oct.pdf',
         'sha256': 'd1908170c4e25153539d82244f0fe269805a577b71e42259a53a57422dd8d8ed',

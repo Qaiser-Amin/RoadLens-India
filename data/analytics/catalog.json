@@ -1,0 +1,3662 @@
+{
+  "datasets": {
+    "totals": {
+      "id": "totals",
+      "title": "All reported accidents",
+      "definition": "All-road state totals; fatalities count people, not crashes.",
+      "metrics": [
+        "accidents",
+        "fatalities",
+        "injuries",
+        "fatal_crashes"
+      ],
+      "grain": "state/year/category",
+      "note": "",
+      "pages": [],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "categories": [
+        "All"
+      ],
+      "rows": 180,
+      "source_ids": [
+        "morth2023_totals",
+        "morth2024_totals"
+      ],
+      "secondary_count": 1,
+      "severity_supported": true
+    },
+    "users": {
+      "id": "users",
+      "title": "Victim road users",
+      "definition": "Fatalities classified by victim road-user category. No accident denominator.",
+      "metrics": [
+        "fatalities"
+      ],
+      "grain": "state/year/category",
+      "note": "Existing verified extracts; see source registry. Kerala road-user attribution changed in 2023.",
+      "pages": [],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2022,
+        2023,
+        2024
+      ],
+      "categories": [
+        "Auto rickshaws",
+        "Bicycles",
+        "Buses",
+        "Cars, taxis, vans and LMV",
+        "Other non-motor vehicles (E-rickshaw)",
+        "Others",
+        "Pedestrians",
+        "Trucks / lorries",
+        "Two-wheelers"
+      ],
+      "rows": 972,
+      "source_ids": [
+        "morth2022_road_users",
+        "morth2023_road_users",
+        "morth2024_users"
+      ],
+      "secondary_count": 1,
+      "severity_supported": false
+    },
+    "violations": {
+      "id": "violations",
+      "title": "Reported traffic violations",
+      "definition": "Reported attribution, not proof of causation.",
+      "metrics": [
+        "accidents",
+        "fatalities"
+      ],
+      "grain": "state/year/category",
+      "note": "",
+      "pages": [],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2022,
+        2023
+      ],
+      "categories": [
+        "Driving on wrong side",
+        "Drunken driving / alcohol and drugs",
+        "Jumping red light",
+        "Others",
+        "Over-speeding",
+        "Use of mobile phone"
+      ],
+      "rows": 432,
+      "source_ids": [
+        "morth2022_violations",
+        "morth2023_violations"
+      ],
+      "secondary_count": 1,
+      "severity_supported": true
+    },
+    "roads": {
+      "id": "roads",
+      "title": "Road classes",
+      "definition": "National highways including expressways, state highways and other roads.",
+      "metrics": [
+        "accidents",
+        "fatalities"
+      ],
+      "grain": "state/year/category",
+      "note": "",
+      "pages": [],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "categories": [
+        "National highways (including expressways)",
+        "Other roads",
+        "State highways"
+      ],
+      "rows": 432,
+      "source_ids": [
+        "morth2023_roads"
+      ],
+      "secondary_count": 1,
+      "severity_supported": true
+    },
+    "outcomes": {
+      "id": "outcomes",
+      "title": "Crash injury outcomes",
+      "definition": "Crash events classified by outcome. Fatal crashes are different from people killed.",
+      "metrics": [
+        "accidents"
+      ],
+      "grain": "state/year/category",
+      "note": "",
+      "pages": [
+        149
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023,
+        2024
+      ],
+      "categories": [
+        "Fatal crashes",
+        "Grievous-injury crashes",
+        "Minor-injury crashes",
+        "Non-injury crashes"
+      ],
+      "rows": 288,
+      "source_ids": [
+        "morth2023_outcomes",
+        "morth2024_outcomes"
+      ],
+      "secondary_count": 1,
+      "severity_supported": false
+    },
+    "collisions": {
+      "id": "collisions",
+      "title": "Collision types",
+      "definition": "Source-reported collision classification; categories are not causal effects.",
+      "metrics": [
+        "accidents",
+        "fatalities",
+        "injuries"
+      ],
+      "grain": "state/year/category",
+      "note": "",
+      "pages": [
+        173,
+        174,
+        175,
+        176,
+        177
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023
+      ],
+      "categories": [
+        "Fixed object",
+        "Head-on collision",
+        "Hit and run",
+        "Hit from back",
+        "Hit from side",
+        "Others",
+        "Parked vehicle",
+        "Run off road",
+        "Vehicle overturn"
+      ],
+      "rows": 324,
+      "source_ids": [
+        "morth2023_collisions"
+      ],
+      "secondary_count": 1,
+      "severity_supported": true
+    },
+    "vehicles": {
+      "id": "vehicles",
+      "title": "Reported impacting vehicles / objects",
+      "definition": "Annexure 26 classification, distinct from victim-user fatalities in Annexure 29.",
+      "metrics": [
+        "accidents",
+        "fatalities",
+        "injuries"
+      ],
+      "grain": "state/year/category",
+      "note": "Preserve source anomalies: Kerala bicycles reports 2 accidents and 88 deaths. Do not interpret category severity before investigating definitions/reporting. Vehicle severity is disabled.",
+      "pages": [
+        194,
+        195,
+        196,
+        197,
+        198
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "severity_supported": false,
+      "years": [
+        2023
+      ],
+      "categories": [
+        "Auto rickshaws",
+        "Bicycles",
+        "Buses",
+        "Cars, taxis, vans and LMV",
+        "Other non-motorized vehicles",
+        "Others",
+        "Pedestrians",
+        "Trucks / lorries",
+        "Two-wheelers"
+      ],
+      "rows": 324,
+      "source_ids": [
+        "morth2023_vehicles"
+      ],
+      "secondary_count": 1
+    },
+    "weather": {
+      "id": "weather",
+      "title": "Weather conditions",
+      "definition": "Reported weather marginals, not joinable to time/vehicle categories.",
+      "metrics": [
+        "accidents",
+        "fatalities",
+        "injuries"
+      ],
+      "grain": "state/year/category",
+      "note": "",
+      "pages": [
+        191,
+        192,
+        193
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023
+      ],
+      "categories": [
+        "Foggy / misty",
+        "Hail / sleet",
+        "Others",
+        "Rainy",
+        "Sunny / clear"
+      ],
+      "rows": 180,
+      "source_ids": [
+        "morth2023_weather"
+      ],
+      "secondary_count": 1,
+      "severity_supported": true
+    },
+    "features": {
+      "id": "features",
+      "title": "Road features",
+      "definition": "Reported road features, not precise locations.",
+      "metrics": [
+        "accidents",
+        "fatalities",
+        "injuries"
+      ],
+      "grain": "state/year/category",
+      "note": "",
+      "pages": [
+        181,
+        182,
+        183,
+        184
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023
+      ],
+      "categories": [
+        "Bridge",
+        "Culvert",
+        "Curved road",
+        "Others",
+        "Potholes",
+        "Road works / construction",
+        "Steep grade",
+        "Straight road"
+      ],
+      "rows": 288,
+      "source_ids": [
+        "morth2023_features"
+      ],
+      "secondary_count": 1,
+      "severity_supported": true
+    },
+    "junctions": {
+      "id": "junctions",
+      "title": "Junction types",
+      "definition": "Reported junction categories; no specific junction coordinates.",
+      "metrics": [
+        "accidents",
+        "fatalities",
+        "injuries"
+      ],
+      "grain": "state/year/category",
+      "note": "Junction-related crashes only; this is not the all-road universe.",
+      "pages": [
+        185,
+        186,
+        187
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023
+      ],
+      "categories": [
+        "Four-arm junction",
+        "Roundabout",
+        "Staggered junction",
+        "T-junction",
+        "Y-junction"
+      ],
+      "rows": 180,
+      "source_ids": [
+        "morth2023_junctions"
+      ],
+      "secondary_count": 1,
+      "severity_supported": true
+    },
+    "controls": {
+      "id": "controls",
+      "title": "Traffic controls",
+      "definition": "Reported traffic control categories.",
+      "metrics": [
+        "accidents",
+        "fatalities",
+        "injuries"
+      ],
+      "grain": "state/year/category",
+      "note": "Traffic-control classifications cover reported junction-related crashes, not all-road totals.",
+      "pages": [
+        188,
+        189,
+        190
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023
+      ],
+      "categories": [
+        "Flashing signal / blinker",
+        "Police controlled",
+        "Stop sign",
+        "Traffic light signal",
+        "Uncontrolled"
+      ],
+      "rows": 180,
+      "source_ids": [
+        "morth2023_controls"
+      ],
+      "secondary_count": 1,
+      "severity_supported": true
+    },
+    "environment": {
+      "id": "environment",
+      "title": "Road environment",
+      "definition": "Reported land-use environment.",
+      "metrics": [
+        "accidents",
+        "fatalities",
+        "injuries"
+      ],
+      "grain": "state/year/category",
+      "note": "",
+      "pages": [
+        178,
+        179,
+        180
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023
+      ],
+      "categories": [
+        "Institutional area",
+        "Market / commercial area",
+        "Open area",
+        "Others",
+        "Residential area"
+      ],
+      "rows": 180,
+      "source_ids": [
+        "morth2023_environment"
+      ],
+      "secondary_count": 1,
+      "severity_supported": true
+    },
+    "urban": {
+      "id": "urban",
+      "title": "Urban and rural",
+      "definition": "All-road urban/rural counts, not a cross-filter for other marginal datasets.",
+      "metrics": [
+        "accidents",
+        "fatalities",
+        "injuries"
+      ],
+      "grain": "state/year/category",
+      "note": "",
+      "pages": [
+        226
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023
+      ],
+      "categories": [
+        "Rural",
+        "Urban"
+      ],
+      "rows": 72,
+      "source_ids": [
+        "morth2023_urban"
+      ],
+      "secondary_count": 1,
+      "severity_supported": true
+    },
+    "months": {
+      "id": "months",
+      "title": "Monthly accidents",
+      "definition": "State \u00d7 year \u00d7 month; not jointly classified with vehicle/weather.",
+      "metrics": [
+        "accidents",
+        "fatalities",
+        "injuries",
+        "fatal_crashes"
+      ],
+      "grain": "state/year/category",
+      "note": "",
+      "pages": [
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023
+      ],
+      "categories": [
+        "April",
+        "August",
+        "December",
+        "February",
+        "January",
+        "July",
+        "June",
+        "March",
+        "May",
+        "November",
+        "October",
+        "September"
+      ],
+      "rows": 432,
+      "source_ids": [
+        "morth2023_months"
+      ],
+      "secondary_count": 1,
+      "severity_supported": true
+    },
+    "hours": {
+      "id": "hours",
+      "title": "Time of occurrence",
+      "definition": "Reported 3-hour bands and unknown time; accident counts only.",
+      "metrics": [
+        "accidents"
+      ],
+      "grain": "state/year/category",
+      "note": "",
+      "pages": [
+        236
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023
+      ],
+      "categories": [
+        "00:00\u201303:00",
+        "03:00\u201306:00",
+        "06:00\u201309:00",
+        "09:00\u201312:00",
+        "12:00\u201315:00",
+        "15:00\u201318:00",
+        "18:00\u201321:00",
+        "21:00\u201324:00",
+        "Unknown time"
+      ],
+      "rows": 324,
+      "source_ids": [
+        "morth2023_hours"
+      ],
+      "secondary_count": 1,
+      "severity_supported": false
+    },
+    "matrix": {
+      "id": "matrix",
+      "title": "Victim / impacting-vehicle matrix",
+      "definition": "Fatalities in jointly reported victim \u00d7 opponent categories; not all victim groups are supplied.",
+      "metrics": [
+        "fatalities"
+      ],
+      "grain": "state/year/victim/opponent",
+      "note": "Pedestrian total is 35,203 here versus 35,221 in Annexure 29. Kerala differs by 18; preserve both source totals pending reconciliation.",
+      "pages": [
+        206,
+        207,
+        208,
+        209,
+        210
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023
+      ],
+      "categories": [
+        "Bicycles",
+        "Cars / LMV",
+        "Pedestrians",
+        "Trucks / lorries",
+        "Two-wheelers"
+      ],
+      "rows": 1440,
+      "source_ids": [
+        "morth2023_matrix"
+      ],
+      "secondary_count": 8,
+      "severity_supported": false
+    },
+    "demographics": {
+      "id": "demographics",
+      "title": "Victim age and reported sex",
+      "definition": "Persons killed by reported age band and sex. Source age-band labels are preserved; these are not vehicle-specific rates.",
+      "metrics": [
+        "fatalities"
+      ],
+      "grain": "state/year/age/sex",
+      "note": "",
+      "pages": [
+        211,
+        212
+      ],
+      "source": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "years": [
+        2023
+      ],
+      "categories": [
+        "18\u201325",
+        "25\u201335",
+        "35\u201345",
+        "45\u201360",
+        "60 and above",
+        "Age unknown",
+        "Under 18"
+      ],
+      "rows": 504,
+      "source_ids": [
+        "morth2023_demographics"
+      ],
+      "secondary_count": 2,
+      "severity_supported": false
+    }
+  },
+  "states": [
+    "Andaman and Nicobar Islands",
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Bihar",
+    "Chandigarh",
+    "Chhattisgarh",
+    "Dadra and Nagar Haveli and Daman and Diu",
+    "Delhi",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jammu and Kashmir",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Ladakh",
+    "Lakshadweep",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Puducherry",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal"
+  ],
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "sources": [
+    {
+      "source_id": "morth2022_road_users",
+      "table": "vehicle_categories",
+      "title": "MoRTH Road Accidents in India 2022",
+      "url": "https://morth.nic.in/backend/documents/uploaded/1755600426_RA_2022_30_Oct.pdf",
+      "locator": "Annexure 29; PDF pp.181\u2013182 (printed 164\u2013165)",
+      "retrieved_on": "2026-10-25",
+      "definition": "Persons killed classified by road-user category, both sexes. Not impacting-vehicle accidents; accident denominator unavailable. In 2023 Kerala some Other figures are included in Pedestrian category.",
+      "coverage": "36 reporting states/UTs; 2022; road-user categories, not impacting vehicles; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+      "sha256": "d1908170c4e25153539d82244f0fe269805a577b71e42259a53a57422dd8d8ed",
+      "verified": true,
+      "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+    },
+    {
+      "source_id": "morth2022_violations",
+      "table": "causes",
+      "title": "MoRTH Road Accidents in India 2022",
+      "url": "https://morth.nic.in/backend/documents/uploaded/1755600426_RA_2022_30_Oct.pdf",
+      "locator": "Annexure 35; PDF pp.193\u2013194 (printed 176\u2013177)",
+      "retrieved_on": "2026-10-25",
+      "definition": "Accidents and persons killed classified by reported traffic-rule violation. Not a causal estimate. 2022 J&K jumping-red-light accident count left blank per explicit source footnote despite printed zero.",
+      "coverage": "36 reporting states/UTs; 2022; reported traffic violations; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+      "sha256": "d1908170c4e25153539d82244f0fe269805a577b71e42259a53a57422dd8d8ed",
+      "verified": true,
+      "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+    },
+    {
+      "source_id": "morth2023_road_users",
+      "table": "vehicle_categories",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "locator": "Annexure 29; PDF pp.204\u2013205 (printed 175\u2013176)",
+      "retrieved_on": "2026-10-25",
+      "definition": "Persons killed classified by road-user category, both sexes. Not impacting-vehicle accidents; accident denominator unavailable. In 2023 Kerala some Other figures are included in Pedestrian category.",
+      "coverage": "36 reporting states/UTs; 2023; road-user categories, not impacting vehicles; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "verified": true,
+      "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+    },
+    {
+      "source_id": "morth2023_violations",
+      "table": "causes",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "locator": "Annexure 35; PDF pp.220\u2013222 (printed 191\u2013193)",
+      "retrieved_on": "2026-10-25",
+      "definition": "Accidents and persons killed classified by reported traffic-rule violation. Not a causal estimate. 2022 J&K jumping-red-light accident count left blank per explicit source footnote despite printed zero.",
+      "coverage": "36 reporting states/UTs; 2023; reported traffic violations; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "verified": true,
+      "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+    },
+    {
+      "source_id": "morth2023_totals",
+      "table": "state_totals",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "locator": "Annexures 2\u20133; PDF pp.141,143 (printed 112,114)",
+      "retrieved_on": "2026-10-25",
+      "definition": "State/UT reported accidents and persons killed for 2020\u20132023. NA/dash retained as unavailable. Source footnotes document reconciled historical Tamil Nadu and West Bengal figures.",
+      "coverage": "36 current reporting states/UTs; 2020\u20132023; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "verified": true,
+      "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+    },
+    {
+      "source_id": "morth2023_roads",
+      "table": "road_types",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "locator": "Annexures 9\u201310,14\u201315,19; PDF pp.151\u2013152,166\u2013167,171\u2013172",
+      "retrieved_on": "2026-10-25",
+      "definition": "Accidents and persons killed on national highways (including expressways), state highways, other roads, 2020\u20132023. No state highways in Chandigarh or Delhi. NA/dash retained as unavailable.",
+      "coverage": "36 current reporting states/UTs; 2020\u20132023; 2022 D&N Haveli includes Daman & Diu per report footnote; redundant all-NA row excluded.",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "verified": true,
+      "verification": "Pinned official PDF, exact row coverage, selected-column sums reconciled to printed totals; road-user male+female totals reconciled; source pages visually spot-checked. Underlying state reporting not independently audited."
+    },
+    {
+      "source_id": "morth2024_totals",
+      "title": "MoRTH Road Accidents in India 2024",
+      "url": "https://morth.gov.in/backend/documents/uploaded/Road%20Accidents%20in%20India%20-%202024.pdf",
+      "sha256": "70a2cf4a92c7074d13502a84ce25d606ce4655d4e7e79d49740c97fd908600ea",
+      "locator": "Annexures 2\u20135, PDF 167\u2013170",
+      "definition": "All-road state totals; fatalities count people, not crashes.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2024_outcomes",
+      "title": "MoRTH Road Accidents in India 2024",
+      "url": "https://morth.gov.in/backend/documents/uploaded/Road%20Accidents%20in%20India%20-%202024.pdf",
+      "sha256": "70a2cf4a92c7074d13502a84ce25d606ce4655d4e7e79d49740c97fd908600ea",
+      "locator": "Annexure 7, PDF 172",
+      "definition": "Crash events classified by outcome. Fatal crashes are different from people killed.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2024_users",
+      "title": "MoRTH Road Accidents in India 2024",
+      "url": "https://morth.gov.in/backend/documents/uploaded/Road%20Accidents%20in%20India%20-%202024.pdf",
+      "sha256": "70a2cf4a92c7074d13502a84ce25d606ce4655d4e7e79d49740c97fd908600ea",
+      "locator": "Annexure 29, PDF 209\u2013210",
+      "definition": "Fatalities classified by victim road-user category. No accident denominator.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_outcomes",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 149",
+      "definition": "Crash events classified by outcome. Fatal crashes are different from people killed.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_collisions",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 173, 174, 175, 176, 177",
+      "definition": "Source-reported collision classification; categories are not causal effects.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_vehicles",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 194, 195, 196, 197, 198",
+      "definition": "Annexure 26 classification, distinct from victim-user fatalities in Annexure 29.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_weather",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 191, 192, 193",
+      "definition": "Reported weather marginals, not joinable to time/vehicle categories.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_features",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 181, 182, 183, 184",
+      "definition": "Reported road features, not precise locations.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_junctions",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 185, 186, 187",
+      "definition": "Reported junction categories; no specific junction coordinates.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_controls",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 188, 189, 190",
+      "definition": "Reported traffic control categories.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_environment",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 178, 179, 180",
+      "definition": "Reported land-use environment.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_urban",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 226",
+      "definition": "All-road urban/rural counts, not a cross-filter for other marginal datasets.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_months",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 229, 230, 231, 232, 233, 234",
+      "definition": "State \u00d7 year \u00d7 month; not jointly classified with vehicle/weather.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_hours",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 236",
+      "definition": "Reported 3-hour bands and unknown time; accident counts only.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_matrix",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 206, 207, 208, 209, 210",
+      "definition": "Fatalities in jointly reported victim \u00d7 opponent categories; not all victim groups are supplied.",
+      "verified": true
+    },
+    {
+      "source_id": "morth2023_demographics",
+      "title": "MoRTH Road Accidents in India 2023",
+      "url": "https://morth.nic.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf",
+      "sha256": "901505420d5b387052ac51e36b4bdce0274f6326b614f9ebcee6e7954d45b5b0",
+      "locator": "PDF pages 211, 212",
+      "definition": "Persons killed by reported age band and sex. Source age-band labels are preserved; these are not vehicle-specific rates.",
+      "verified": true
+    }
+  ],
+  "checks": [
+    {
+      "report_year": 2023,
+      "pdf_page": 145,
+      "column": 3,
+      "sum": 346747,
+      "printed_total": 346747
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 145,
+      "column": 4,
+      "sum": 384448,
+      "printed_total": 384448
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 145,
+      "column": 5,
+      "sum": 443366,
+      "printed_total": 443366
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 145,
+      "column": 6,
+      "sum": 462825,
+      "printed_total": 462825
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 147,
+      "column": 3,
+      "sum": 127307,
+      "printed_total": 127307
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 147,
+      "column": 4,
+      "sum": 142163,
+      "printed_total": 142163
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 147,
+      "column": 5,
+      "sum": 155781,
+      "printed_total": 155781
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 147,
+      "column": 6,
+      "sum": 160509,
+      "printed_total": 160509
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 149,
+      "column": 3,
+      "sum": 160509,
+      "printed_total": 160509
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 149,
+      "column": 4,
+      "sum": 158576,
+      "printed_total": 158576
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 149,
+      "column": 5,
+      "sum": 133848,
+      "printed_total": 133848
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 149,
+      "column": 6,
+      "sum": 27650,
+      "printed_total": 27650
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 149,
+      "column": 7,
+      "sum": 480583,
+      "printed_total": 480583
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 173,
+      "column": 3,
+      "sum": 68783,
+      "printed_total": 68783
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 173,
+      "column": 4,
+      "sum": 31209,
+      "printed_total": 31209
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 173,
+      "column": 5,
+      "sum": 23869,
+      "printed_total": 23869
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 173,
+      "column": 6,
+      "sum": 30705,
+      "printed_total": 30705
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 173,
+      "column": 7,
+      "sum": 13810,
+      "printed_total": 13810
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 173,
+      "column": 8,
+      "sum": 5636,
+      "printed_total": 5636
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 173,
+      "column": 9,
+      "sum": 6110,
+      "printed_total": 6110
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 173,
+      "column": 10,
+      "sum": 6465,
+      "printed_total": 6465
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 174,
+      "column": 11,
+      "sum": 110656,
+      "printed_total": 110656
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 174,
+      "column": 12,
+      "sum": 36804,
+      "printed_total": 36804
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 174,
+      "column": 13,
+      "sum": 49215,
+      "printed_total": 49215
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 174,
+      "column": 14,
+      "sum": 57946,
+      "printed_total": 57946
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 174,
+      "column": 15,
+      "sum": 73805,
+      "printed_total": 73805
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 174,
+      "column": 16,
+      "sum": 20623,
+      "printed_total": 20623
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 174,
+      "column": 17,
+      "sum": 36593,
+      "printed_total": 36593
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 174,
+      "column": 18,
+      "sum": 37424,
+      "printed_total": 37424
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 175,
+      "column": 19,
+      "sum": 21527,
+      "printed_total": 21527
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 175,
+      "column": 20,
+      "sum": 10196,
+      "printed_total": 10196
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 175,
+      "column": 21,
+      "sum": 9439,
+      "printed_total": 9439
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 175,
+      "column": 22,
+      "sum": 11280,
+      "printed_total": 11280
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 175,
+      "column": 23,
+      "sum": 17451,
+      "printed_total": 17451
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 175,
+      "column": 24,
+      "sum": 8291,
+      "printed_total": 8291
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 175,
+      "column": 25,
+      "sum": 7009,
+      "printed_total": 7009
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 175,
+      "column": 26,
+      "sum": 9407,
+      "printed_total": 9407
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 176,
+      "column": 27,
+      "sum": 18905,
+      "printed_total": 18905
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 176,
+      "column": 28,
+      "sum": 9124,
+      "printed_total": 9124
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 176,
+      "column": 29,
+      "sum": 9015,
+      "printed_total": 9015
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 176,
+      "column": 30,
+      "sum": 12201,
+      "printed_total": 12201
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 176,
+      "column": 31,
+      "sum": 84348,
+      "printed_total": 84348
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 176,
+      "column": 32,
+      "sum": 28898,
+      "printed_total": 28898
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 176,
+      "column": 33,
+      "sum": 38712,
+      "printed_total": 38712
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 176,
+      "column": 34,
+      "sum": 51155,
+      "printed_total": 51155
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 177,
+      "column": 35,
+      "sum": 71298,
+      "printed_total": 71298
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 177,
+      "column": 36,
+      "sum": 22109,
+      "printed_total": 22109
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 177,
+      "column": 37,
+      "sum": 33627,
+      "printed_total": 33627
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 177,
+      "column": 38,
+      "sum": 32653,
+      "printed_total": 32653
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 194,
+      "column": 3,
+      "sum": 94446,
+      "printed_total": 94446
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 194,
+      "column": 4,
+      "sum": 35203,
+      "printed_total": 35203
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 194,
+      "column": 5,
+      "sum": 38060,
+      "printed_total": 38060
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 194,
+      "column": 6,
+      "sum": 32687,
+      "printed_total": 32687
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 194,
+      "column": 7,
+      "sum": 10854,
+      "printed_total": 10854
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 194,
+      "column": 8,
+      "sum": 4560,
+      "printed_total": 4560
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 194,
+      "column": 9,
+      "sum": 5238,
+      "printed_total": 5238
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 194,
+      "column": 10,
+      "sum": 4037,
+      "printed_total": 4037
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 195,
+      "column": 11,
+      "sum": 223446,
+      "printed_total": 223446
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 195,
+      "column": 12,
+      "sum": 77539,
+      "printed_total": 77539
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 195,
+      "column": 13,
+      "sum": 104170,
+      "printed_total": 104170
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 195,
+      "column": 14,
+      "sum": 116064,
+      "printed_total": 116064
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 195,
+      "column": 15,
+      "sum": 20266,
+      "printed_total": 20266
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 195,
+      "column": 16,
+      "sum": 6308,
+      "printed_total": 6308
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 195,
+      "column": 17,
+      "sum": 10208,
+      "printed_total": 10208
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 195,
+      "column": 18,
+      "sum": 14025,
+      "printed_total": 14025
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 196,
+      "column": 19,
+      "sum": 65340,
+      "printed_total": 65340
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 196,
+      "column": 20,
+      "sum": 21496,
+      "printed_total": 21496
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 196,
+      "column": 21,
+      "sum": 27478,
+      "printed_total": 27478
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 196,
+      "column": 22,
+      "sum": 41175,
+      "printed_total": 41175
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 196,
+      "column": 23,
+      "sum": 24329,
+      "printed_total": 24329
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 196,
+      "column": 24,
+      "sum": 10066,
+      "printed_total": 10066
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 196,
+      "column": 25,
+      "sum": 8703,
+      "printed_total": 8703
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 196,
+      "column": 26,
+      "sum": 11208,
+      "printed_total": 11208
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 197,
+      "column": 27,
+      "sum": 12502,
+      "printed_total": 12502
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 197,
+      "column": 28,
+      "sum": 3956,
+      "printed_total": 3956
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 197,
+      "column": 29,
+      "sum": 7430,
+      "printed_total": 7430
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 197,
+      "column": 30,
+      "sum": 13671,
+      "printed_total": 13671
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 197,
+      "column": 31,
+      "sum": 4409,
+      "printed_total": 4409
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 197,
+      "column": 32,
+      "sum": 2006,
+      "printed_total": 2006
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 197,
+      "column": 33,
+      "sum": 2014,
+      "printed_total": 2014
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 197,
+      "column": 34,
+      "sum": 1874,
+      "printed_total": 1874
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 198,
+      "column": 35,
+      "sum": 24991,
+      "printed_total": 24991
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 198,
+      "column": 36,
+      "sum": 11756,
+      "printed_total": 11756
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 198,
+      "column": 37,
+      "sum": 10288,
+      "printed_total": 10288
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 198,
+      "column": 38,
+      "sum": 14495,
+      "printed_total": 14495
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 191,
+      "column": 3,
+      "sum": 365865,
+      "printed_total": 365865
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 191,
+      "column": 5,
+      "sum": 125065,
+      "printed_total": 125065
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 191,
+      "column": 7,
+      "sum": 161898,
+      "printed_total": 161898
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 191,
+      "column": 8,
+      "sum": 197176,
+      "printed_total": 197176
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 191,
+      "column": 9,
+      "sum": 359074,
+      "printed_total": 359074
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 191,
+      "column": 10,
+      "sum": 37316,
+      "printed_total": 37316
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 191,
+      "column": 11,
+      "sum": 13734,
+      "printed_total": 13734
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 191,
+      "column": 12,
+      "sum": 18193,
+      "printed_total": 18193
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 191,
+      "column": 13,
+      "sum": 17909,
+      "printed_total": 17909
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 191,
+      "column": 14,
+      "sum": 36102,
+      "printed_total": 36102
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 192,
+      "column": 15,
+      "sum": 34266,
+      "printed_total": 34266
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 192,
+      "column": 16,
+      "sum": 14617,
+      "printed_total": 14617
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 192,
+      "column": 17,
+      "sum": 16090,
+      "printed_total": 16090
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 192,
+      "column": 18,
+      "sum": 14556,
+      "printed_total": 14556
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 192,
+      "column": 19,
+      "sum": 30646,
+      "printed_total": 30646
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 192,
+      "column": 20,
+      "sum": 3378,
+      "printed_total": 3378
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 192,
+      "column": 21,
+      "sum": 1516,
+      "printed_total": 1516
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 192,
+      "column": 22,
+      "sum": 1606,
+      "printed_total": 1606
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 192,
+      "column": 23,
+      "sum": 1458,
+      "printed_total": 1458
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 192,
+      "column": 24,
+      "sum": 3064,
+      "printed_total": 3064
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 193,
+      "column": 25,
+      "sum": 39758,
+      "printed_total": 39758
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 193,
+      "column": 26,
+      "sum": 17958,
+      "printed_total": 17958
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 193,
+      "column": 27,
+      "sum": 15802,
+      "printed_total": 15802
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 193,
+      "column": 28,
+      "sum": 18137,
+      "printed_total": 18137
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 193,
+      "column": 29,
+      "sum": 33939,
+      "printed_total": 33939
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 181,
+      "column": 3,
+      "sum": 322005,
+      "printed_total": 322005
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 181,
+      "column": 4,
+      "sum": 114447,
+      "printed_total": 114447
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 181,
+      "column": 5,
+      "sum": 139414,
+      "printed_total": 139414
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 181,
+      "column": 6,
+      "sum": 171264,
+      "printed_total": 171264
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 181,
+      "column": 7,
+      "sum": 310678,
+      "printed_total": 310678
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 181,
+      "column": 8,
+      "sum": 58626,
+      "printed_total": 58626
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 181,
+      "column": 9,
+      "sum": 22263,
+      "printed_total": 22263
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 181,
+      "column": 10,
+      "sum": 27506,
+      "printed_total": 27506
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 181,
+      "column": 11,
+      "sum": 31941,
+      "printed_total": 31941
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 181,
+      "column": 12,
+      "sum": 59447,
+      "printed_total": 59447
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 182,
+      "column": 13,
+      "sum": 15528,
+      "printed_total": 15528
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 182,
+      "column": 14,
+      "sum": 6552,
+      "printed_total": 6552
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 182,
+      "column": 15,
+      "sum": 7160,
+      "printed_total": 7160
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 182,
+      "column": 16,
+      "sum": 7621,
+      "printed_total": 7621
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 182,
+      "column": 17,
+      "sum": 14781,
+      "printed_total": 14781
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 182,
+      "column": 18,
+      "sum": 10308,
+      "printed_total": 10308
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 182,
+      "column": 19,
+      "sum": 4271,
+      "printed_total": 4271
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 182,
+      "column": 20,
+      "sum": 4621,
+      "printed_total": 4621
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 182,
+      "column": 21,
+      "sum": 4681,
+      "printed_total": 4681
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 182,
+      "column": 22,
+      "sum": 9302,
+      "printed_total": 9302
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 183,
+      "column": 23,
+      "sum": 5840,
+      "printed_total": 5840
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 183,
+      "column": 24,
+      "sum": 2161,
+      "printed_total": 2161
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 183,
+      "column": 25,
+      "sum": 2666,
+      "printed_total": 2666
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 183,
+      "column": 26,
+      "sum": 2643,
+      "printed_total": 2643
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 183,
+      "column": 27,
+      "sum": 5309,
+      "printed_total": 5309
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 183,
+      "column": 28,
+      "sum": 5094,
+      "printed_total": 5094
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 183,
+      "column": 29,
+      "sum": 2154,
+      "printed_total": 2154
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 183,
+      "column": 30,
+      "sum": 2528,
+      "printed_total": 2528
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 183,
+      "column": 31,
+      "sum": 2378,
+      "printed_total": 2378
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 183,
+      "column": 32,
+      "sum": 4906,
+      "printed_total": 4906
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 184,
+      "column": 33,
+      "sum": 9425,
+      "printed_total": 9425
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 184,
+      "column": 34,
+      "sum": 3904,
+      "printed_total": 3904
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 184,
+      "column": 35,
+      "sum": 4110,
+      "printed_total": 4110
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 184,
+      "column": 36,
+      "sum": 4136,
+      "printed_total": 4136
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 184,
+      "column": 37,
+      "sum": 8246,
+      "printed_total": 8246
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 184,
+      "column": 38,
+      "sum": 53757,
+      "printed_total": 53757
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 184,
+      "column": 39,
+      "sum": 17138,
+      "printed_total": 17138
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 184,
+      "column": 40,
+      "sum": 25584,
+      "printed_total": 25584
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 184,
+      "column": 41,
+      "sum": 24572,
+      "printed_total": 24572
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 184,
+      "column": 42,
+      "sum": 50156,
+      "printed_total": 50156
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 185,
+      "column": 3,
+      "sum": 40440,
+      "printed_total": 40440
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 185,
+      "column": 5,
+      "sum": 12311,
+      "printed_total": 12311
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 185,
+      "column": 7,
+      "sum": 17271,
+      "printed_total": 17271
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 185,
+      "column": 8,
+      "sum": 20918,
+      "printed_total": 20918
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 185,
+      "column": 9,
+      "sum": 38189,
+      "printed_total": 38189
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 185,
+      "column": 10,
+      "sum": 16417,
+      "printed_total": 16417
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 185,
+      "column": 11,
+      "sum": 5773,
+      "printed_total": 5773
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 185,
+      "column": 12,
+      "sum": 7306,
+      "printed_total": 7306
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 185,
+      "column": 13,
+      "sum": 7371,
+      "printed_total": 7371
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 185,
+      "column": 14,
+      "sum": 14677,
+      "printed_total": 14677
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 186,
+      "column": 15,
+      "sum": 23171,
+      "printed_total": 23171
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 186,
+      "column": 16,
+      "sum": 6318,
+      "printed_total": 6318
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 186,
+      "column": 17,
+      "sum": 10442,
+      "printed_total": 10442
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 186,
+      "column": 18,
+      "sum": 10284,
+      "printed_total": 10284
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 186,
+      "column": 19,
+      "sum": 20726,
+      "printed_total": 20726
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 186,
+      "column": 20,
+      "sum": 15457,
+      "printed_total": 15457
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 186,
+      "column": 21,
+      "sum": 5540,
+      "printed_total": 5540
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 186,
+      "column": 22,
+      "sum": 6033,
+      "printed_total": 6033
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 186,
+      "column": 23,
+      "sum": 7779,
+      "printed_total": 7779
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 186,
+      "column": 24,
+      "sum": 13812,
+      "printed_total": 13812
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 187,
+      "column": 25,
+      "sum": 13182,
+      "printed_total": 13182
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 187,
+      "column": 26,
+      "sum": 4412,
+      "printed_total": 4412
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 187,
+      "column": 27,
+      "sum": 5738,
+      "printed_total": 5738
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 187,
+      "column": 28,
+      "sum": 6967,
+      "printed_total": 6967
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 187,
+      "column": 29,
+      "sum": 12705,
+      "printed_total": 12705
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 188,
+      "column": 3,
+      "sum": 9724,
+      "printed_total": 9724
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 188,
+      "column": 4,
+      "sum": 2131,
+      "printed_total": 2131
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 188,
+      "column": 5,
+      "sum": 4205,
+      "printed_total": 4205
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 188,
+      "column": 6,
+      "sum": 4881,
+      "printed_total": 4881
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 188,
+      "column": 7,
+      "sum": 9086,
+      "printed_total": 9086
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 188,
+      "column": 8,
+      "sum": 9068,
+      "printed_total": 9068
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 188,
+      "column": 9,
+      "sum": 2311,
+      "printed_total": 2311
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 188,
+      "column": 10,
+      "sum": 4394,
+      "printed_total": 4394
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 188,
+      "column": 11,
+      "sum": 3919,
+      "printed_total": 3919
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 188,
+      "column": 12,
+      "sum": 8313,
+      "printed_total": 8313
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 189,
+      "column": 13,
+      "sum": 5673,
+      "printed_total": 5673
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 189,
+      "column": 14,
+      "sum": 2087,
+      "printed_total": 2087
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 189,
+      "column": 15,
+      "sum": 2324,
+      "printed_total": 2324
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 189,
+      "column": 16,
+      "sum": 2787,
+      "printed_total": 2787
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 189,
+      "column": 17,
+      "sum": 5111,
+      "printed_total": 5111
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 189,
+      "column": 18,
+      "sum": 7747,
+      "printed_total": 7747
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 189,
+      "column": 19,
+      "sum": 2354,
+      "printed_total": 2354
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 189,
+      "column": 20,
+      "sum": 3414,
+      "printed_total": 3414
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 189,
+      "column": 21,
+      "sum": 4240,
+      "printed_total": 4240
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 189,
+      "column": 22,
+      "sum": 7654,
+      "printed_total": 7654
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 190,
+      "column": 23,
+      "sum": 76455,
+      "printed_total": 76455
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 190,
+      "column": 25,
+      "sum": 25471,
+      "printed_total": 25471
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 190,
+      "column": 27,
+      "sum": 32453,
+      "printed_total": 32453
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 190,
+      "column": 28,
+      "sum": 37492,
+      "printed_total": 37492
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 190,
+      "column": 29,
+      "sum": 69945,
+      "printed_total": 69945
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 178,
+      "column": 3,
+      "sum": 94901,
+      "printed_total": 94901
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 178,
+      "column": 4,
+      "sum": 32253,
+      "printed_total": 32253
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 178,
+      "column": 5,
+      "sum": 42856,
+      "printed_total": 42856
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 178,
+      "column": 6,
+      "sum": 45402,
+      "printed_total": 45402
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 178,
+      "column": 7,
+      "sum": 88258,
+      "printed_total": 88258
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 178,
+      "column": 8,
+      "sum": 34277,
+      "printed_total": 34277
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 178,
+      "column": 9,
+      "sum": 10809,
+      "printed_total": 10809
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 178,
+      "column": 10,
+      "sum": 16051,
+      "printed_total": 16051
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 178,
+      "column": 11,
+      "sum": 17555,
+      "printed_total": 17555
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 178,
+      "column": 12,
+      "sum": 33606,
+      "printed_total": 33606
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 179,
+      "column": 13,
+      "sum": 74950,
+      "printed_total": 74950
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 179,
+      "column": 14,
+      "sum": 22055,
+      "printed_total": 22055
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 179,
+      "column": 15,
+      "sum": 32885,
+      "printed_total": 32885
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 179,
+      "column": 16,
+      "sum": 37504,
+      "printed_total": 37504
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 179,
+      "column": 17,
+      "sum": 70389,
+      "printed_total": 70389
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 179,
+      "column": 18,
+      "sum": 220454,
+      "printed_total": 220454
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 179,
+      "column": 19,
+      "sum": 92739,
+      "printed_total": 92739
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 179,
+      "column": 20,
+      "sum": 93773,
+      "printed_total": 93773
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 179,
+      "column": 21,
+      "sum": 120420,
+      "printed_total": 120420
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 179,
+      "column": 22,
+      "sum": 214193,
+      "printed_total": 214193
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 180,
+      "column": 23,
+      "sum": 56001,
+      "printed_total": 56001
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 180,
+      "column": 24,
+      "sum": 15034,
+      "printed_total": 15034
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 180,
+      "column": 25,
+      "sum": 28024,
+      "printed_total": 28024
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 180,
+      "column": 26,
+      "sum": 28355,
+      "printed_total": 28355
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 180,
+      "column": 27,
+      "sum": 56379,
+      "printed_total": 56379
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 226,
+      "column": 3,
+      "sum": 188330,
+      "printed_total": 188330
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 226,
+      "column": 4,
+      "sum": 54479,
+      "printed_total": 54479
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 226,
+      "column": 5,
+      "sum": 78233,
+      "printed_total": 78233
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 226,
+      "column": 6,
+      "sum": 92801,
+      "printed_total": 92801
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 226,
+      "column": 7,
+      "sum": 171034,
+      "printed_total": 171034
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 226,
+      "column": 8,
+      "sum": 292253,
+      "printed_total": 292253
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 226,
+      "column": 9,
+      "sum": 118411,
+      "printed_total": 118411
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 226,
+      "column": 10,
+      "sum": 135356,
+      "printed_total": 135356
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 226,
+      "column": 11,
+      "sum": 156435,
+      "printed_total": 156435
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 226,
+      "column": 12,
+      "sum": 291791,
+      "printed_total": 291791
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 3,
+      "sum": 13599,
+      "printed_total": 13599
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 4,
+      "sum": 41841,
+      "printed_total": 41841
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 5,
+      "sum": 14610,
+      "printed_total": 14610
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 6,
+      "sum": 20227,
+      "printed_total": 20227
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 7,
+      "sum": 20849,
+      "printed_total": 20849
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 8,
+      "sum": 41076,
+      "printed_total": 41076
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 9,
+      "sum": 13092,
+      "printed_total": 13092
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 10,
+      "sum": 39022,
+      "printed_total": 39022
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 11,
+      "sum": 14279,
+      "printed_total": 14279
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 12,
+      "sum": 18583,
+      "printed_total": 18583
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 13,
+      "sum": 19519,
+      "printed_total": 19519
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 229,
+      "column": 14,
+      "sum": 38102,
+      "printed_total": 38102
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 15,
+      "sum": 13872,
+      "printed_total": 13872
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 16,
+      "sum": 40549,
+      "printed_total": 40549
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 17,
+      "sum": 14907,
+      "printed_total": 14907
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 18,
+      "sum": 18778,
+      "printed_total": 18778
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 19,
+      "sum": 19881,
+      "printed_total": 19881
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 20,
+      "sum": 38659,
+      "printed_total": 38659
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 21,
+      "sum": 13427,
+      "printed_total": 13427
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 22,
+      "sum": 39138,
+      "printed_total": 39138
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 23,
+      "sum": 14438,
+      "printed_total": 14438
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 24,
+      "sum": 18081,
+      "printed_total": 18081
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 25,
+      "sum": 19817,
+      "printed_total": 19817
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 230,
+      "column": 26,
+      "sum": 37898,
+      "printed_total": 37898
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 27,
+      "sum": 15364,
+      "printed_total": 15364
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 28,
+      "sum": 43578,
+      "printed_total": 43578
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 29,
+      "sum": 16718,
+      "printed_total": 16718
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 30,
+      "sum": 19831,
+      "printed_total": 19831
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 31,
+      "sum": 23072,
+      "printed_total": 23072
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 32,
+      "sum": 42903,
+      "printed_total": 42903
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 33,
+      "sum": 14057,
+      "printed_total": 14057
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 34,
+      "sum": 40968,
+      "printed_total": 40968
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 35,
+      "sum": 15253,
+      "printed_total": 15253
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 36,
+      "sum": 18201,
+      "printed_total": 18201
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 37,
+      "sum": 21081,
+      "printed_total": 21081
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 231,
+      "column": 38,
+      "sum": 39282,
+      "printed_total": 39282
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 39,
+      "sum": 12429,
+      "printed_total": 12429
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 40,
+      "sum": 38088,
+      "printed_total": 38088
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 41,
+      "sum": 13381,
+      "printed_total": 13381
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 42,
+      "sum": 17009,
+      "printed_total": 17009
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 43,
+      "sum": 19501,
+      "printed_total": 19501
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 44,
+      "sum": 36510,
+      "printed_total": 36510
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 45,
+      "sum": 12047,
+      "printed_total": 12047
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 46,
+      "sum": 38466,
+      "printed_total": 38466
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 47,
+      "sum": 12843,
+      "printed_total": 12843
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 48,
+      "sum": 16904,
+      "printed_total": 16904
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 49,
+      "sum": 20265,
+      "printed_total": 20265
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 232,
+      "column": 50,
+      "sum": 37169,
+      "printed_total": 37169
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 51,
+      "sum": 11827,
+      "printed_total": 11827
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 52,
+      "sum": 38143,
+      "printed_total": 38143
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 53,
+      "sum": 12732,
+      "printed_total": 12732
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 54,
+      "sum": 16849,
+      "printed_total": 16849
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 55,
+      "sum": 20549,
+      "printed_total": 20549
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 56,
+      "sum": 37398,
+      "printed_total": 37398
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 57,
+      "sum": 12941,
+      "printed_total": 12941
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 58,
+      "sum": 40018,
+      "printed_total": 40018
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 59,
+      "sum": 13822,
+      "printed_total": 13822
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 60,
+      "sum": 16820,
+      "printed_total": 16820
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 61,
+      "sum": 21676,
+      "printed_total": 21676
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 233,
+      "column": 62,
+      "sum": 38496,
+      "printed_total": 38496
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 63,
+      "sum": 13516,
+      "printed_total": 13516
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 64,
+      "sum": 39775,
+      "printed_total": 39775
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 65,
+      "sum": 14524,
+      "printed_total": 14524
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 66,
+      "sum": 16223,
+      "printed_total": 16223
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 67,
+      "sum": 21162,
+      "printed_total": 21162
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 68,
+      "sum": 37385,
+      "printed_total": 37385
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 69,
+      "sum": 14338,
+      "printed_total": 14338
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 70,
+      "sum": 40997,
+      "printed_total": 40997
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 71,
+      "sum": 15383,
+      "printed_total": 15383
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 72,
+      "sum": 16083,
+      "printed_total": 16083
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 73,
+      "sum": 21864,
+      "printed_total": 21864
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 234,
+      "column": 74,
+      "sum": 37947,
+      "printed_total": 37947
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 236,
+      "column": 3,
+      "sum": 48872,
+      "printed_total": 48872
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 236,
+      "column": 4,
+      "sum": 67580,
+      "printed_total": 67580
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 236,
+      "column": 5,
+      "sum": 71697,
+      "printed_total": 71697
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 236,
+      "column": 6,
+      "sum": 84479,
+      "printed_total": 84479
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 236,
+      "column": 7,
+      "sum": 99945,
+      "printed_total": 99945
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 236,
+      "column": 8,
+      "sum": 55157,
+      "printed_total": 55157
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 236,
+      "column": 9,
+      "sum": 24298,
+      "printed_total": 24298
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 236,
+      "column": 10,
+      "sum": 22794,
+      "printed_total": 22794
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 236,
+      "column": 11,
+      "sum": 5761,
+      "printed_total": 5761
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 236,
+      "column": 12,
+      "sum": 480583,
+      "printed_total": 480583
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 206,
+      "column": 3,
+      "sum": 54,
+      "printed_total": 54
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 206,
+      "column": 4,
+      "sum": 9951,
+      "printed_total": 9951
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 206,
+      "column": 5,
+      "sum": 1377,
+      "printed_total": 1377
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 206,
+      "column": 6,
+      "sum": 8724,
+      "printed_total": 8724
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 206,
+      "column": 7,
+      "sum": 5361,
+      "printed_total": 5361
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 206,
+      "column": 8,
+      "sum": 2124,
+      "printed_total": 2124
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 206,
+      "column": 9,
+      "sum": 337,
+      "printed_total": 337
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 206,
+      "column": 10,
+      "sum": 7275,
+      "printed_total": 7275
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 206,
+      "column": 11,
+      "sum": 35203,
+      "printed_total": 35203
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 207,
+      "column": 3,
+      "sum": 55,
+      "printed_total": 55
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 207,
+      "column": 4,
+      "sum": 1200,
+      "printed_total": 1200
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 207,
+      "column": 5,
+      "sum": 268,
+      "printed_total": 268
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 207,
+      "column": 6,
+      "sum": 1111,
+      "printed_total": 1111
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 207,
+      "column": 7,
+      "sum": 838,
+      "printed_total": 838
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 207,
+      "column": 8,
+      "sum": 364,
+      "printed_total": 364
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 207,
+      "column": 9,
+      "sum": 104,
+      "printed_total": 104
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 207,
+      "column": 10,
+      "sum": 620,
+      "printed_total": 620
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 207,
+      "column": 11,
+      "sum": 4560,
+      "printed_total": 4560
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 208,
+      "column": 3,
+      "sum": 367,
+      "printed_total": 367
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 208,
+      "column": 4,
+      "sum": 27539,
+      "printed_total": 27539
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 208,
+      "column": 5,
+      "sum": 2354,
+      "printed_total": 2354
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 208,
+      "column": 6,
+      "sum": 17787,
+      "printed_total": 17787
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 208,
+      "column": 7,
+      "sum": 14229,
+      "printed_total": 14229
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 208,
+      "column": 8,
+      "sum": 4327,
+      "printed_total": 4327
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 208,
+      "column": 9,
+      "sum": 577,
+      "printed_total": 577
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 208,
+      "column": 10,
+      "sum": 10359,
+      "printed_total": 10359
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 208,
+      "column": 11,
+      "sum": 77539,
+      "printed_total": 77539
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 209,
+      "column": 3,
+      "sum": 172,
+      "printed_total": 172
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 209,
+      "column": 4,
+      "sum": 2770,
+      "printed_total": 2770
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 209,
+      "column": 5,
+      "sum": 541,
+      "printed_total": 541
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 209,
+      "column": 6,
+      "sum": 8579,
+      "printed_total": 8579
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 209,
+      "column": 7,
+      "sum": 5461,
+      "printed_total": 5461
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 209,
+      "column": 8,
+      "sum": 1585,
+      "printed_total": 1585
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 209,
+      "column": 9,
+      "sum": 188,
+      "printed_total": 188
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 209,
+      "column": 10,
+      "sum": 2200,
+      "printed_total": 2200
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 209,
+      "column": 11,
+      "sum": 21496,
+      "printed_total": 21496
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 210,
+      "column": 3,
+      "sum": 96,
+      "printed_total": 96
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 210,
+      "column": 4,
+      "sum": 1780,
+      "printed_total": 1780
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 210,
+      "column": 5,
+      "sum": 277,
+      "printed_total": 277
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 210,
+      "column": 6,
+      "sum": 1514,
+      "printed_total": 1514
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 210,
+      "column": 7,
+      "sum": 4193,
+      "printed_total": 4193
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 210,
+      "column": 8,
+      "sum": 620,
+      "printed_total": 620
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 210,
+      "column": 9,
+      "sum": 187,
+      "printed_total": 187
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 210,
+      "column": 10,
+      "sum": 1399,
+      "printed_total": 1399
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 210,
+      "column": 11,
+      "sum": 10066,
+      "printed_total": 10066
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 211,
+      "column": 3,
+      "sum": 7392,
+      "printed_total": 7392
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 211,
+      "column": 4,
+      "sum": 2097,
+      "printed_total": 2097
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 211,
+      "column": 5,
+      "sum": 30397,
+      "printed_total": 30397
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 211,
+      "column": 6,
+      "sum": 4085,
+      "printed_total": 4085
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 211,
+      "column": 7,
+      "sum": 37923,
+      "printed_total": 37923
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 211,
+      "column": 8,
+      "sum": 5475,
+      "printed_total": 5475
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 211,
+      "column": 9,
+      "sum": 31666,
+      "printed_total": 31666
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 211,
+      "column": 10,
+      "sum": 5315,
+      "printed_total": 5315
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 212,
+      "column": 11,
+      "sum": 24583,
+      "printed_total": 24583
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 212,
+      "column": 12,
+      "sum": 4838,
+      "printed_total": 4838
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 212,
+      "column": 13,
+      "sum": 11387,
+      "printed_total": 11387
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 212,
+      "column": 14,
+      "sum": 3041,
+      "printed_total": 3041
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 212,
+      "column": 15,
+      "sum": 3968,
+      "printed_total": 3968
+    },
+    {
+      "report_year": 2023,
+      "pdf_page": 212,
+      "column": 16,
+      "sum": 723,
+      "printed_total": 723
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 167,
+      "column": 6,
+      "sum": 487707,
+      "printed_total": 487707
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 168,
+      "column": 6,
+      "sum": 177175,
+      "printed_total": 177175
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 169,
+      "column": 6,
+      "sum": 471441,
+      "printed_total": 471441
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 170,
+      "column": 6,
+      "sum": 164378,
+      "printed_total": 164378
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 172,
+      "column": 3,
+      "sum": 164378,
+      "printed_total": 164378
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 172,
+      "column": 4,
+      "sum": 161225,
+      "printed_total": 161225
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 172,
+      "column": 5,
+      "sum": 133904,
+      "printed_total": 133904
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 172,
+      "column": 6,
+      "sum": 28200,
+      "printed_total": 28200
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 172,
+      "column": 7,
+      "sum": 487707,
+      "printed_total": 487707
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 209,
+      "column": 5,
+      "sum": 36526,
+      "printed_total": 36526
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 209,
+      "column": 8,
+      "sum": 4161,
+      "printed_total": 4161
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 209,
+      "column": 11,
+      "sum": 81780,
+      "printed_total": 81780
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 209,
+      "column": 15,
+      "sum": 5659,
+      "printed_total": 5659
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 209,
+      "column": 18,
+      "sum": 21988,
+      "printed_total": 21988
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 210,
+      "column": 21,
+      "sum": 9687,
+      "printed_total": 9687
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 210,
+      "column": 24,
+      "sum": 3855,
+      "printed_total": 3855
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 210,
+      "column": 27,
+      "sum": 1629,
+      "printed_total": 1629
+    },
+    {
+      "report_year": 2024,
+      "pdf_page": 210,
+      "column": 30,
+      "sum": 11890,
+      "printed_total": 11890
+    }
+  ],
+  "caveats": [
+    "Annexure 29 reports 35,221 pedestrian fatalities; Annexure 29(a) reports 35,203. Kerala differs by 18 (1,147 versus 1,129); preserve both definitions.",
+    "Impacting-vehicle category severity disabled pending source reconciliation.",
+    "State summaries do not support precise hotspots or arbitrary joint category filters."
+  ]
+}

@@ -5,3 +5,6 @@ data/tableau/*.json
 data/sources/*.pdf
 data/sources/*.download
 data/tableau/*.zip
+
+.venv/
+node_modules/

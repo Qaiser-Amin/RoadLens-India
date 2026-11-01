@@ -1,0 +1,5 @@
+# Keep snapshot and packaged-workbook bytes stable on Windows/macOS/Linux.
+data/analytics/facts.csv -text
+tableau/*.twb -text
+tableau/*.twbx binary
+tableau/Data/*.csv -text
