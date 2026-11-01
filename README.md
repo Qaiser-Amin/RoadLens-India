@@ -44,8 +44,7 @@ The production frontend is included in `web/dist`; **Node.js is needed only to
 change/rebuild the frontend or run its legacy calculation tests**. Download ZIP from
 GitHub also works: extract it, open a terminal there, and follow the commands starting
 with virtual-environment creation. This serves the app locally; no public website has
-been deployed. Windows/macOS commands are provided; see the QA record for actual
-platforms tested.
+been deployed. Windows, macOS and Ubuntu builds/server workflows passed in CI; see the QA record for the tested commit and browser coverage.
 
 ## Explore the dashboards
 
@@ -118,8 +117,7 @@ replace `.venv/bin/python` with `.venv\Scripts\python`:
 `check_web.py` starts and stops its own production server. Linux browser runners may
 need `python -m playwright install --with-deps chromium`. Firefox/WebKit can be selected
 with `--browser` after installing those engines. Native Safari/Edge testing and Tableau
-acceptance remain separate. CI is configured for three OSes and three browser engines;
-configuration alone is not proof that those remote jobs passed.
+acceptance remain separate. The initial V2 CI run passed on three OSes and three browser engines; the QA record links the exact evidence.
 
 `analysis/RoadLens.ipynb` and `analysis/queries.sql` provide a reproducible analytical
 walkthrough, including like-for-like comparisons and 27 priority-rule sensitivity cases.

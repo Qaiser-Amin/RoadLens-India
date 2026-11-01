@@ -247,6 +247,12 @@ with sync_playwright() as pw:
     page.unroute("**/api/query")
     change(lambda: page.get_by_role("button", name="Retry", exact=True).click())
     assert number("fatalities") == "1,77,175"
+    page.set_viewport_size({"width": 390, "height": 844})
+    page.goto(args.url + "/?page=users&dataset=matrix")
+    ready("matrix")
+    assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
+    assert page.locator(".heatmap-scroll .chart").bounding_box()["width"] >= 760
+    assert "999999999" not in page.locator(".chart").last.inner_text()
     # Malformed shared state lists must not create duplicate ECharts series ids.
     page.goto(args.url + "/?page=priorities&states=Kerala%7CKerala%7CUnknown")
     ready("totals")

@@ -542,7 +542,7 @@ def build():
                         ORDER[serial - 1],
                         age,
                         sex,
-                        i,
+                        i + (4 if page == 212 else 0),
                         fatalities=row[start + i * 2 + offset],
                     )
     # The monthly facts must reconcile to annual totals for every complete state/measure.

@@ -1055,3 +1055,15 @@ select:focus-visible {
 .category-select small {
   font-size: 9px;
 }
+
+/* Joint tables retain legible cells and labels on narrow screens. */
+.heatmap-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.heatmap-scroll .chart {
+  min-width: 760px;
+}
+.joint-chart .chart {
+  height: 420px;
+}

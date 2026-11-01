@@ -53,6 +53,22 @@ class SnapshotTests(unittest.TestCase):
                 sorted({r["category"] for r in data}), sorted(meta["categories"])
             )
 
+    def test_age_bands_preserve_order_across_both_source_pages(self):
+        data = [r for r in self.facts if r["dataset"] == "demographics"]
+        ages = sorted({(int(r["ordinal"]), r["category"]) for r in data})
+        self.assertEqual(
+            [name for _, name in ages],
+            [
+                "Under 18",
+                "18–25",
+                "25–35",
+                "35–45",
+                "45–60",
+                "60 and above",
+                "Age unknown",
+            ],
+        )
+
     def test_source_registry_and_reconciliation_manifest(self):
         ids = {s["source_id"] for s in self.catalog["sources"]}
         self.assertTrue(all(r["source_id"] in ids for r in self.facts))

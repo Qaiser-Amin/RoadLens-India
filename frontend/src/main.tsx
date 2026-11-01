@@ -198,6 +198,11 @@ const fmt = (v: number | null | undefined, m: Metric = "accidents") =>
         maximumFractionDigits: m === "severity" ? 1 : 0,
         minimumFractionDigits: m === "severity" ? 1 : 0,
       }).format(v);
+const compactAxis = (value: number) =>
+  new Intl.NumberFormat("en", {
+    notation: "compact",
+    maximumFractionDigits: 1,
+  }).format(value);
 const initial = new URLSearchParams(location.search);
 const safeNumber = (key: string, fallback: number, maximum = 1000) => {
   const raw = initial.get(key);
@@ -452,7 +457,9 @@ function StateMap({
         <span>Lower</span>
         <i />
         <span>Higher · {metricNames[metric]}</span>
-        <span>Gray: unavailable · scale: 0–{fmt(max, metric)}</span>
+        <span>
+          Gray: outside selection / unavailable · scale: 0–{fmt(max, metric)}
+        </span>
       </div>
       <p className="footnote">
         Select a state or press Enter on a focused mark. Illustrative current
@@ -721,7 +728,12 @@ function App() {
     const option = {
       grid: { left: 5, right: 55, top: 12, bottom: 20, containLabel: true },
       tooltip: { trigger: "axis", axisPointer: { type: "shadow" } },
-      xAxis: { type: "value", splitLine: { lineStyle: { color: "#edf1ee" } } },
+      xAxis: {
+        type: "value",
+        splitNumber: 3,
+        axisLabel: { formatter: compactAxis, hideOverlap: true },
+        splitLine: { lineStyle: { color: "#edf1ee" } },
+      },
       yAxis: {
         type: "category",
         inverse: true,
@@ -808,7 +820,17 @@ function App() {
             tooltip: { trigger: "axis" },
             legend: { top: 0, type: "scroll" },
             xAxis: { type: "category", data: years },
-            yAxis: { type: "value", max: result.trend_scale * 1.15 },
+            yAxis: {
+              type: "value",
+              max:
+                Math.ceil(
+                  (result.trend_scale * 1.15) /
+                    10 **
+                      Math.floor(Math.log10(Math.max(1, result.trend_scale))),
+                ) *
+                10 ** Math.floor(Math.log10(Math.max(1, result.trend_scale))),
+              axisLabel: { formatter: compactAxis, hideOverlap: true },
+            },
             series,
           }}
         />
@@ -849,7 +871,10 @@ function App() {
                 data: list.map((r) => r.category),
                 axisLabel: { rotate: 30 },
               },
-              yAxis: { type: "value" },
+              yAxis: {
+                type: "value",
+                axisLabel: { formatter: compactAxis, hideOverlap: true },
+              },
               series: [
                 {
                   id: "months",
@@ -873,13 +898,19 @@ function App() {
     if (!result) return null;
     const matrix = dataset === "matrix" || dataset === "demographics";
     const xs = matrix
-      ? [...new Set(result.matrix.map((r) => r.category2))]
+      ? [...new Set(result.matrix.map((r) => r.category2))].sort()
       : [...result.categories]
           .sort((a, b) => Number(a.ordinal) - Number(b.ordinal))
           .map((r) => r.category);
     const ys = matrix
-      ? [...new Set(result.matrix.map((r) => r.category))]
-      : [...new Set(result.matrix.map((r) => r.state))];
+      ? [...result.categories]
+          .sort(
+            (a, b) =>
+              Number(a.ordinal) - Number(b.ordinal) ||
+              String(a.category).localeCompare(String(b.category)),
+          )
+          .map((r) => r.category)
+      : [...new Set(result.matrix.map((r) => r.state))].sort();
     const values = result.matrix
       .filter((r) => r.value !== null)
       .map((r) => [
@@ -890,7 +921,14 @@ function App() {
     const max = Math.max(...values.map((v) => Number(v[2])), 1);
     return (
       <>
-        <div className={matrix ? "" : "tall-chart"}>
+        <div
+          className={
+            "heatmap-scroll " + (matrix ? "joint-chart" : "tall-chart")
+          }
+          role="region"
+          aria-label="Scrollable heatmap"
+          tabIndex={0}
+        >
           <Chart
             title={
               dataset === "demographics"
@@ -901,7 +939,7 @@ function App() {
             }
             motion={motion && !reduced}
             option={{
-              grid: { left: 145, right: 20, bottom: 85, top: 20 },
+              grid: { left: 145, right: 20, bottom: 125, top: 20 },
               tooltip: {
                 position: "top",
                 formatter: (p: any) =>
@@ -947,6 +985,10 @@ function App() {
           metric={activeMetric}
           label="View complete heatmap data"
         />
+        <p className="footnote">
+          Scroll horizontally to inspect every column. Use the data table for
+          complete labels and exact values.
+        </p>
       </>
     );
   }
@@ -1700,6 +1742,9 @@ function App() {
                   ) : (
                     <Panel
                       title={result.dataset.title}
+                      wide={["matrix", "demographics", "hours"].includes(
+                        dataset,
+                      )}
                       subtitle={`${units} · category selection applies only to this dataset`}
                       tag={
                         dataset === "matrix"
@@ -1719,7 +1764,9 @@ function App() {
                   <Panel
                     title="How the pattern changes"
                     subtitle={`${units} · ${result.dataset.years.join(", ")} prepared`}
-                    wide
+                    wide={
+                      !["matrix", "demographics", "hours"].includes(dataset)
+                    }
                   >
                     {trend()}
                   </Panel>
